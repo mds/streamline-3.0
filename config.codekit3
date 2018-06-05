@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/_assets\/fonts\/IBMPlexSans-Bold.woff": {
 		"cB": 0,
 		"ft": 8192,
@@ -3490,13 +3497,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/affiliates\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/affiliates\/index.html",
-		"oF": 0
-		},
 	"\/affiliates\/index.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -3505,13 +3505,6 @@
 		"oAP": "\/affiliates\/index.html",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/contact\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/contact\/index.html",
-		"oF": 0
 		},
 	"\/contact\/index.pug": {
 		"cB": 0,
@@ -3522,13 +3515,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/extended-license\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/extended-license\/index.html",
-		"oF": 0
-		},
 	"\/extended-license\/index.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -3537,13 +3523,6 @@
 		"oAP": "\/extended-license\/index.html",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 0
 		},
 	"\/index.pug": {
 		"cB": 0,
@@ -3578,13 +3557,6 @@
 		"oAP": "\/refund-policy\/index.html",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/standard-license\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/standard-license\/index.html",
-		"oF": 0
 		},
 	"\/standard-license\/index.pug": {
 		"cB": 0,
