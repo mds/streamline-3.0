@@ -1,0 +1,35 @@
+html {
+  color: #222;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: white; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+main {
+  width: 100%;
+  margin: auto; }
+  @media (min-width: 820px) {
+    main {
+      height: 100%; } }
+
+body {
+  font-size: 14px;
+  line-height: 1.75em;
+  margin: 2rem;
+  font-family: -apple-system, ".SFNSText-Regular", "Helvetica Neue", "Segoe UI", sans-serif; }
+
+strong {
+  font-weight: bold; }
+
+em {
+  font-style: italic; }
+
+img {
+  width: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  font-family: -apple-system, ".SFNSText-Regular", "Helvetica Neue", "Segoe UI", sans-serif; }
