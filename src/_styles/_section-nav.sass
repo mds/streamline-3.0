@@ -1,0 +1,30 @@
+.section-nav
+  position: fixed
+  bottom: 2rem
+  left: 2rem
+  font-size: $font-small
+  z-index: 1000
+  display: none
+
+  +medium
+    display: block
+
+  ul
+    padding: 0
+
+    ul
+      padding-left: .5rem
+
+    li a
+      color: $color-lighttext
+      text-decoration: none
+      +easeall
+
+      &:hover
+        color: $color-black
+        +easeall
+
+      &.nav--is-active
+        color: $color-black
+        font-weight: bold
+

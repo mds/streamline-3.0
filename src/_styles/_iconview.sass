@@ -1,0 +1,133 @@
+
+a.is-active:hover
+  background: none
+
+.controls
+  text-align: center
+  padding: .5rem 0 2.5rem
+
+  +small
+    padding: 1.25rem 0 2rem
+
+  li
+    display: inline
+    font-size: .675rem
+    font-weight: 500
+    padding: 1rem
+
+    +medium
+      text-indent: 0
+      padding: 2rem
+
+    a
+      text-decoration: none
+      padding: .25rem
+      cursor: pointer
+      +easeall
+
+ul.icons
+  display: grid
+  grid-template-columns: repeat(5, 20%)
+  text-align: center
+  padding: 0
+
+.icons li
+  padding: 8rem 0
+  width: 100%
+  transform-origin: center center
+  +easeall
+
+  .svg-wrap
+    display: block
+    width: 100%
+    margin: 0
+    padding: 0
+    transform: scale(1)
+    transform-origin: center center
+    +easeall
+
+    svg
+      stroke-dasharray: 1000 // set up first for animation
+      stroke-dashoffset: 0
+      animation: icon-animate-in 8s 1 ease-in-out
+
+  &:hover
+    // background: $color-dark
+    +easeall
+
+    .svg-wrap
+      transform: scale(1.5)
+      transform-origin: center center
+      +easeall
+
+    svg
+      animation: icon-animate-hover 4s 1 ease-in-out
+
+  img, svg
+    width: 24px
+    height: 24px
+    text-align: center
+    margin: auto
+    display: block
+    +easeall
+
+    +small
+      width: 32px
+      height: 32px
+      +easeall
+
+    +medium
+      width: 48px
+      height: 48px
+      +easeall
+
+    +xlarge
+      width: 60px
+      height: 60px
+      +easeall
+
+.icons--light svg
+  fill: none
+  stroke: $color-electricblue
+
+.icons--regular svg
+  fill: none
+  stroke: $color-electricpurple
+
+.icons--bold
+  stroke: none
+  fill: $color-electricgreen
+  +easeall
+
+.icons--out
+  transform: scale(.5)
+  opacity: 0
+  +easespeed(.3s)
+
+.icons--in
+  transform: scale(1)
+  opacity: 1
+  +easeall
+
+.is-active
+  box-shadow: 0 1px 0 0 black
+  +easeall
+
+.is-hidden
+  display: none !important
+
+.is-showing
+  display: block
+
+// icon animation hover effect
+@keyframes icon-animate-hover
+  0%
+    stroke-dashoffset: 1000
+  100%
+    stroke-dashoffset: 0
+
+@keyframes icon-animate-in
+  0%
+    stroke-dashoffset: 1000
+  100%
+    stroke-dashoffest: 0

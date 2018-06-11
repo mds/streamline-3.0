@@ -1,0 +1,109 @@
+//- index.pug
+extends _includes/layout.pug
+
+block head
+  title Streamline 3.0 – Home
+
+block scripts
+  script(src='_scripts/jquery.js')
+  script(src='_scripts/lib/greensock/TweenMax.min.js')
+  script(src='_scripts/scrollmagic/minified/ScrollMagic.min.js')
+  script(src='_scripts/scrollmagic/minified/plugins/debug.addIndicators.min.js')
+  script(src='_scripts/scrollmagic/minified/plugins/animation.gsap.min.js')
+  script(src='_scripts/index.js')
+
+block content
+  section#main
+    p 3.0
+  section#new
+    p What's new
+  section#more
+    p More icons
+  section#weights
+    p Introducing weights
+  section#faster
+    p Faster workflow
+  section#org
+    p Better organization
+  section#web
+    p Web search
+  section#sketch
+    p Improved Sketch files
+  section#svg
+    p Improved SVG
+  section#buy
+    p Purchasing options
+
+
+
+
+
+  //- div.something
+  //-   p Here are the static pages needed in addition to this main page
+  //-   ul
+  //-     li: a(href="affiliates") Affiliates
+  //-     li: a(href="contact") Contact
+  //-     li: a(href="standard-license") Standard License
+  //-     li: a(href="extended-license") Extended License
+  //-     li: a(href="privacy-policy") Privacy Policy
+  //-     li: a(href="refund-policy") Refund Policy
+
+  //- div.sl-icon-preview
+  //-   ul.icons.icons--light
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/01-light/analytics-graph-bar.svg#target")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/01-light/baby-trolley.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/01-light/baggage.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/01-light/beach-parasol-water-1.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/01-light/biking-person.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/01-light/bin-2.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/01-light/binocular.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/01-light/bomb-grenade.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/01-light/building-modern-1.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/01-light/camera-flash.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/01-light/coffee-cold.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/01-light/coffee-machine.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/01-light/cog.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/01-light/content-ink-pen-write.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/01-light/content-pen-3.svg#target" alt="icon")
+
+  //-   ul.icons.icons--regular.is-hidden
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/02-regular/analytics-graph-bar.svg#target")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/02-regular/baby-trolley.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/02-regular/baggage.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/02-regular/beach-parasol-water-1.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/02-regular/biking-person.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/02-regular/bin-2.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/02-regular/binocular.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/02-regular/bomb-grenade.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/02-regular/building-modern-1.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/02-regular/camera-flash.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/02-regular/coffee-cold.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/02-regular/coffee-machine.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/02-regular/cog.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/02-regular/content-ink-pen-write.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/02-regular/content-pen-3.svg#target" alt="icon")
+
+  //-   ul.icons.icons--bold.is-hidden
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/03-bold/analytics-graph-bar.svg#target")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/03-bold/baby-trolley.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/03-bold/baggage.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/03-bold/beach-parasol-water-1.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/03-bold/biking-person.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/03-bold/bin-2.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/03-bold/binocular.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/03-bold/bomb-grenade.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/03-bold/building-modern-1.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/03-bold/camera-flash.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/03-bold/coffee-cold.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/03-bold/coffee-machine.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/03-bold/cog.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/03-bold/content-ink-pen-write.svg#target" alt="icon")
+  //-     li: div.svg-wrap: svg: use(xlink:href="_assets/img/03-bold/content-pen-3.svg#target" alt="icon")
+
+  //-   div.controls
+  //-     ul
+  //-       li: a.control.is-active#light Light
+  //-       li: a.control#regular Regular
+  //-       li: a.control#bold Bold
+
+
