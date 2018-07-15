@@ -1,0 +1,29 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="48" height="48" rx="12" fill="url(#paint0_linear)"/>
+<rect width="48" height="48" rx="12" fill="#171717"/>
+<rect width="15" height="3" transform="translate(7 14)" fill="#3B434C"/>
+<rect width="5" height="3" transform="translate(7 18)" fill="#89788A"/>
+<rect width="4" height="3" transform="translate(9 22)" fill="#89788A"/>
+<rect width="3" height="3" transform="translate(20 26)" fill="#5C6670"/>
+<rect width="6" height="3" transform="translate(13 30)" fill="#9D6870"/>
+<rect width="5" height="3" transform="translate(20 30)" fill="#896B62"/>
+<rect width="3" height="3" transform="translate(26 30)" fill="#5C6670"/>
+<rect width="8" height="3" transform="translate(30 30)" fill="#5C6670"/>
+<rect width="3" height="3" transform="translate(39 30)" fill="#86917B"/>
+<rect width="8" height="3" transform="translate(24 26)" fill="#896B62"/>
+<rect width="11" height="3" transform="translate(14 22)" fill="#8092A6"/>
+<rect width="10" height="3" transform="translate(26 22)" fill="#5C6670"/>
+<rect width="5" height="3" transform="translate(37 22)" fill="#B5A990"/>
+<rect width="9" height="3" transform="translate(13 18)" fill="#B5A990"/>
+<rect width="4" height="3" transform="translate(9 34)" fill="#89788A"/>
+<rect width="8" height="3" transform="translate(14 34)" fill="#5C6670"/>
+<rect width="5" height="3" transform="translate(7 10)" fill="#7E90A4"/>
+<rect width="3" height="3" transform="translate(13 10)" fill="#5C6670"/>
+<rect width="7" height="3" transform="translate(17 10)" fill="#86917B"/>
+<defs>
+<linearGradient id="paint0_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(48) scale(48) rotate(90)">
+<stop stop-color="#30333B"/>
+<stop offset="1" stop-color="#2B2C34"/>
+</linearGradient>
+</defs>
+</svg>

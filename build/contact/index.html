@@ -4,43 +4,57 @@
     <title>Contact – Streamline 3.0</title>
     <link rel="stylesheet" type="text/css" href="../style.css"/>
     <script src="_scripts/jquery.js"></script>
+    <script src="_scripts/bodymovin.js"></script>
     <script src="_scripts/index.js"></script>
   </head>
   <body>
-    <header>
-      <h1>Streamline 3.0</h1>
-      <div>
-        <ul class="inline is-hidden">
-          <li><a href="#">Material Design Icons</a></li>
-          <li><a href="#">Futuristic Icons</a></li>
-          <li><a href="#">Vector Illustrations</a></li>
-          <li><a href="#">Free Emoji</a></li>
-        </ul>
-        <ul class="inline">
-          <li><a class="more" href="#">More</a></li>
-          <li><a class="cta" href="#buy">Buy</a></li>
-        </ul>
-      </div>
-    </header>
-    <div class="section-nav">
-      <ul>
-        <li><a href="#new">What's new</a></li>
-        <li><a href="#more">More icons</a></li>
-        <li><a href="#weights">Introducing weights</a></li>
-        <li><a href="#faster">Faster Workflow
+    <div class="body-wrapper">
+      <div class="controls">
+        <header>
+          <h1>Streamline 3.0</h1>
+          <div class="btn-group">
+            <div class="ui-btn buy-btn">
+              <div class="ui-btn-content">Buy</div>
+            </div>
+          </div>
+        </header>
+        <footer>
+          <div class="section-nav">
+            <div class="ui-btn menu-btn">
+              <div class="ui-btn-content">
+                <svg>
+                  <use xlink:href="_assets/img/ui/icon-hamburger.svg#target"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="menu">
+              <ul>
+                <li><a class="is-active" href="#main">Welcome</a></li>
+                <li><a href="#icons">Over 30,000 Icons</a></li>
+                <li><a href="#weights">3 Distinct Weights</a></li>
+                <li><a href="#workflow">Crazy Fast Workflow</a></li>
+                <li><a href="#action">Icons in Action</a></li>
+                <li><a href="#brands">Brands</a></li>
+                <li><a href="#essential">Essential Pack</a></li>
+                <li><a href="#ultimate">Ultimate Pack</a></li>
+                <li><a href="#price">Buy Now</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="color-selector">
             <ul>
-              <li><a href="#org">Better Organization</a></li>
-              <li><a href="#web">Web Search</a></li>
-              <li><a href="#sketch">Improved Sketch Files</a></li>
-              <li><a href="#svg">Improved SVG</a></li>
-            </ul></a></li>
-        <li><a href="#buy">Purchasing options</a></li>
-      </ul>
+              <li><a class="white is-active"><span>White</span></a></li>
+              <li><a class="color"><span>Color</span></a></li>
+              <li><a class="dark"><span>Dark</span></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+      <h1>Contact</h1>
+      <div class="something">
+        <p>This will be the contact page</p><a href="../">&larr; Go back</a>
+      </div>
+      <p>this overrides <code>foot.pug</code> different</p>
     </div>
-    <h1>Contact</h1>
-    <div class="something">
-      <p>This will be the contact page</p><a href="../">&larr; Go back</a>
-    </div>
-    <p>this overrides <code>foot.pug</code> different</p>
   </body>
 </html>

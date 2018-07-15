@@ -2,84 +2,2999 @@
 <html>
   <head>
     <title>Streamline 3.0 – Home</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="description" content="Prototype"/>
+    <meta name="HandheldFriendly" content="True"/>
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui"/>
+    <meta name="description" content="Download FREE icons from the all new Streamline. Over 30,000 in three styles coming very soon."/>
+    <meta itemprop="name" content="Download 100 FREE Streamline Icons"/>
+    <meta itemprop="description" content="Download 100 FREE icons from the all new Streamline. Over 30,000 in three styles coming very soon."/>
+    <meta itemprop="image" content="https://mds-assets.s3.amazonaws.com/streamline/streamline-card-100.jpg"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@webalys"/>
+    <meta name="twitter:title" content="Streamline 3.0 Launching Soon"/>
+    <meta name="twitter:description" content="Download FREE icons from the all new Streamline. Over 30,000 in three styles coming very soon."/>
+    <meta name="twitter:creator" content="@webalys"/>
+    <meta name="twitter:image:src" content="https://mds-assets.s3.amazonaws.com/streamline/streamline-card-100.jpg"/>
+    <meta property="og:title" content="Streamline 3.0 Launching Soon"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://streamlineicons.com"/>
+    <meta property="og:image" content="https://mds-assets.s3.amazonaws.com/streamline/streamline-card-100.jpg"/>
+    <meta property="og:description" content="Download FREE icons from the all new Streamline. Over 30,000 in three styles coming very soon."/>
+    <meta property="og:site_name" content="Streamline 3.0"/>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <script src="_scripts/jquery.js"></script>
-    <script src="_scripts/lib/greensock/TweenMax.min.js"></script>
-    <script src="_scripts/scrollmagic/minified/ScrollMagic.min.js"></script>
-    <script src="_scripts/scrollmagic/minified/plugins/debug.addIndicators.min.js"></script>
-    <script src="_scripts/scrollmagic/minified/plugins/animation.gsap.min.js"></script>
-    <script src="_scripts/index.js"></script>
+    <script src="_scripts/jquery.cookie.js"></script>
   </head>
   <body>
-    <header>
-      <h1>Streamline 3.0</h1>
-      <div>
-        <ul class="inline is-hidden">
-          <li><a href="#">Material Design Icons</a></li>
-          <li><a href="#">Futuristic Icons</a></li>
-          <li><a href="#">Vector Illustrations</a></li>
-          <li><a href="#">Free Emoji</a></li>
-        </ul>
-        <ul class="inline">
-          <li><a class="more" href="#">More</a></li>
-          <li><a class="cta" href="#buy">Buy</a></li>
-        </ul>
-      </div>
-    </header>
-    <div class="section-nav">
-      <ul>
-        <li><a href="#new">What's new</a></li>
-        <li><a href="#more">More icons</a></li>
-        <li><a href="#weights">Introducing weights</a></li>
-        <li><a href="#faster">Faster Workflow
+    <div class="body-wrapper">
+      <div class="controls">
+        <header>
+          <h1>Streamline 3.0</h1>
+          <div class="btn-group">
+            <div class="ui-btn buy-btn">
+              <div class="ui-btn-content">Buy</div>
+            </div>
+          </div>
+        </header>
+        <footer>
+          <div class="section-nav">
+            <div class="ui-btn menu-btn">
+              <div class="ui-btn-content">
+                <svg>
+                  <use xlink:href="_assets/img/ui/icon-hamburger.svg#target"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="menu">
+              <ul>
+                <li><a class="is-active" href="#main">Welcome</a></li>
+                <li><a href="#icons">Over 30,000 Icons</a></li>
+                <li><a href="#weights">3 Distinct Weights</a></li>
+                <li><a href="#workflow">Crazy Fast Workflow</a></li>
+                <li><a href="#action">Icons in Action</a></li>
+                <li><a href="#brands">Brands Love'm</a></li>
+                <li><a href="#webviewer">Web Viewer</a></li>
+                <li><a href="#options">Package Options</a></li>
+                <li><a href="#buy">Buy Now</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="color-selector">
             <ul>
-              <li><a href="#org">Better Organization</a></li>
-              <li><a href="#web">Web Search</a></li>
-              <li><a href="#sketch">Improved Sketch Files</a></li>
-              <li><a href="#svg">Improved SVG</a></li>
-            </ul></a></li>
-        <li><a href="#buy">Purchasing options</a></li>
-      </ul>
+              <li><a class="white is-active"><span>White</span></a></li>
+              <li><a class="color"><span>Color</span></a></li>
+              <li><a class="dark"><span>Dark</span></a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+      <section id="main">
+        <div class="main-wrapper">
+          <div class="trigger"></div>
+          <div class="section-text-wrapper">
+            <div class="section-text-big">
+              <h2><strong>Hello.</strong>Welcome to Streamline.
+                The world’s largest icon library.
+              </h2>
+            </div>
+          </div>
+          <div class="section-content-wrapper">
+            <div class="icon-divider">
+              <div class="icon-wrapper">
+                <div class="icon-large icon-mood-large">
+                  <svg>
+                    <use xlink:href="_assets/img/icons/light/mood-happy.svg#target"></use>
+                  </svg>
+                </div>
+              </div>
+              <div class="icon-wrapper">
+                <div class="icon-medium icon-mood-medium icon-animated" id="icon-mood"></div>
+              </div>
+              <div class="icon-wrapper">
+                <div class="icon-small icon-mood-small">
+                  <svg>
+                    <use xlink:href="_assets/img/icons/bold/mood-happy.svg#target"></use>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="icon-divider icon-divider-one">
+        <div class="main-wrapper">
+          <div class="icon-wrapper">
+            <div class="icon-large icon-skull-large">
+              <svg>
+                <use xlink:href="_assets/img/icons/light/skull-1.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-medium icon-skull-medium icon-animated" id="icon-yesno"></div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-small icon-skull-small">
+              <svg>
+                <use xlink:href="_assets/img/icons/bold/skull-1.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="icon-divider icon-divider-two">
+        <div class="main-wrapper">
+          <div class="icon-wrapper">
+            <div class="icon-large icon-pen-large">
+              <svg>
+                <use xlink:href="_assets/img/icons/light/whale.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-medium icon-pen-medium">
+              <svg>
+                <use xlink:href="_assets/img/icons/light/love.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-small icon-pen-small">
+              <svg>
+                <use xlink:href="_assets/img/icons/bold/rooster.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="icon-divider icon-divider-three">
+        <div class="main-wrapper">
+          <div class="icon-wrapper">
+            <div class="icon-large icon-laptop-large">
+              <svg>
+                <use xlink:href="_assets/img/icons/light/laptop-smiley-1.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-medium icon-laptop-medium icon-animated" id="icon-laptop"></div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-small icon-laptop-small">
+              <svg>
+                <use xlink:href="_assets/img/icons/bold/laptop-smiley-1.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="solid" id="icons">
+        <div class="main-wrapper">
+          <div class="trigger"></div>
+          <div class="section-split">
+            <div class="section-left">
+              <div class="section-text-wrapper">
+                <h2>Over 30,000 something icons</h2>
+              </div>
+            </div>
+            <div class="section-right">
+              <p>You read that right. Lots of icons in this release! Over 10,500 in three different weights. 53 categories, 720 sub categories, and over 30,000 something in total. We’ve actually lost count...</p>
+              <div class="weight-selector-wrapper">
+                <ul class="weight-selector">
+                  <li><a class="is-active" id="light">
+                      <svg>
+                        <use xlink:href="_assets/img/icons/light/skull-1.svg#target"></use>
+                      </svg><span>Light</span></a></li>
+                  <li><a id="regular">
+                      <svg>
+                        <use xlink:href="_assets/img/icons/regular/skull-1.svg#target"></use>
+                      </svg><span>Regular</span></a></li>
+                  <li><a id="bold">
+                      <svg>
+                        <use xlink:href="_assets/img/icons/bold/skull-1.svg#target"></use>
+                      </svg><span>Bold</span></a></li>
+                </ul>
+              </div>
+              <div class="section-right-content icon-categories">
+                <div class="section-right-icon-wrapper" id="interface">
+                  <h3>User Interface - Light</h3>
+                  <h4>58 sets  <em>–</em>  954 icons</h4>
+                  <div class="section-right-container">
+                    <ul class="icons--light icons-showing">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/01-light/alert-message-laptop.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/01-light/cog-double-3.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/01-light/face-id-3.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/01-light/graph-stats-circle.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/01-light/headphones-customer-support-human-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/01-light/login-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/01-light/pen-write.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/01-light/pie-line-graph-desktop.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/01-light/pin.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/01-light/screwdriver.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/01-light/settings-slider-desktop-vertical.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/01-light/settings-toggle-horizontal.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="icons--regular icons-hidden">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/02-regular/alert-message-laptop.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/02-regular/cog-double-3.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/02-regular/face-id-3.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/02-regular/graph-stats-circle.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/02-regular/headphones-customer-support-human-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/02-regular/login-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/02-regular/pen-write.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/02-regular/pie-line-graph-desktop.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/02-regular/pin.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/02-regular/screwdriver.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/02-regular/settings-slider-desktop-vertical.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/02-regular/settings-toggle-horizontal.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="icons--bold icons-hidden">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/03-bold/alert-message-laptop.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/03-bold/cog-double-3.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/03-bold/face-id-3.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/03-bold/graph-stats-circle.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/03-bold/headphones-customer-support-human-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/03-bold/login-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/03-bold/pen-write.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/03-bold/pie-line-graph-desktop.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/03-bold/pin.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/03-bold/screwdriver.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/03-bold/settings-slider-desktop-vertical.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/01-interface/03-bold/settings-toggle-horizontal.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="section-right-icon-wrapper" id="social">
+                  <h3>Social Media - Light</h3>
+                  <h4>13 sets  <em>–</em>  175 icons</h4>
+                  <div class="section-right-container">
+                    <ul class="icons--light icons-showing">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/01-light/award-medal-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/01-light/certified-ribbon-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/01-light/flag-plain-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/01-light/like-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/01-light/like-click.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/01-light/love-it-phone.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/01-light/mood-happy-laptop.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/01-light/mood-rock.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/01-light/ranking-first.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/01-light/rating-star-square.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/01-light/social-profile-click.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/01-light/social-profile-smartphone-add.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="icons--regular icons-hidden">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/02-regular/award-medal-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/02-regular/certified-ribbon-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/02-regular/flag-plain-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/02-regular/like-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/02-regular/like-click.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/02-regular/love-it-phone.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/02-regular/mood-happy-laptop.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/02-regular/mood-rock.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/02-regular/ranking-first.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/02-regular/rating-star-square.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/02-regular/social-profile-click.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/02-regular/social-profile-smartphone-add.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="icons--bold icons-hidden">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/03-bold/award-medal-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/03-bold/certified-ribbon-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/03-bold/flag-plain-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/03-bold/like-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/03-bold/like-click.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/03-bold/love-it-phone.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/03-bold/mood-happy-laptop.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/03-bold/mood-rock.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/03-bold/ranking-first.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/03-bold/rating-star-square.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/03-bold/social-profile-click.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/03-bold/social-profile-smartphone-add.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="section-right-icon-wrapper" id="programming">
+                  <h3>Programming - Light</h3>
+                  <h4>13 sets  <em>–</em>  387 icons</h4>
+                  <div class="section-right-container">
+                    <ul class="icons--light icons-showing">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/01-light/browser-hand.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/01-light/browser-page-account.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/01-light/database-share.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/01-light/firewall.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/01-light/module-phone-puzzle.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/01-light/monitor-page.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/01-light/programming-flag.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/01-light/programming-hold-laptop.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/01-light/programming-language-code.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/01-light/programming-search.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/01-light/programming-team-chat.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/01-light/responsive-design.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="icons--regular icons-hidden">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/02-regular/browser-hand.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/02-regular/browser-page-account.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/02-regular/database-share.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/02-regular/firewall.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/02-regular/module-phone-puzzle.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/02-regular/monitor-page.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/02-regular/programming-flag.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/02-regular/programming-hold-laptop.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/02-regular/programming-language-code.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/02-regular/programming-search.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/02-regular/programming-team-chat.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/02-regular/responsive-design.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="icons--bold icons-hidden">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/03-bold/browser-hand.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/03-bold/browser-page-account.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/03-bold/database-share.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/03-bold/firewall.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/03-bold/module-phone-puzzle.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/03-bold/monitor-page.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/03-bold/programming-flag.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/03-bold/programming-hold-laptop.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/03-bold/programming-language-code.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/03-bold/programming-search.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/03-bold/programming-team-chat.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/03-programming/03-bold/responsive-design.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="section-right-icon-wrapper" id="business">
+                  <h3>Business - Light</h3>
+                  <h4>13 sets  <em>–</em>  226 icons</h4>
+                  <div class="section-right-container">
+                    <ul class="icons--light icons-showing">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/01-light/ab-testing-chemistry.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/01-light/advertising-megaphone.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/01-light/analytics-graph-bar.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/01-light/business-climb-top.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/01-light/business-contract-give.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/01-light/business-deal-handshake.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/01-light/business-flame.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/01-light/business-shark-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/01-light/business-team-goal.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/01-light/business-trip-plane.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/01-light/profile-user-cash-message.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/01-light/startup-launch-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="icons--regular icons-hidden">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/02-regular/ab-testing-chemistry.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/02-regular/advertising-megaphone.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/02-regular/analytics-graph-bar.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/02-regular/business-climb-top.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/02-regular/business-contract-give.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/02-regular/business-deal-handshake.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/02-regular/business-flame.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/02-regular/business-shark-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/02-regular/business-team-goal.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/02-regular/business-trip-plane.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/02-regular/profile-user-cash-message.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/02-regular/startup-launch-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="icons--bold icons-hidden">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/03-bold/ab-testing-chemistry.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/03-bold/advertising-megaphone.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/03-bold/analytics-graph-bar.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/03-bold/business-climb-top.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/03-bold/business-contract-give.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/03-bold/business-deal-handshake.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/03-bold/business-flame.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/03-bold/business-shark-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/03-bold/business-team-goal.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/03-bold/business-trip-plane.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/03-bold/profile-user-cash-message.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/04-business/03-bold/startup-launch-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="section-right-icon-wrapper" id="design">
+                  <h3>Design - Light</h3>
+                  <h4>17 sets  <em>–</em>  231 icons</h4>
+                  <div class="section-right-container">
+                    <ul class="icons--light icons-showing">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/01-light/artboard-image.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/01-light/color-brush-paint.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/01-light/color-bucket.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/01-light/color-palette-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/01-light/color-palette-sample-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/01-light/design-pen-tool.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/01-light/design-tool-layout.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/01-light/design-tool-pen-station.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/01-light/design-tool-pens.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/01-light/graphic-tablet-draw.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/01-light/shape-rhomboid.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/01-light/vectors-pen-anchor.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="icons--regular icons-hidden">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/02-regular/artboard-image.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/02-regular/color-brush-paint.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/02-regular/color-bucket.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/02-regular/color-palette-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/02-regular/color-palette-sample-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/02-regular/design-pen-tool.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/02-regular/design-tool-layout.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/02-regular/design-tool-pen-station.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/02-regular/design-tool-pens.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/02-regular/graphic-tablet-draw.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/02-regular/shape-rhomboid.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/02-regular/vectors-pen-anchor.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="icons--bold icons-hidden">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/03-bold/artboard-image.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/03-bold/color-brush-paint.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/03-bold/color-bucket.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/03-bold/color-palette-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/03-bold/color-palette-sample-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/03-bold/design-pen-tool.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/03-bold/design-tool-layout.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/03-bold/design-tool-pen-station.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/03-bold/design-tool-pens.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/03-bold/graphic-tablet-draw.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/03-bold/shape-rhomboid.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/05-design/03-bold/vectors-pen-anchor.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="section-right-icon-wrapper" id="avatars">
+                  <h3>Avatars - Light</h3>
+                  <h4>32 sets  <em>–</em>  296 icons</h4>
+                  <div class="section-right-container">
+                    <ul class="icons--light icons-showing">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/01-light/history-man-napoleon.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/01-light/people-man-12.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/01-light/people-man-cap-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/01-light/people-man-graduate.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/01-light/people-woman-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/01-light/people-woman-7.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/01-light/police-man-spy-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/01-light/police-woman-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/01-light/professions-man-magician.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/01-light/professions-man-post.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/01-light/professions-woman-doctor-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/01-light/professions-woman-telecommunicator.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="icons--regular icons-hidden">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/02-regular/history-man-napoleon.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/02-regular/people-man-12.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/02-regular/people-man-cap-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/02-regular/people-man-graduate.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/02-regular/people-woman-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/02-regular/people-woman-7.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/02-regular/police-man-spy-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/02-regular/police-woman-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/02-regular/professions-man-magician.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/02-regular/professions-man-post.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/02-regular/professions-woman-doctor-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/02-regular/professions-woman-telecommunicator.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="icons--bold icons-hidden">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/03-bold/history-man-napoleon.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/03-bold/people-man-12.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/03-bold/people-man-cap-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/03-bold/people-man-graduate.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/03-bold/people-woman-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/03-bold/people-woman-7.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/03-bold/police-man-spy-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/03-bold/police-woman-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/03-bold/professions-man-magician.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/03-bold/professions-man-post.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/03-bold/professions-woman-doctor-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/06-avatars/03-bold/professions-woman-telecommunicator.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="section-right-icon-wrapper" id="ecology">
+                  <h3>Ecology - Light</h3>
+                  <h4>15 sets  <em>–</em>  140 icons</h4>
+                  <div class="section-right-container">
+                    <ul class="icons--light icons-showing">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/01-light/clean-bicycle.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/01-light/ecology-globe-hand.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/01-light/ecology-globe-house.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/01-light/ecology-plant-deal.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/01-light/global-warming-globe-fire-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/01-light/gmo-food-apple.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/01-light/organic-flask-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/01-light/non-gmo-organic-flask.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/01-light/organic-plant.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/01-light/pollution-rain-skull.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/01-light/renewable-energy-solar-panel.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/01-light/renewable-energy-wind-turbine-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="icons--regular icons-hidden">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/02-regular/clean-bicycle.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/02-regular/ecology-globe-hand.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/02-regular/ecology-globe-house.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/02-regular/ecology-plant-deal.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/02-regular/global-warming-globe-fire-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/02-regular/gmo-food-apple.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/02-regular/organic-flask-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/02-regular/non-gmo-organic-flask.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/02-regular/organic-plant.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/02-regular/pollution-rain-skull.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/02-regular/renewable-energy-solar-panel.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/02-regular/renewable-energy-wind-turbine-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="icons--bold icons-hidden">
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/03-bold/clean-bicycle.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/03-bold/ecology-globe-hand.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/03-bold/ecology-globe-house.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/03-bold/ecology-plant-deal.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/03-bold/global-warming-globe-fire-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/03-bold/gmo-food-apple.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/03-bold/organic-flask-1.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/03-bold/non-gmo-organic-flask.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/03-bold/organic-plant.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/03-bold/pollution-rain-skull.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/03-bold/renewable-energy-solar-panel.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/07-ecology/03-bold/renewable-energy-wind-turbine-2.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="section-right-container"><a class="big-cta">See all 53 categories (coming soon!)</a></div>
+                <div class="section-right-container">
+                  <blockquote>
+                    <p>“The only icon set I've ever used. And the only one I will ever use. No regrets and not even worth looking at other ones.”</p>
+                    <footer>
+                      <div class="cite">
+                        <h5>Tobias Van Schneider</h5>
+                        <h6>Semplice</h6>
+                      </div><img src="_assets/img/people/tobias.jpg"/>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="icon-divider icon-divider-four">
+        <div class="main-wrapper">
+          <div class="icon-wrapper">
+            <div class="icon-large icon-quill-large">
+              <svg>
+                <use xlink:href="_assets/img/icons/light/design-tool-quill-2.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-medium icon-animated" id="icon-pencil"></div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-small icon-quill-small">
+              <svg>
+                <use xlink:href="_assets/img/icons/bold/design-tool-quill-2.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="icon-divider icon-divider-five">
+        <div class="main-wrapper">
+          <div class="icon-wrapper">
+            <div class="icon-large icon-headphones-large">
+              <svg>
+                <use xlink:href="_assets/img/icons/light/headphones-human.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-medium icon-animated" id="icon-headphones"></div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-small icon-headphones-small">
+              <svg>
+                <use xlink:href="_assets/img/icons/bold/headphones-human.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="solid" id="weights">
+        <div class="main-wrapper">
+          <div class="trigger"></div>
+          <div class="section-split">
+            <div class="section-left">
+              <div class="section-text-wrapper">
+                <h2>Three distinct weights</h2>
+              </div>
+            </div>
+            <div class="section-right">
+              <p>Each icon in Streamline 3.0 has three unique weights. The differences are much more than just bumping up the stroke for each version too—each weight is a completely new icon. Check out the examples below.</p>
+              <div class="section-right-content">
+                <div class="section-right-icon-wrapper icon-weights">
+                  <div class="title">
+                    <h3>Light</h3>
+                    <p>The classic Streamline style with bits. 1px stroke on a 24px grid.</p>
+                  </div>
+                  <div class="section-right-container">
+                    <ul>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/01-light/mood-happy-laptop.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <svg>
+                          <use xlink:href="_assets/img/categories/05-design/01-light/color-bucket.svg#target"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg>
+                          <use xlink:href="_assets/img/categories/06-avatars/01-light/professions-woman-doctor-2.svg#target"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg>
+                          <use xlink:href="_assets/img/categories/07-ecology/01-light/clean-bicycle.svg#target"></use>
+                        </svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="section-right-icon-wrapper icon-weights">
+                  <div class="title">
+                    <h3>Regular</h3>
+                    <p>A new minimal and geometric style. 1.5px stroke on a 24px grid.</p>
+                  </div>
+                  <div class="section-right-container">
+                    <ul>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/02-regular/mood-happy-laptop.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <svg>
+                          <use xlink:href="_assets/img/categories/05-design/02-regular/color-bucket.svg#target"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg>
+                          <use xlink:href="_assets/img/categories/06-avatars/02-regular/professions-woman-doctor-2.svg#target"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg>
+                          <use xlink:href="_assets/img/categories/07-ecology/02-regular/clean-bicycle.svg#target"></use>
+                        </svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="section-right-icon-wrapper icon-weights">
+                  <div class="title">
+                    <h3>Bold</h3>
+                    <p> A new solid style akin to the latest iOS guidelines. 2px stroke on a 24px grid.</p>
+                  </div>
+                  <div class="section-right-container">
+                    <ul>
+                      <li>
+                        <div class="svg-wrapper">
+                          <svg>
+                            <use xlink:href="_assets/img/categories/02-social/03-bold/mood-happy-laptop.svg#target"></use>
+                          </svg>
+                        </div>
+                      </li>
+                      <li>
+                        <svg>
+                          <use xlink:href="_assets/img/categories/05-design/03-bold/color-bucket.svg#target"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg>
+                          <use xlink:href="_assets/img/categories/06-avatars/03-bold/professions-woman-doctor-2.svg#target"></use>
+                        </svg>
+                      </li>
+                      <li>
+                        <svg>
+                          <use xlink:href="_assets/img/categories/07-ecology/03-bold/clean-bicycle.svg#target"></use>
+                        </svg>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="section-right-container">
+                  <blockquote>
+                    <p>“I own several icon sets but the one that I return to over and over is the copious Streamline pack, which almost always seems to have just the pictogram I need when I dig into its catalog.”</p>
+                    <footer>
+                      <div class="cite">
+                        <h5>Khoi Vinh</h5>
+                        <h6>Adobe</h6>
+                      </div><img src="_assets/img/people/khoi.jpg"/>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="icon-divider icon-divider-six">
+        <div class="main-wrapper">
+          <div class="icon-wrapper">
+            <div class="icon-large icon-eye-large">
+              <svg>
+                <use xlink:href="_assets/img/icons/light/view.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-medium icon-animated" id="icon-view"></div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-small icon-eye-small">
+              <svg>
+                <use xlink:href="_assets/img/icons/bold/view.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="icon-divider icon-divider-seven">
+        <div class="main-wrapper">
+          <div class="icon-wrapper">
+            <div class="icon-large icon-dna-large">
+              <svg>
+                <use xlink:href="_assets/img/icons/light/science-dna.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-medium icon-dna-medium icon-animated" id="icon-girl"></div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-small icon-dna-small">
+              <svg>
+                <use xlink:href="_assets/img/icons/bold/login-2.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="solid" id="workflow">
+        <div class="main-wrapper">
+          <div class="trigger"></div>
+          <div class="section-split">
+            <div class="section-left">
+              <div class="section-text-wrapper">
+                <h2>Crazy fast workflow</h2>
+              </div>
+            </div>
+            <div class="section-right">
+              <p>We’ve paid special attention to making Streamline faster and easier to use than ever before.</p>
+              <p>Drop these icons right into your workflow without skipping a beat, no matter which software or file format you prefer.</p>
+              <div class="section-right-content">
+                <div class="section-right-container"><img src="_assets/img/screenshots/iconjar.png" alt="iconjar screenshot of desktop app showing grid of icons and navigation"/>
+                  <div class="software-description"><img class="app-icon" src="_assets/img/screenshots/iconjar.svg" alt="icon jar icon — blue bottle with a drip"/>
+                    <h3>IconJar</h3>
+                    <p>One of the easiest ways to use the icons, if you're on a Mac. Open the <code>.iconjar</code> file and you have a beautifully organized list of every section and subsection. In addition, you can simply search for any icon by name and it will appear instantly. Drag and drop the vector icon straight from IconJar into your favorite design software. It just works.</p>
+                  </div>
+                </div>
+                <div class="section-right-container"><img src="_assets/img/screenshots/sketch.png" alt="sketch screenshot"/>
+                  <div class="software-description"><img class="app-icon" src="_assets/img/screenshots/sketch.svg" alt="sketch icon"/>
+                    <h3>Sketch</h3>
+                    <p>Each category of icon comes with its very own <code>.sketch</code> file. The icons have been pre-made into 24x24 symbols, meticulously named and organized for you. Works great with Sketch Runner and symbol overrides in general. Using these icons in Sketch has never been easier.</p>
+                  </div>
+                </div>
+                <div class="section-right-container"><img src="_assets/img/screenshots/figma.png" alt="figma screenshot"/>
+                  <div class="software-description"><img class="app-icon" src="_assets/img/screenshots/figma.svg" alt="figma icon"/>
+                    <h3>Figma</h3>
+                    <p>Figma opens Sketch files pretty flawlessly, but we went ahead and did the dirty work for you by converting the same Sketch icon category files into nice and tidy <code>.fig</code> files. You're welcome. Fun fact: Vincent and Matt used Figma to design this website.</p>
+                  </div>
+                </div>
+                <div class="section-right-container"><img src="_assets/img/screenshots/studio.png" alt="studio screenshot"/>
+                  <div class="software-description"><img class="app-icon" src="_assets/img/screenshots/studio.svg" alt="studio icon"/>
+                    <h3>Studio (Coming Soon)</h3>
+                    <p>We've ran some initial tests on converting our <code>.sketch</code> files into <code>.studio</code> files. The results are very promising and as soon as Studio is out of beta, our official files will be ready too.</p>
+                  </div>
+                </div>
+                <div class="section-right-container"><img src="_assets/img/screenshots/illustrator.png" alt="illustrator screenshot"/>
+                  <div class="software-description"><img class="app-icon" src="_assets/img/screenshots/illustrator.svg" alt="illustrator icon"/>
+                    <h3>Illustrator</h3>
+                    <p>Ahh, old faithful. The grandfather of all vector editing software. You can bet your bottom dollar we've got a bunch of <code>.ai</code> files for all of you OGs out there.</p>
+                  </div>
+                </div>
+                <div class="section-right-container"><img src="_assets/img/screenshots/svg.png" alt="code editor screenshot showing svg code"/>
+                  <div class="software-description"><img class="app-icon" src="_assets/img/screenshots/svg.svg" alt="svg icon"/>
+                    <h3>SVG</h3>
+                    <p>SVGee whiz. We spent a lot of time coverting all of these icons into clean code for all of the developers out there. All of the hard-coded HEX codes have been converted to <code>currentColor</code> and the markup has been stripped down to the bare essentials.</p>
+                  </div>
+                </div>
+                <div class="section-right-container">
+                  <blockquote>
+                    <p>“Vincent's icons are unique, versatile, and easy to work with. I've found them to be super useful across a range of projects.”</p>
+                    <footer>
+                      <div class="cite">
+                        <h5>Daniel Burka</h5>
+                        <h6>Resolve to Save Lives</h6>
+                      </div><img src="_assets/img/people/dburka.jpg"/>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="icon-divider icon-divider-eight">
+        <div class="main-wrapper">
+          <div class="icon-wrapper">
+            <div class="icon-large icon-cog-large">
+              <svg>
+                <use xlink:href="_assets/img/icons/light/cog.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-medium icon-cog-medium icon-animated" id="icon-shake"></div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-small icon-cog-small">
+              <svg>
+                <use xlink:href="_assets/img/icons/bold/cog.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="icon-divider icon-divider-nine">
+        <div class="main-wrapper">
+          <div class="icon-wrapper">
+            <div class="icon-large icon-binoculars-large">
+              <svg>
+                <use xlink:href="_assets/img/icons/light/binocular.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-medium icon-animated" id="icon-camera"></div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-small icon-binoculars-small">
+              <svg>
+                <use xlink:href="_assets/img/icons/bold/binocular.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="solid" id="action">
+        <div class="main-wrapper">
+          <div class="trigger"></div>
+          <div class="section-split">
+            <div class="section-left">
+              <div class="section-text-wrapper">
+                <h2>Streamline icons in action</h2>
+              </div>
+            </div>
+            <div class="section-right">
+              <p>Streamline was created to enhance any project you're working on. Doesn't matter if it's a website, a mobile app, or a slide deck.</p>
+              <p>The <em>light</em> weights have a little more detail and can be scaled larger when more details are required. The <em>regular</em> weights are stripped down to very minimal shapes and work well for UI even when scaled down to 16px. The <em>bold</em> weights are nice and contrasty, perfect for iOS work, wayfinding, and more.</p>
+              <div class="section-right-content">
+                <div class="section-right-container"><img src="_assets/img/showcase/iphone.png" alt="cropped iphone with icons showing"/>
+                  <div class="panel-description">
+                    <h3>iOS Apps</h3>
+                    <p>The new bold Streamline style works amazingly well for iOS apps. The style was largely inspired by the latest iOS guidelines, which feature nice bold shapes for optimal legibility. The grid of icons at the top of this example are <em>regular</em> weight and the tab bar is using <em>bold</em> weight.</p>
+                  </div>
+                </div>
+                <div class="section-right-container"><img class="small-pad" src="_assets/img/showcase/window.png" alt="browser window with icons showing"/>
+                  <div class="panel-description">
+                    <h3>Websites</h3>
+                    <p>The website example above is using the <em>regular</em> weight icons in the left navigation. All of the icons are designed on a 24px grid, but the <em>regular</em> weight works well at smaller 16px sizes. One of our sister products, <a href="http://www.streamlineicons.com/ux/">Streamline UX</a>, is featured in the right panels.</p>
+                  </div>
+                </div>
+                <div class="section-right-container"><img src="_assets/img/showcase/applewatch.png" alt="browser window with icons showing"/>
+                  <div class="panel-description">
+                    <h3>Apple Watch</h3>
+                    <p>When you're designing interfaces, every single pixel matters. This is especially true when designing for tiny wearable screens. With Streamline you can be certain that each little vector shape has been fine-tuned for maximum value.</p>
+                  </div>
+                </div>
+                <div class="section-right-container">
+                  <blockquote>
+                    <p>“These icons are beautiful, simple, balanced and meaningful. They're great for design mock-ups and can really speed up the design process.”</p>
+                    <footer>
+                      <div class="cite">
+                        <h5>Mike Kus</h5>
+                        <h6>Design &amp; Photographer</h6>
+                      </div><img src="_assets/img/people/mikekus.jpg"/>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="icon-divider icon-divider-ten">
+        <div class="main-wrapper">
+          <div class="icon-wrapper">
+            <div class="icon-large icon-door-large">
+              <svg>
+                <use xlink:href="_assets/img/icons/light/login-2.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-medium icon-door-medium icon-animated" id="icon-target"></div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-small icon-door-small">
+              <svg>
+                <use xlink:href="_assets/img/icons/bold/login-2.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="icon-divider icon-divider-eleven">
+        <div class="main-wrapper">
+          <div class="icon-wrapper">
+            <div class="icon-large icon-flag-large">
+              <svg>
+                <use xlink:href="_assets/img/icons/light/golf-hole.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-medium icon-animated" id="icon-flag"></div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-small icon-flag-small">
+              <svg>
+                <use xlink:href="_assets/img/icons/bold/golf-hole.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="solid" id="brands">
+        <div class="main-wrapper">
+          <div class="section-split">
+            <div class="section-left">
+              <div class="section-text-wrapper">
+                <h2>We don’t mean to toot our own horn, but...</h2>
+              </div>
+            </div>
+            <div class="section-right">
+              <p>Toot, toot.</p>
+              <p>We did some digging through past orders over the years and got pretty excited about all of the big company email extensions we found on the list. Sooo, we did what any resourceful designer would do and googled vector versions of all their logos and laid them out in a nice grid.</p>
+              <div class="section-right-content">
+                <div class="section-right-brand-wrapper">
+                  <ul>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/adobe.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/amazon.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/boa.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/capital-one.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/citi.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/converse.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/ea.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/ebay.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/mastercard.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/mercedes.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/mit.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/oracle.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/reuters.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/sage.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/salesforce.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/samsung.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/sap.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/sprint.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/tripadvisor.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/vw.svg#target"></use>
+                      </svg>
+                    </li>
+                    <li>
+                      <svg>
+                        <use xlink:href="_assets/img/brands/logo/wells.svg#target"></use>
+                      </svg>
+                    </li>
+                  </ul>
+                </div>
+                <div class="section-right-container">
+                  <blockquote>
+                    <p>“Streamline icons are great. Vincent does a great job of keeping the styles consistent. They have a huge collection so if you're looking for a particular icon, they will probably have it. It's definitely worth the investment.”</p>
+                    <footer>
+                      <div class="cite">
+                        <h5>Jad Limcaco</h5>
+                        <h6>Intuit</h6>
+                      </div><img src="_assets/img/people/jad.jpg"/>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="icon-divider icon-divider-twelve">
+        <div class="main-wrapper">
+          <div class="icon-wrapper">
+            <div class="icon-large icon-flask-large">
+              <svg>
+                <use xlink:href="_assets/img/icons/light/lab-flask-experiment.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-medium icon-flask-medium">
+              <svg>
+                <use xlink:href="_assets/img/icons/regular/lab-flask-experiment.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-small icon-flask-small">
+              <svg>
+                <use xlink:href="_assets/img/icons/bold/lab-flask-experiment.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="icon-divider icon-divider-thirteen">
+        <div class="main-wrapper">
+          <div class="icon-wrapper">
+            <div class="icon-large icon-3d-large">
+              <svg>
+                <use xlink:href="_assets/img/icons/light/modern-tv-3d-glasses.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-medium icon-3d-medium icon-animated" id="icon-wifi"></div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-small icon-3d-small">
+              <svg>
+                <use xlink:href="_assets/img/icons/bold/cup.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="solid" id="webviewer">
+        <div class="main-wrapper">
+          <div class="section-split">
+            <div class="section-left">
+              <div class="section-text-wrapper">
+                <h2>Find the Right Icon In Seconds</h2>
+              </div>
+            </div>
+            <div class="section-right">
+              <p>You've asked, we've listened. Not everyone has access to Iconjar and many people have asked for something similar. We're currently building a small web app that lets you browse and search Streamline icons right from your browser.</p>
+              <div class="section-right-content"><img class="main" src="_assets/img/showcase/app.png" alt="macbook pro screenshot of streamline web app"/>
+                <div class="section-right-container"><a class="big-cta" href="#">Streamline Icon Viewer (coming soon!)</a></div>
+                <div class="section-right-container">
+                  <blockquote>
+                    <p>“Streamline is simply the most comprehensive and versatile icon collection on the market. As a marketer and presentation designer, I nearly use it on every one of my projects. I can always find an icon for every idea and every concept. Believe me, it will be the best one hundred bucks you will ever spend on design.”</p>
+                    <footer>
+                      <div class="cite">
+                        <h5>Emiland De Cubber</h5>
+                        <h6>Twitter</h6>
+                      </div><img src="_assets/img/people/emiland.jpg"/>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="icon-divider icon-divider-fourteen">
+        <div class="main-wrapper">
+          <div class="icon-wrapper">
+            <div class="icon-large icon-pen-large">
+              <svg>
+                <use xlink:href="_assets/img/icons/regular/frame.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-medium icon-pen-medium icon-animated" id="icon-pen"></div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-small icon-pen-small">
+              <svg>
+                <use xlink:href="_assets/img/icons/bold/frame.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="icon-divider icon-divider-fifteen">
+        <div class="main-wrapper">
+          <div class="icon-wrapper">
+            <div class="icon-large">
+              <svg>
+                <use xlink:href="_assets/img/categories/07-ecology/01-light/clean-bicycle.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-medium">
+              <svg>
+                <use xlink:href="_assets/img/categories/07-ecology/01-light/clean-bicycle.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="icon-wrapper">
+            <div class="icon-small">
+              <svg>
+                <use xlink:href="_assets/img/categories/04-business/01-light/business-shark-1.svg#target"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="solid" id="options">
+        <div class="main-wrapper">
+          <div class="section-split">
+            <div class="section-left">
+              <div class="section-text-wrapper">
+                <h2>Package Options</h2>
+              </div>
+            </div>
+            <div class="section-right">
+              <p>We know that everyone's needs are different. That's why we're offering two package types and single weight options within each package. The <em>Essential</em> package contains the categories most commonly used for interface design. The <em>Ultimate</em> package contains... well, everything.</p>
+              <p>File types included: <code>.iconjar</code> <code>.sketch</code> <code>.fig</code> <code>.svg</code> <code>.ai</code> <code>.pdf</code> <code>.png</code></p>
+              <div class="section-right-content">
+                <div class="section-options-list">
+                  <ul>
+                    <li>Essential</li>
+                    <li>14 Categories</li>
+                    <li>User Interface</li>
+                    <li>Computer, Devices, Electronics</li>
+                    <li>Programming, Apps, Websites</li>
+                    <li>Internet, Network, Servers</li>
+                    <li>Content</li>
+                    <li>Images, Photography</li>
+                    <li>Music, Audio</li>
+                    <li>Videos, Movies, TV</li>
+                    <li>Files, Folders</li>
+                    <li>Users</li>
+                    <li>Emails</li>
+                    <li>Phones, Mobiles, Devices</li>
+                    <li>Messages, Chat, Smileys</li>
+                    <li>Social Medias, Rewards, Ratings</li>
+                  </ul>
+                  <ul>
+                    <li>Ultimate</li>
+                    <li>All 53 Categories</li>
+                    <li>Interface</li>
+                    <li>Technology</li>
+                    <li>Computers, Devices, &amp; Electronics</li>
+                    <li>Programming, Apps, &amp; Websites</li>
+                    <li>Internet, Networks, &amp; Servers</li>
+                    <li>Business Products</li>
+                    <li>Work, Office, &amp; Companies</li>
+                    <li>Money, Payments, &amp; Finance</li>
+                    <li>Shopping &amp; Ecommerce</li>
+                    <li>Shipping &amp; Delivery</li>
+                    <li>Content</li>
+                    <li>Design</li>
+                    <li>Images &amp; Photography</li>
+                    <li>Music &amp; Audio</li>
+                    <li>Video, Movies, &amp; TV</li>
+                    <li>Files &amp; Folders</li>
+                    <li>Users</li>
+                    <li>Avatars</li>
+                    <li>Emails</li>
+                    <li>Phones &amp; Mobile Devices</li>
+                    <li>Messages, Chat, &amp; Smileys</li>
+                    <li>Social Media, Rewards, &amp; Rating</li>
+                    <li>Travel</li>
+                    <li>Hotels &amp; Spas</li>
+                    <li>Wayfinding</li>
+                    <li>Food &amp; Drink</li>
+                    <li>Furniture &amp; Decoration</li>
+                    <li>Lamps, Lights, &amp; Fire</li>
+                    <li>Clothing, Footwear, &amp; Accessories</li>
+                    <li>Tools &amp; Construction</li>
+                    <li>Ecology</li>
+                    <li>Nature &amp; Farming</li>
+                    <li>Pets &amp; Animals</li>
+                    <li>Weather</li>
+                    <li>Health &amp; Beauty</li>
+                    <li>School &amp; Learning</li>
+                    <li>Science</li>
+                    <li>Culture &amp; Religion</li>
+                    <li>Romance</li>
+                    <li>Family, Babies, &amp; Kids</li>
+                    <li>Holidays</li>
+                    <li>Sports</li>
+                    <li>Outdoors &amp; Recreation</li>
+                    <li>Entertainment, Events, &amp; Hobbies</li>
+                    <li>Video Games</li>
+                    <li>Crime, War, &amp; Protection</li>
+                    <li>Transportation</li>
+                    <li>Maps &amp; Navigation</li>
+                    <li>Building &amp; Construction</li>
+                    <li>Landmarks</li>
+                    <li>Real Estate</li>
+                    <li>Arrows &amp; Diagrams</li>
+                    <li>Logos</li>
+                  </ul>
+                </div>
+                <div class="section-right-container">
+                  <blockquote>
+                    <p>“Streamline has been at the core of my creative workflow for years. I value the attention to detail, the breadth of options, and the stylistic consistency. It is a fact, the hours of time I’ve saved is in the hundreds. Thank you Vincent for the rich and unceasing worth your products deliver!”</p>
+                    <footer>
+                      <div class="cite">
+                        <h5>Heath Gerlock</h5>
+                        <h6>Solvers</h6>
+                      </div><img src="_assets/img/people/heath.jpg"/>
+                    </footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="buy">
+        <div class="main-wrapper">
+          <div class="trigger"></div>
+          <div class="section-text-wrapper">
+            <div class="section-text-big">
+              <h2>Launch Special Ends Soon <br/><span id="expiration">Special launch prices available.</span></h2>
+            </div>
+          </div>
+          <div class="section-content">
+            <div class="price-panel-group" id="price">
+              <div class="price-panel price-panel--free">
+                <div class="price-panel-content">
+                  <div class="top-content">
+                    <h3>Free</h3>
+                    <p>100 different icons in 3 different weights. Try before you buy.</p>
+                  </div>
+                  <form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" autocomplete="off" method="post" data-id="2BE4EF332AA2E32596E38B640E905619B9F531634E2A4CEA5E5AFDDDE9ED4AF3EC17BB92BC47C174BE8DA09FEB5A4F39FDCA2C38182879144B6A5D0CE3E53FDA">
+                    <div class="form-label">
+                      <label class="inp" for="fieldName">
+                        <input id="fieldName" type="text" name="cm-name" placeholder=" "/><span class="label">First Name</span>
+                      </label>
+                    </div>
+                    <div class="form-label">
+                      <label class="inp" for="fieldEmail">
+                        <input class="js-cm-email-input" id="fieldName" type="email" name="cm-zktudr-zktudr" placeholder=" " required=""/><span class="label">Email</span>
+                      </label>
+                    </div>
+                    <div class="cta-group">
+                      <button class="js-cm-submit-button" type="submit">
+                        <div class="emoji">☺️</div>Yes please<span>FREE</span>
+                      </button>
+                      <p>Join the Streamline list and get'm free!</p>
+                    </div>
+                  </form>
+                  <script src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
+                </div>
+              </div>
+              <div class="price-panel price-panel--essential">
+                <div class="price-panel-content">
+                  <div class="top-content">
+                    <h3>Essential</h3>
+                    <p>This pack includes 14 categories specifically for UI design. Choose 1 weight or get them all.</p>
+                    <ul>
+                      <li><a href="https://transactions.sendowl.com/products/77862826/A38C85C3/purchase">
+                          <div class="emoji">👉</div>4,000 Light Icons<span><em>$97</em>$69</span></a></li>
+                      <li><a href="https://transactions.sendowl.com/products/77862825/3822B982/purchase">
+                          <div class="emoji">👍</div>4,000 Regular Icons<span><em>$97</em>$69</span></a></li>
+                      <li><a href="https://transactions.sendowl.com/products/77862824/5A901184/purchase">
+                          <div class="emoji">👌</div>4,000 Bold Icons<span><em>$97</em>$69</span></a></li>
+                    </ul>
+                  </div>
+                  <div class="cta-group"><a href="https://transactions.sendowl.com/packages/657197/FE2AD1DF/purchase">
+                      <div class="emoji">😃</div>All 9,000 Icons<span><em>$194</em>$139</span></a>
+                    <p>Save $70 and get all three weights.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="price-panel price-panel--ultimate">
+                <div class="price-panel-content">
+                  <div class="top-content">
+                    <h3>Ultimate</h3>
+                    <p>The whole shebang. This pack includes all 53 categories. Choose 1 weight or get them all.</p>
+                    <ul>
+                      <li><a href="https://transactions.sendowl.com/products/77861046/2A943AE1/purchase">
+                          <div class="emoji">😁</div>10,500 Light Icons<span><em>$137</em>$99</span></a></li>
+                      <li><a href="https://transactions.sendowl.com/products/77861085/82FC608A/purchase">
+                          <div class="emoji">🙌</div>10,500 Regular Icons<span><em>$137</em>$99</span></a></li>
+                      <li><a href="https://transactions.sendowl.com/products/77861092/D94AC22C/purchase">
+                          <div class="emoji">🙏</div>10,500 Bold Icons<span><em>$137</em>$99</span></a></li>
+                    </ul>
+                  </div>
+                  <div class="cta-group"><a href="https://transactions.sendowl.com/packages/657075/95F703A0/purchase">
+                      <div class="emoji">😍</div>All 31,500 Icons<span><em>$274</em>$199</span></a>
+                    <p>Save $100 and get all three weights.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-group">
+            <div class="testimonial-small">
+              <p>“The ability to compliment my designs quickly with a consistent icon set makes my job as a designer a whole lot easier.”</p><img src="_assets/img/people/vin.jpg"/>
+              <h6>Vin Thomas</h6>
+            </div>
+            <div class="testimonial-small">
+              <p>"The streamline icon set saves me time and makes my designs more polished and more user friendly. It is worth every penny.”</p><img src="_assets/img/people/lucinda.jpg"/>
+              <h6>Lucinda Brown</h6>
+            </div>
+            <div class="testimonial-small">
+              <p>"They’re elegant, consistent, and cover just about every possible use case. Most importantly, my clients really like them.""</p><img src="_assets/img/people/dan.jpg"/>
+              <h6>Dan Conti</h6>
+            </div>
+            <div class="testimonial-small">
+              <p>"Streamline icon set has just about every single icon I've needed for over 3 years now! It's clean, simple, and crisp."</p><img src="_assets/img/people/narek.jpg"/>
+              <h6>Narek Khachatryan</h6>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="footer">
+        <div class="main-wrapper">
+          <div class="icon-animated" id="icon-footer"></div>
+          <h1><strong>Streamline</strong> 3.0</h1>
+          <footer class="site-footer">
+            <ul class="menu">
+              <li><strong>Navigate</strong></li>
+              <li><a href="#main">Back to the top!</a></li>
+              <li><a href="#icons">Over 30,000 Icons</a></li>
+              <li><a href="#weights">3 Distinct Weights</a></li>
+              <li><a href="#workflow">Crazy Fast Workflow</a></li>
+              <li><a href="#action">Icons in Action</a></li>
+              <li><a href="#brands">Brands Love'm</a></li>
+              <li><a href="#webviewer">Web Viewer</a></li>
+              <li><a href="#options">Package Options</a></li>
+              <li><a href="#price">Buy Now</a></li>
+            </ul>
+            <ul>
+              <li><strong>More Products</strong></li>
+              <li><a href="http://www.streamlineicons.com/ux/">Streamline Illustrations</a></li>
+              <li><a href="http://emoji.streamlineicons.com/">Streamline Free Emoji</a></li>
+              <li><a href="http://www.webalys.com/nova/">Nova – Material Icons</a></li>
+              <li><a href="http://www.ego-icons.com/">Ego – Futuristic Icons</a></li>
+              <li><a href="http://webalys.com/minicons/">Minicons</a></li>
+            </ul>
+            <ul>
+              <li><strong>Resources</strong></li>
+              <li><a href="#">Affiliates</a></li>
+              <li><a href="https://medium.com/streamline-icons/streamline-license-standard-6771abd19084">Standard License</a></li>
+              <li><a href="https://medium.com/streamline-icons/streamline-3-0-extended-license-ceaa8c07b738">Extended License</a></li>
+              <li><a href="https://medium.com/streamline-icons/privacy-policy-e3f2c1d73a95">Privacy Policy</a></li>
+              <li><a href="https://medium.com/streamline-icons/30-day-money-back-guarantee-994930515502">Refund Policy</a></li>
+            </ul>
+            <ul>
+              <li><strong>Credits</strong></li>
+              <li><a href="http://twitter.com/webalys">Icons by @webalys</a></li>
+              <li><a href="http://twitter.com/yupnguyen">Animations by @yupnguyen</a></li>
+              <li><a href="http://twitter.com/mds">Site by @mds</a></li>
+            </ul>
+            <ul>
+              <li><strong>Even More</strong></li>
+              <li><a href="http://www.webalys.com/#story">Our Story</a></li>
+              <li><a href="https://medium.com/streamline-icons/whats-new-in-streamline-3-0-1439d0951931">What's new in Streamline 3.0</a></li>
+              <li><a href="http://introtoicons.com">Free Intro to Icons Course</a></li>
+              <li><a href="https://gumroad.com/a/999076979">Build Your Dribbble Audience</a></li>
+            </ul>
+          </footer>
+        </div>
+      </section>
+      <script src="_scripts/rellax.min.js"></script>
+      <script src="_scripts/bodymovin.js"></script>
+      <script src="_scripts/lib/greensock/TweenMax.min.js"></script>
+      <script src="_scripts/scrollmagic/minified/ScrollMagic.min.js"></script>
+      <script src="_scripts/scrollmagic/minified/plugins/debug.addIndicators.min.js"></script>
+      <script src="_scripts/scrollmagic/minified/plugins/animation.gsap.min.js"></script>
+      <script src="_scripts/floatl.umd.js"></script>
+      <script src="https://transactions.sendowl.com/assets/sendowl.js"></script>
+      <script src="_scripts/jquery.countdown.min.js"></script>
+      <script src="_scripts/index.js"></script>
+      <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-15651803-15"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-15651803-15');
+      </script>
     </div>
-    <section id="main">
-      <p>3.0</p>
-    </section>
-    <section id="new">
-      <p>What's new</p>
-    </section>
-    <section id="more">
-      <p>More icons</p>
-    </section>
-    <section id="weights">
-      <p>Introducing weights</p>
-    </section>
-    <section id="faster">
-      <p>Faster workflow</p>
-    </section>
-    <section id="org">
-      <p>Better organization</p>
-    </section>
-    <section id="web">
-      <p>Web search</p>
-    </section>
-    <section id="sketch">
-      <p>Improved Sketch files</p>
-    </section>
-    <section id="svg">
-      <p>Improved SVG</p>
-    </section>
-    <section id="buy">
-      <p>Purchasing options</p>
-    </section>
-    <footer>
-      <ul class="inline">
-        <li><a href="affiliates">Affiliates</a></li>
-        <li><a href="contact">Contact</a></li>
-        <li><a href="standard-license">Standard License</a></li>
-        <li><a href="extended-license">Extended License</a></li>
-        <li><a href="privacy-policy">Privacy Policy</a></li>
-        <li><a href="refund-policy">Refund Policy</a></li>
-      </ul>
-    </footer>
   </body>
 </html>

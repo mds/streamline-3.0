@@ -1,0 +1,6 @@
+<svg id="target" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 1.16527e-05C5.45955 -0.00365133 3.11712 1.3713 1.88186 3.59122C0.646608 5.81114 0.713023 8.52647 2.05533 10.6833L0 15L4.31667 12.9447C6.84085 14.5141 10.0809 14.3183 12.3977 12.4563C14.7146 10.5944 15.6029 7.47234 14.6134 4.6696C13.6239 1.86686 10.9723 -0.00538889 8 1.16527e-05V1.16527e-05Z" transform="translate(4.49933 4.5)" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4 0C4 1.10457 3.10457 2 2 2C0.895431 2 2.32771e-08 1.10457 0 0H4Z" transform="translate(10.4993 13)" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0.666667 0C0.298477 0 0 0.298477 0 0.666667C0 1.03486 0.298477 1.33333 0.666667 1.33333C1.03486 1.33333 1.33333 1.03486 1.33333 0.666667C1.33333 0.298477 1.03486 0 0.666667 0Z" transform="translate(8.74933 9.91663)" fill="currentColor"/>
+<path d="M0.666667 0C0.298477 0 0 0.298477 0 0.666667C0 1.03486 0.298477 1.33333 0.666667 1.33333C1.03486 1.33333 1.33333 1.03486 1.33333 0.666667C1.33333 0.298477 1.03486 0 0.666667 0Z" transform="translate(14.7493 9.91663)" fill="currentColor"/>
+</svg>
