@@ -1,8 +1,8 @@
 $xsmall-width: 420px
 $small-width: 820px
-$medium-width: 1024px
-$large-width: 1398px
-$xlarge-width: 1700px
+$medium-width: 1180px
+$large-width: 1439px
+$xlarge-width: 1600px
 
 =xsmall
   @media (min-width: #{$xsmall-width})
@@ -36,15 +36,38 @@ $xlarge-width: 1700px
   -o-transition: all $speed ease-out
   transition: all $speed ease-out
 
-=serif
-  font-family: "bookmania", serif
-
 =sans
-  font-family: AribauGrotesk-Rg, -apple-system, ".SFNSText-Regular", "Helvetica Neue", "Segoe UI", sans-serif
+  font-family: 'Aribau', -apple-system, ".SFNSText-Regular", "Helvetica Neue", "Segoe UI", sans-serif
 
 =center
   top: 50%
   left: 50%
   transform: translateY(-50%) translateX(-50%)
 
+=outline
+  border: 1px solid red
 
+=themebackground($color, $dark)
+  .color &
+    background: $color !important
+    +easeall
+  .dark &
+    background: $dark !important
+    +easeall
+
+=themebackgrounddefault
+  background: $color-bg-light
+  +themebackground($color-primary-darken, $color-dark-darken)
+
+=themecolor($color, $dark)
+  .color &
+    color: $color !important
+    +easeall
+  .dark &
+    color: $dark !important
+    +easeall
+
+=bigshadow
+  box-shadow: 0 10px 120px 0 rgba($color-black, .1)
+  .dark &
+    box-shadow: 0 10px 120px 0 rgba($color-black, .8)

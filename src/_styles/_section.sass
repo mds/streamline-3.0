@@ -1,13 +1,365 @@
+section.solid
+  background: white
+  postition: relative
+  z-index: 1000
+  +themebackground($color-primary, $color-dark)
+
+  .section-text-wrapper
+    position: sticky
+    top: 6rem
+
+.is-sticky
+  position: fixed
+  top: 6rem
+  max-width: 20rem
+
 section
   width: 100%
-  text-align: center
+  text-align: left
+  min-height: 100vh
+  align-items: center
+  display: grid
+  position: relative
+  +easeall
 
-  &:nth-child(odd)
-    background: rgba($color-black, .05)
-    box-shadow: 0 1px 0 0 $color-lightborder, inset 0 1px 0 0 $color-lightborder
+  +small
+    min-height: 90vh
 
-  p
-    padding: 40vh 0
+  h2
+    color: $color-dark
+    +easeall
+    +themecolor($color-dark, $color-white)
+
+  .section-pin
+    position: relative
+    width: 100% !important
+    padding: 0
+
+  .section-text-wrapper
+    display: block
+    width: 100%
+    max-width: 32rem
+    z-index: 500
+    padding: 0 0 3rem
+    position: relative
+    +easeall
+
+    +small
+      max-width: 44rem
+
+    +large
+      max-width: 64rem
+      padding: 0
+
+    +xlarge
+      max-width: 80rem
+
+  .section-text-big
+    width: 100%
+    display: block
+    font-size: 2rem
+    line-height: 1.1em
+    padding: 2rem 0
+
+    +small
+      font-size: 3rem
+
+    +large
+      font-size: 4rem
+      padding: 6rem 0
+
+    +xlarge
+      font-size: 5rem
+
+    h2
+      font-weight: 400
+      strong
+        font-weight: 900
+
+  .section-split
+    padding: 6rem 0
+
+    +small
+      display: grid
+      grid-template-columns: 1fr 3fr
+      justify-items: center
+      grid-gap: 3rem
+      padding: 10rem 0
+
+    +large
+      grid-gap: 3rem
+
+  .section-left
+    width: 100%
+    display: block
     font-size: 2rem
 
+    +small
+      font-size: 2rem
 
+    +large
+      font-size: 3.5rem
+
+    h2
+      font-weight: 900
+      line-height: 1em
+
+      +xlarge
+        font-size: 5rem
+
+  .section-right
+    position: relative
+
+    +small
+      max-width: 40rem
+
+    +large
+      max-width: 45rem
+
+    +xlarge
+      max-width: 60rem
+
+    p
+      font-size: 1rem
+      margin-bottom: 1em
+
+      +small
+        font-size: 1.25rem
+
+      +large
+        font-size: 1.325rem
+
+      +xlarge
+        font-size: 1.5rem
+
+  .section-right-container
+    background: $color-bg-light
+    margin-bottom: 4rem
+    +themebackground(rgba($color-black, .05), rgba($color-black, .15))
+
+    +small
+      margin-bottom: 5rem
+
+    p
+      font-size: 1rem
+
+    a
+      color: black
+      text-decoration: none
+      box-shadow: inset 0 -2px 0 0 $color-electricteal-small
+      +easeall
+
+      .color &
+        color: black
+        box-shadow: inset 0 -2px 0 0 rgba($color-white, 1)
+
+        &:hover
+          color: black
+          box-shadow: inset 0 -12px 0 0 white
+
+      .dark &
+        color: $color-light-ondark
+        box-shadow: inset 0 -2px 0 0 rgba($color-white, .25)
+
+        &:hover
+          color: white
+          box-shadow: inset 0 -12px 0 0 rgba($color-white, .1)
+
+
+      &:hover
+        box-shadow: inset 0 -12px 0 0 $color-electricteal
+
+
+
+  .section-right-content
+    margin-top: 2rem
+
+    +small
+      margin-top: 4rem
+
+    +medium
+      margin-top: 8rem
+
+  a.big-cta
+    display: block
+    text-align: center
+    color: $color-dark
+    background: $color-primary
+    padding: 2rem
+    font-size: 1rem
+    font-weight: 900
+    text-decoration: none
+    box-shadow: none
+
+    // remove this when the categories are ready to be viewed
+    cursor: wait
+    //
+
+    +easeall
+
+    .color &
+      background: $color-white !important
+
+    .dark &
+      color: $color-dark !important
+
+    &:hover
+      color: $color-primary !important
+      background: $color-dark !important
+      box-shadow: none !important
+      +bigshadow
+
+      .dark &
+        background: $color-white !important
+        color: $color-dark !important
+
+      .color &
+        color: $color-white !important
+
+
+  .section-content
+    z-index: 100
+    position: relative
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+
+  svg
+    position: absolute
+    transform-origin: center center
+    width: 26px
+    height: 26px
+    top: 0
+    left: 50%
+    +easeall
+
+  p, ul, ol
+    font-size: 1.125rem
+    line-height: 1.65
+    padding: 0
+    font-weight: 400
+    +easeall
+    +themecolor($color-dark, $color-light-ondark)
+
+    +xlarge
+      font-size: 1.25rem
+
+.section-right-icon-wrapper
+  margin-bottom: 4rem
+  color: black
+  +themecolor(black, white)
+
+  .title p
+    padding: 0
+    margin-bottom: 1rem
+    font-size: .875rem
+    color: #767676
+
+  h3
+    text-transform: uppercase
+    font-weight: 600
+    font-size: .75rem
+    margin-bottom: .5rem
+    display: inline
+
+  h4
+    float: right
+    font-weight: 400
+    color: $color-light
+    text-transform: none
+    font-size: .675rem
+
+    .color &
+      color: black
+
+  ul
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr
+    padding: 1rem !important
+
+  li
+    +easeall
+
+    &:hover
+      transform: scale(1.25)
+      +easeall
+
+  svg
+    position: static
+    display: block
+    height: 24px
+    width: 24px
+    margin: 2rem auto
+    transform: scale(1)
+    fill: black
+    +easeall
+
+    .dark &
+      fill: $color-light
+
+    +small
+      margin: 4.5rem auto
+      transform: scale(2)
+
+    +xlarge
+      margin: 6rem auto
+
+.section-right-icon-wrapper.icon-weights svg
+  transform: scale(2)
+  +medium
+    transform: scale(2.5)
+
+.section-right-brand-wrapper
+
+  ul
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-gap: 4px
+
+  li
+    background: $color-bg-light
+    +themebackground($color-primary-darken, $color-dark-darken)
+    +easeall
+
+    &:hover svg
+      transform: scale(1.1)
+      +easeall
+
+  svg
+    width: 100%
+    height: 7rem
+    display: block
+    position: static
+
+    .dark &
+      color: white !important
+
+    +small
+      height: 10rem
+
+    +medium
+      height: 14rem
+
+// #action
+.panel-description
+  padding: 2rem
+
+  +small
+    padding: 5rem
+
+  h3
+    text-transform: uppercase
+    font-weight: 900
+    font-size: .875rem
+    letter-spacing: .02rem
+    margin-bottom: 2rem
+
+    .dark &
+      color: white
+
+#webviewer img.main
+  padding: 0 0 4rem .5rem
+
+img.small-pad
+  padding: 2rem 2rem 0

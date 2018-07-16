@@ -1,0 +1,54 @@
+// div.testimonial-group
+//    div.testimonial-small
+//      p "This is a smaller testimonial that is not quite as prominent as the larger ones on the page."
+//      img(src="_assets/img/people/mds.jpg")
+//      h6 Matt D. Smith
+
+.testimonial-group
+  margin-top: 4rem
+  display: grid
+  grid-template-columns: 1fr
+
+  +small
+    grid-template-columns: 1fr 1fr
+    margin-top: 8rem
+
+  +medium
+    grid-template-columns: 1fr 1fr 1fr 1fr
+    grid-column-gap: 4rem
+    margin-top: 4rem
+
+  .testimonial-small
+    padding: 3rem 1rem
+
+    p
+      font-style: italic
+      padding-bottom: 1rem
+      font-size: 1rem
+
+      // .dark &
+      //   color: white
+
+      +small
+        padding-bottom: 2rem
+
+    h6
+      text-transform: uppercase
+      font-size: .675rem
+      font-weight: 600
+      line-height: 3rem
+      +themecolor($color-dark, $color-white)
+
+    img
+      width: 3rem
+      height: 3rem
+      border-radius: 50%
+      float: left
+      margin-right: 1.5rem
+      box-shadow:  0 0 0 3px white, 0 0 0 5px black
+
+      .color &
+        box-shadow:  0 0 0 3px $color-primary, 0 0 0 5px black
+
+      .dark &
+        box-shadow:  0 0 0 3px $color-dark, 0 0 0 5px white

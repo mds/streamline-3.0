@@ -1,0 +1,245 @@
+#buy
+  background: $color-bg-light
+  position: relative
+  z-index: 2000
+  padding: 4rem 0rem
+  // +bigshadow
+
+  &:before
+    content: ""
+    display: block
+    position: absolute
+    top: -100px
+    left: 0
+    right: 0
+    background: linear-gradient(0deg, $color-white 0%, rgba($color-white, 0) 100%)
+    height: 100px
+
+    .color &
+      background: linear-gradient(0deg, $color-primary 0%, rgba($color-primary, 0) 100%)
+
+    .dark &
+      background: linear-gradient(0deg, $color-dark 0%, rgba($color-dark, 0) 100%)
+
+
+  +small
+    padding: 4rem 0 8rem
+
+  .color &
+    background: $color-primary-darken//linear-gradient(0deg, $color-primary 95%, rgba($color-primary, 0) 100%)
+
+  .dark &
+    background: $color-dark-darken//linear-gradient(0deg, $color-dark 95%, rgba($color-dark, 0) 100%)
+
+.price-panel-group
+  display: grid
+  align-items: center
+  padding: 0
+
+  +small
+    grid-template-columns: .75fr 1fr
+    grid-gap: 2rem
+
+    .price-panel--ultimate
+      grid-column: span 2
+
+  +medium
+    padding: 6rem 0
+    grid-template-columns: .75fr .875fr 1fr
+    grid-gap: 0
+
+    .price-panel--ultimate
+      grid-column: span 1
+
+section .price-panel
+  position: relative
+  margin-bottom: 2rem
+
+  +small
+    margin-bottom: 0
+
+  p
+    color: $color-dark !important
+
+    +medium
+      margin-bottom: 1.5rem
+
+  .price-panel-content
+    position: relative
+    z-index: 1000
+    height: 100%
+    // background: red
+    box-shadow: 0px 20px 60px rgba(10, 51, 51, 0.2)
+
+    +small
+      background: none
+      box-shadow: none
+
+  &:after
+    content: ""
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: linear-gradient(326.39deg, #2EE5E5 0%, $color-electricteal 100%), $color-electricteal
+    box-shadow: 0px 20px 60px rgba(10, 51, 51, 0.2)
+    z-index: 500
+
+    // +medium
+    //   position: absolute
+    //   left: 0
+
+  h3
+    font-weight: 900
+
+  +small
+    height: 40rem
+
+  +medium
+    // this controls the offset height of each panel
+    &--free:after
+      top: 0
+      height: 100%
+
+    &--essential
+      h3
+        font-size: 1.25rem !important
+      &:after
+        top: -3%
+        height: 106%
+
+    &--ultimate
+      h3
+        font-size: 1.5rem !important
+      &:after
+        top: -6%
+        height: 112%
+    // end offset height of each panel
+
+
+  .top-content
+    padding: 2rem 2rem 0
+
+    +small
+      padding: 2rem 3rem 3rem
+
+  h3
+    text-transform: uppercase
+    font-size: 1rem
+
+  p
+    font-size: 1rem
+    font-weight: 200
+    color: $color-dark !important
+    padding: 1.5rem 0
+
+  li:last-child a
+    border-bottom: none
+
+  a
+    color: $color-dark
+    text-decoration: none
+    display: block
+    background: rgba($color-black, .05)
+    padding: 1.5rem
+    margin-bottom: 1px
+    font-weight: 600
+    text-align: left
+    font-size: .875rem
+    +easeall
+
+    .color &
+      background: $color-bg-light
+
+    &:hover
+      background: rgba($color-black, .075)
+      text-indent: 2rem
+      +easeall
+
+      +small
+        text-indent: 2rem
+
+      +medium
+        text-indent: 2rem
+
+    .emoji
+      float: left
+      position: absolute
+      text-indent: 0
+      left: 3rem
+      font-size: 1.125rem
+      opacity: 0
+      +easeall
+
+    &:hover
+
+      & .emoji
+        left: 2rem
+        opacity: 1
+        +easeall
+
+        +small
+          left: 4.25rem
+
+    span
+      position: absolute
+      right: 4.5rem
+
+      em
+        font-style: normal
+        font-weight: 400
+        text-decoration: line-through
+        margin-right: .5rem
+        opacity: .5
+        +easeall
+
+  .cta-group
+    padding: 2rem
+
+    +small
+      padding: 2rem
+      position: absolute
+      width: 100%
+      bottom: 0
+
+    +medium
+      padding: 0 3rem 0rem
+
+    a
+      border: none
+      background: $color-dark
+      color: $color-white
+      font-weight: 900
+      +easeall
+
+      .color &
+        color: $color-primary
+
+      .dark &
+        background: $color-black
+
+      &:hover
+        +easeall
+
+    p
+      font-size: .75rem
+      padding: 1rem
+      position: static
+
+
+// theme mods
+.color .price-panel:after
+  background: $color-white !important
+
+// .dark .price-panel:after
+//   background: linear-gradient(0deg, $color-dark 90%, rgba($color-dark, 0) 100%) !important
+
+#expiration strong
+  display: inline-block
+  padding-left: .5rem
+
+section .price-panel.price-panel--free .top-content
+  +small
+    padding: 3rem 3rem 0 !important

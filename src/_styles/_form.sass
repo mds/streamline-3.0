@@ -1,171 +1,292 @@
-.form
-  padding: 2rem 0
-  position: relative
-  z-index: 1000
-  +sans
 
-.field-group
-  width: 100%
+.form-label
+  background: rgba($color-black, .05)
+  // margin-bottom: 1px
+  margin: 0 2rem 1px
 
-  h2
-    text-align: center
+  +small
+    margin: 0 3rem 1px
 
-.field, .btn-wrapper
-  display: block
-  padding: .5em .5em .5em 0
-  box-sizing: border-box
-
-.field
-  float: left
-
-.field--30
-  width: 30%
-
-.field--40
-  width: 40%
-
-.field--50
-  width: 50%
-
-.field--60
-  width: 60%
-
-.field--70
-  width: 70%
-
-.field__input-wrapper
-  position: relative
-  margin-top: 1rem
-
-input, textarea
-  border: none
-  box-shadow: 0 1px 0 0 rgba($dark, .5)
-  background: transparent
-  padding: .75em 0
-  font-size: .875rem
-  font-weight: 400
-  margin: .75rem 0 1rem 0
-  color: $darktext
-  border-radius: 0
-  width: 100%
-  height: 3.5rem
-  -webkit-appearance: none
-  border-radius: 0
-  +sans
-  +easeall
-
-  +large
-    +easeall
+  .color &
+    background: $color-bg-light
 
   &:hover
-    box-shadow: 0 1px 0 0 rgba($dark, 1)
+    background: rgba($color-black, .075)
     +easeall
 
-  &:focus
-    box-shadow: 0 2px 0 0 $dark
-    outline: none
-    +easeall
-
-input#first-name
-  text-transform: capitalize
-  width: 40%
-  margin-right: 2%
-  float: left
-
-input#email
-  width: 58%
-  float: left
-
-input:focus + label
-  color: $dark
-  letter-spacing: .1em
-  +easeall
-
-label
-  color: rgba($dark, .75)
-  position: absolute
-  z-index: 3000
-
-::-webkit-input-placeholder
-  color: rgba($dark, .75)
-
-\:-moz-placeholder
-  color: rgba($dark, .75)
-
-::-moz-placeholder
-  color: rgba($dark  , .75)
-
-\:-ms-input-placeholder
-  color: rgba($dark, .75)
-
-// fix for chrome auto highlight
-input:-webkit-autofill,
-textarea:-webkit-autofill,
-select:-webkit-autofill
-  color: $dark !important
-  -webkit-text-fill-color: $dark
-
-// larger text on CTA
-
-button, .cta-primary
-  height: 4.25rem
-  display: block
-  width: 100%
-  text-align: center
-  text-indent: -.35rem
-  margin: 0 auto
-  background-color: $primary
-  border: none
-  outline: none
+.inp
   position: relative
-  top: .5rem
-  color: $dark
-  font-size: .9rem
-  font-weight: 800
-  cursor: pointer
-  -webkit-appearance: none
-  -moz-appearance: none
-  appearance: none
-  +sans
-  +easeall
+  margin: auto
+  width: 100%
 
-  &:hover
-    background-color: $dark
-    color: $primary
+  .label
+    position: absolute
+    top: 0
+    left: 1.5rem
+    font-size: .875rem
+    color: $color-dark
+    font-weight: 600
+    transform-origin: 0 0
+    cursor: text
+    pointer-events: none
     +easeall
 
-  &:active
-    background-color: darken($primary, 5%)
-    box-shadow: inset 0 2px 1px 0 rgba($black, .2)
+  input
+    -webkit-appearance: none
+    position: relative
+    width: 100%
+    border: 0
+    top: 0
+    font-family: inherit
+    height: 4.25rem
+    background: none
+    border-radius: 0
+    color: $color-dark
+    padding: 2rem 1.5rem
+    font-weight: 600
+    text-align: left
+    font-size: .875rem
     +easeall
 
-a.cta-primary
-  height: auto
-  padding: 1.5rem 0
+    &:not(:placeholder-shown)
+      top: .5rem
+      + span
+        color: rgba($color-dark, .5)
+        transform: translateY(-.75rem) scale(.75)
+        +easeall
+
+    &:focus
+      top: .5rem
+      // background: rgba($color-black, .075)
+      outline: none
+      + span
+        color: $color-dark
+        transform: translateY(-.75rem) scale(.75)
+
+button
+  color: $color-white
   text-decoration: none
-  margin-top: 2.5rem
-
-button:focus
-  @extend button
-
-#ck_success_msg
-    margin-top: 4rem
-    color: $dark
-    text-indent: 0
-    border: 1px solid $primary
-    padding: 2.75rem 2.5rem 2.25rem
-    +sans
-
-#ck_error_msg
-  color: $red
+  display: block
+  width: 100%
+  background: $color-dark
+  padding: 1.75rem
+  margin-bottom: 1px
   font-weight: 600
-  font-size: .675rem
-  padding: 1rem 0
+  text-align: left
+  font-size: .875rem
+  outline: none
+  border: none
+  cursor: pointer
+  +easeall
 
-.ck_guarantee p
-  padding: 1.5rem 0 0
-  font-size: .675rem
-  font-weight: 500
-  color: #767676
-  text-align: center
+  .color &
+    color: $color-primary
+    background: $color-dark
+
+  &:hover
+    // background: rgba($color-black, .075)
+    text-indent: 2rem
+    +easeall
+
+    +small
+      text-indent: 2rem
+
+    +medium
+      text-indent: 2rem
+
+  span
+    position: absolute
+    right: 4.5rem
+
+  .emoji
+    float: left
+    position: absolute
+    text-indent: 0
+    left: 3rem
+    top: 1.4rem
+    font-size: 1.125rem
+    opacity: 0
+    +easeall
+
+  &:hover
+
+    & .emoji
+      left: 2rem
+      opacity: 1
+      +easeall
+
+      +small
+        left: 4.25rem
+
+
+// .form
+//   padding: 2rem 0
+//   position: relative
+//   z-index: 1000
+//   +sans
+
+// .field-group
+//   width: 100%
+
+//   h2
+//     text-align: center
+
+// .field, .btn-wrapper
+//   display: block
+//   padding: .5em .5em .5em 0
+//   box-sizing: border-box
+
+// .field
+//   float: left
+
+// .field--30
+//   width: 30%
+
+// .field--40
+//   width: 40%
+
+// .field--50
+//   width: 50%
+
+// .field--60
+//   width: 60%
+
+// .field--70
+//   width: 70%
+
+// .field__input-wrapper
+//   position: relative
+//   margin-top: 1rem
+
+// input, textarea
+//   border: none
+//   box-shadow: 0 1px 0 0 rgba($color-dark, .5)
+//   background: transparent
+//   padding: .75em 0
+//   font-size: .875rem
+//   font-weight: 400
+//   margin: .75rem 0 1rem 0
+//   color: $color-dark
+//   border-radius: 0
+//   width: 100%
+//   height: 3.5rem
+//   -webkit-appearance: none
+//   border-radius: 0
+//   +sans
+//   +easeall
+
+//   +large
+//     +easeall
+
+//   &:hover
+//     box-shadow: 0 1px 0 0 rgba($color-dark, 1)
+//     +easeall
+
+//   &:focus
+//     box-shadow: 0 2px 0 0 $color-dark
+//     outline: none
+//     +easeall
+
+// input#first-name
+//   text-transform: capitalize
+//   width: 40%
+//   margin-right: 2%
+//   float: left
+
+// input#email
+//   width: 58%
+//   float: left
+
+// input:focus + label
+//   color: $color-dark
+//   letter-spacing: .1em
+//   +easeall
+
+// label
+//   color: rgba($color-dark, .75)
+//   position: absolute
+//   z-index: 3000
+
+// ::-webkit-input-placeholder
+//   color: rgba($color-dark, .75)
+
+// \:-moz-placeholder
+//   color: rgba($color-dark, .75)
+
+// ::-moz-placeholder
+//   color: rgba($color-dark  , .75)
+
+// \:-ms-input-placeholder
+//   color: rgba($color-dark, .75)
+
+// // fix for chrome auto highlight
+// input:-webkit-autofill,
+// textarea:-webkit-autofill,
+// select:-webkit-autofill
+//   color: $color-dark !important
+//   -webkit-text-fill-color: $color-dark
+
+// // larger text on CTA
+
+// button, .cta-primary
+//   height: 4.25rem
+//   display: block
+//   width: 100%
+//   text-align: center
+//   text-indent: -.35rem
+//   margin: 0 auto
+//   background-color: $color-primary
+//   border: none
+//   outline: none
+//   position: relative
+//   top: .5rem
+//   color: $color-dark
+//   font-size: .9rem
+//   font-weight: 800
+//   cursor: pointer
+//   -webkit-appearance: none
+//   -moz-appearance: none
+//   appearance: none
+//   +sans
+//   +easeall
+
+//   &:hover
+//     background-color: $color-dark
+//     color: $color-primary
+//     +easeall
+
+//   &:active
+//     background-color: darken($color-primary, 5%)
+//     box-shadow: inset 0 2px 1px 0 rgba($color-black, .2)
+//     +easeall
+
+// a.cta-primary
+//   height: auto
+//   padding: 1.5rem 0
+//   text-decoration: none
+//   margin-top: 2.5rem
+
+// button:focus
+//   @extend button
+
+// #ck_success_msg
+//     margin-top: 4rem
+//     color: $color-dark
+//     text-indent: 0
+//     border: 1px solid $color-primary
+//     padding: 2.75rem 2.5rem 2.25rem
+//     +sans
+
+// #ck_error_msg
+//   color: $color-red
+//   font-weight: 600
+//   font-size: .675rem
+//   padding: 1rem 0
+
+// .ck_guarantee p
+//   padding: 1.5rem 0 0
+//   font-size: .675rem
+//   font-weight: 500
+//   color: #767676
+//   text-align: center
 

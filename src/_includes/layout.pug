@@ -3,37 +3,77 @@ html
   head
     block head
       title Streamline 3.0
+
+    block meta
+      meta(charset="utf-8")
+      meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+      meta(name="description" content="Prototype")
+      meta(name="HandheldFriendly" content="True")
+      meta(name="MobileOptimized" content="320")
+      meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui")
+
+      meta(name='description', content='Download FREE icons from the all new Streamline. Over 30,000 in three styles coming very soon.')
+
+      //- Schema.org markup for Google+
+      meta(itemprop='name', content='Download 100 FREE Streamline Icons')
+      meta(itemprop='description', content='Download 100 FREE icons from the all new Streamline. Over 30,000 in three styles coming very soon.')
+      meta(itemprop='image', content='https://mds-assets.s3.amazonaws.com/streamline/streamline-card-100.jpg')
+
+      //- Twitter Card data
+      meta(name='twitter:card', content='summary_large_image')
+      meta(name='twitter:site', content='@webalys')
+      meta(name='twitter:title', content='Streamline 3.0 Launching Soon')
+      meta(name='twitter:description', content='Download FREE icons from the all new Streamline. Over 30,000 in three styles coming very soon.')
+      meta(name='twitter:creator', content='@webalys')
+
+      //- Twitter summary card with large image must be at least 280x150px
+      meta(name='twitter:image:src', content='https://mds-assets.s3.amazonaws.com/streamline/streamline-card-100.jpg')
+
+      //- Open Graph data
+      meta(property='og:title', content='Streamline 3.0 Launching Soon')
+      meta(property='og:type', content='article')
+      meta(property='og:url', content='https://streamlineicons.com')
+      meta(property='og:image', content='https://mds-assets.s3.amazonaws.com/streamline/streamline-card-100.jpg')
+      meta(property='og:description', content='Download FREE icons from the all new Streamline. Over 30,000 in three styles coming very soon.')
+      meta(property='og:site_name', content='Streamline 3.0')
+
+
     block styles
       link(rel="stylesheet" type="text/css" href="style.css")
-    block scripts
       script(src='_scripts/jquery.js')
-      script(src='_scripts/index.js')
+      script(src='_scripts/jquery.cookie.js')
+
   body
-    block header
-    header
-      h1 Streamline 3.0
-      div
-        ul.inline.is-hidden
-          li: a(href="#") Material Design Icons
-          li: a(href="#") Futuristic Icons
-          li: a(href="#") Vector Illustrations
-          li: a(href="#") Free Emoji
-        ul.inline
-          li: a.more(href="#") More
-          li: a.cta(href="#buy") Buy
-    block controls
-      div.section-nav
-        ul
-          li: a(href="#new") What's new
-          li: a(href="#more") More icons
-          li: a(href="#weights") Introducing weights
-          li: a(href="#faster") Faster Workflow
-            ul
-              li: a(href="#org") Better Organization
-              li: a(href="#web") Web Search
-              li: a(href="#sketch") Improved Sketch Files
-              li: a(href="#svg") Improved SVG
-          li: a(href="#buy") Purchasing options
-    block content
-    block foot
-      include foot.pug
+    div.body-wrapper
+      block controls
+        div.controls
+          header
+            h1 Streamline 3.0
+            div.btn-group
+              //- a(href="#") More
+              div.ui-btn.buy-btn
+                div.ui-btn-content Buy
+          footer
+            div.section-nav
+              div.ui-btn.menu-btn
+                div.ui-btn-content: svg: use(xlink:href="_assets/img/ui/icon-hamburger.svg#target")
+              div.menu
+                ul
+                  li: a(href="#main").is-active Welcome
+                  li: a(href="#icons") Over 30,000 Icons
+                  li: a(href="#weights") 3 Distinct Weights
+                  li: a(href="#workflow") Crazy Fast Workflow
+                  li: a(href="#action") Icons in Action
+                  li: a(href="#brands") Brands Love'm
+                  li: a(href="#webviewer") Web Viewer
+                  li: a(href="#options") Package Options
+                  li: a(href="#buy") Buy Now
+            div.color-selector
+              ul
+                li: a.white.is-active(): span White
+                li: a.color(): span Color
+                li: a.dark(): span Dark
+      block content
+      //- block foot
+      //-   include foot.pug
+

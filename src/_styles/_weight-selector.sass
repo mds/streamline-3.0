@@ -1,0 +1,96 @@
+
+
+.weight-selector-wrapper
+  margin-top: 2rem
+
+  +medium
+    margin-top: 0
+
+  +medium
+    height: 100%
+    width: 100%
+    position: fixed
+    max-width: $site-width
+    top: 0
+    left: 50%
+    transform: translateX(-50%)
+    z-index: 2000
+    pointer-events: none
+
+.weight-selector--showing
+  pointer-events: auto !important
+  opacity: 1 !important
+  +easeall
+
+  // weight selector is now visible
+  +medium
+    bottom: 40vh !important
+    right: 1.29rem !important
+
+.weight-selector
+  margin: 0rem 1rem 1rem 0
+  pointer-events: none
+  opacity: 0
+  +easeall
+
+  // weight selector is not visible
+  +medium
+    position: fixed
+    bottom: 40vh
+    right: -3rem
+
+  li
+    display: inline-block
+
+    +medium
+      display: block
+
+  a
+    font-size: 1rem
+    cursor: pointer
+    width: 32px
+    height: 32px
+    display: block
+    text-align: center
+    margin: .5rem
+    border-radius: 50%
+    position: relative
+    +easeall
+
+    &:hover
+      background: rgba($color-black, .05)
+      +easeall
+
+      .dark &
+        background: rgba($color-white, .1)
+
+    span
+      display: none
+      position: absolute
+      left: 4.75rem
+      top: 1.25rem
+      font-size: .75rem
+
+    &.is-active
+      box-shadow: inset 0 0 0 2px black
+
+      svg
+        .dark &
+          color: white
+
+      .dark &
+       box-shadow: inset 0 0 0 2px white
+
+      &:hover
+        background: none
+
+  svg
+    position: relative
+    top: .25rem
+    left: 0
+    width: 24px
+    height: 24px
+    transform-origin: center center
+    transform: scale(.8)
+
+

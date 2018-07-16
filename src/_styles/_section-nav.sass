@@ -1,30 +1,154 @@
-.section-nav
-  position: fixed
-  bottom: 2rem
-  left: 2rem
-  font-size: $font-small
-  z-index: 1000
-  display: none
 
-  +medium
+
+.controls
+  .menu-btn
+    width: 2rem
+    height: 2rem
+    bottom: 2rem
+    left: 1rem
     display: block
+    z-index: 1000
+    position: absolute
+    pointer-events: auto
+
+    +small
+      left: 3rem
+
+    +medium
+      bottom: 2rem
+      left: 0
+      display: none
+
+    svg
+      width: 16px
+      height: 16px
+      position: relative
+      top: .5rem
+
+.section-nav
+  width: 100%
+  +easeall
+
+  +large
+    font-size: $font-small
+    display: block
+    background: none
+    border: none
+    box-shadow: none
+
+  .menu
+    font-size: 1rem
+    padding: 2rem
+    position: relative
+    z-index: 2600
+    max-width: 375px
+    left: 0
+    bottom: 3.5rem
+    background: white
+    border: 1px solid black
+    box-shadow: 2px 2px 0 0 black
+    display: none
+    +easeall
+
+    +small
+      left: 2rem
+      padding: 2rem
+
+    +medium
+      font-size: $font-small
+      display: block
+      background: none
+      border: none
+      box-shadow: none
+      padding: 2rem 2rem 1rem
+      bottom: 0rem
+      left: 0
 
   ul
+    pointer-events: auto
     padding: 0
+    display: block
 
-    ul
-      padding-left: .5rem
+    li
+      +medium
+        padding: 0
+        margin: 0
+        line-height: 0
 
-    li a
-      color: $color-lighttext
-      text-decoration: none
-      +easeall
-
-      &:hover
-        color: $color-black
+      a
+        color: $color-light
+        text-decoration: none
+        display: inline-block
+        outline: none
+        line-height: 2em
+        position: relative
         +easeall
 
-      &.nav--is-active
-        color: $color-black
-        font-weight: bold
+        &:after
+          content: " "
+          display: inline-block
+          width: 0px
+          height: 1px
+          position: absolute
+          bottom: 2px
+          left: 0
+          background: $color-electricteal-small
+          +easeall
+
+          .color &
+            background: white
+
+        &:hover
+          color: $color-black
+          +easeall
+
+          &:after
+            width: 100%
+            +easeall
+
+        &.is-active
+          color: $color-black !important
+          opacity: 1
+          font-weight: bold
+          box-shadow: none
+
+          .dark &
+            +small
+              color: $color-white !important
+
+        +small
+          .color &
+            color: black
+          .dark &
+            color: $color-light-ondark
+
+        +large
+          padding: 0
+
+.is-faded
+  opacity: .1
+  +easeall
+
+  &:hover
+    opacity: .9
+    +easeall
+
+    .menu
+      background: white
+      +themebackground($color-primary, $color-dark)
+
+// .dark .section-nav a
+
+
+//   +large
+//     color: white !important
+
+  // &:hover
+    // color: $color-white
+    // +easeall
+
+  // &.is-active
+  //   font-weight: bold
+  //   +small
+  //     color: $color-white
 
