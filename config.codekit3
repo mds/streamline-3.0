@@ -4738,6 +4738,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/build\/_assets\/img\/showcase\/spread-big.png": {
+		"ft": 32768,
+		"iS": 684827,
+		"oA": 0,
+		"oAP": "\/build\/_assets\/img\/showcase\/spread-big.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/_assets\/img\/showcase\/spread-flat.png": {
+		"ft": 32768,
+		"iS": 2422456,
+		"oA": 0,
+		"oAP": "\/build\/_assets\/img\/showcase\/spread-flat.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/_assets\/img\/showcase\/spread.png": {
+		"ft": 32768,
+		"iS": 349107,
+		"oA": 0,
+		"oAP": "\/build\/_assets\/img\/showcase\/spread.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/build\/_assets\/img\/showcase\/window.png": {
 		"ft": 32768,
 		"iS": 110104,
@@ -5375,6 +5408,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/build\/extended-license\/index.html",
+		"oF": 0
+		},
+	"\/build\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/index.html",
 		"oF": 0
 		},
 	"\/build\/privacy-policy\/index.html": {
