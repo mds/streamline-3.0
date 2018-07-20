@@ -11,32 +11,33 @@ section#footer
     background: darken($color-dark, 2)
 
   .icon-animated
-    float: left
+    float: right
     // margin-left: 1rem
 
   svg
-    position: static
-    transform: scale(2.5)
+    position: relative
+    transform: scale(3)
+    left: -4rem
 
     +small
       margin: 1rem 0 0 0
-      transform: scale(4)
+      transform: scale(5)
 
     path
-      stroke: $color-light
-      fill: $color-light
+      stroke: $color-bg-light
+      fill: $color-bg-light
 
   h1
-    color: white//rgba($color-white, .2)
+    color: rgba($color-white, .3)
     display: inline
-    padding: 1.5rem .75rem
+    padding: 1.5rem 0
     font-size: 1.5rem
     line-height: 1.4em
 
     +small
       font-size: 4rem
       line-height: 1.1em
-      padding: 3rem 2rem
+      padding: 3rem 0
 
 footer.site-footer
   width: 100%

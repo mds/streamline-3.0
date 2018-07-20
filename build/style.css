@@ -739,30 +739,31 @@ section#footer {
   .dark section#footer {
     background: #1b1b1b; }
   section#footer .icon-animated {
-    float: left; }
+    float: right; }
   section#footer svg {
-    position: static;
-    -webkit-transform: scale(2.5);
-            transform: scale(2.5); }
+    position: relative;
+    -webkit-transform: scale(3);
+            transform: scale(3);
+    left: -4rem; }
     @media (min-width: 820px) {
       section#footer svg {
         margin: 1rem 0 0 0;
-        -webkit-transform: scale(4);
-                transform: scale(4); } }
+        -webkit-transform: scale(5);
+                transform: scale(5); } }
     section#footer svg path {
-      stroke: #767676;
-      fill: #767676; }
+      stroke: #f9f9f9;
+      fill: #f9f9f9; }
   section#footer h1 {
-    color: white;
+    color: rgba(255, 255, 255, 0.3);
     display: inline;
-    padding: 1.5rem .75rem;
+    padding: 1.5rem 0;
     font-size: 1.5rem;
     line-height: 1.4em; }
     @media (min-width: 820px) {
       section#footer h1 {
         font-size: 4rem;
         line-height: 1.1em;
-        padding: 3rem 2rem; } }
+        padding: 3rem 0; } }
 
 footer.site-footer {
   width: 100%;
@@ -1741,6 +1742,10 @@ section.icon-divider-fifteen .icon-large svg {
     .section-options-list li em {
       font-size: .75rem; }
 
+@media (min-width: 820px) {
+  form {
+    margin-top: 3.7rem; } }
+
 .form-label {
   background: rgba(0, 0, 0, 0.05);
   margin: 0 2rem 1px; }
@@ -1942,7 +1947,7 @@ section .price-panel {
     font-weight: 900; }
   @media (min-width: 820px) {
     section .price-panel {
-      height: 40rem; } }
+      height: 43rem; } }
   @media (min-width: 1180px) {
     section .price-panel--free:after {
       top: 0;

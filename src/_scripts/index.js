@@ -361,9 +361,17 @@ $(document).ready(function() {
   }
 
   //Final countdown
-  $("#expiration").countdown("2018/07/28", function(event) {
+  var expiration= "2018/07/28";
+  $("#expiration1").countdown(expiration, function(event) {
     $(this).html(
-      event.strftime('<strong>%-D</strong>'+'D '+'<strong>%-H</strong>'+'H '+'<strong>%M</strong>'+'M '+'<strong>%S</strong>'+'S')
+      event.strftime('<strong>%-D</strong>'+' days  '+'<strong>%-H</strong>'+' hrs  '+'<strong>%M</strong>'+' mins  '+'<strong>%S</strong>'+' secs')
+    );
+  });
+
+  //Final countdown
+  $("#expiration2").countdown(expiration, function(event) {
+    $(this).html(
+      event.strftime('<strong>%-D</strong>'+' days  '+'<strong>%-H</strong>'+' hrs  '+'<strong>%M</strong>'+' mins  '+'<strong>%S</strong>'+' secs')
     );
   });
 
