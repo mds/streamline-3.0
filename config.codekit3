@@ -4422,7 +4422,7 @@
 		"oAP": "\/build\/_assets\/img\/people\/dan.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/build\/_assets\/img\/people\/dburka.jpg": {
@@ -4433,7 +4433,7 @@
 		"oAP": "\/build\/_assets\/img\/people\/dburka.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/build\/_assets\/img\/people\/emiland.jpg": {
@@ -4444,7 +4444,7 @@
 		"oAP": "\/build\/_assets\/img\/people\/emiland.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/build\/_assets\/img\/people\/heath.jpg": {
@@ -4455,7 +4455,7 @@
 		"oAP": "\/build\/_assets\/img\/people\/heath.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/build\/_assets\/img\/people\/jad.jpg": {
@@ -4466,7 +4466,7 @@
 		"oAP": "\/build\/_assets\/img\/people\/jad.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/build\/_assets\/img\/people\/khoi.jpg": {
@@ -4477,7 +4477,7 @@
 		"oAP": "\/build\/_assets\/img\/people\/khoi.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/build\/_assets\/img\/people\/lucinda.jpg": {
@@ -4488,7 +4488,7 @@
 		"oAP": "\/build\/_assets\/img\/people\/lucinda.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/build\/_assets\/img\/people\/mds.jpg": {
@@ -4499,7 +4499,7 @@
 		"oAP": "\/build\/_assets\/img\/people\/mds.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/build\/_assets\/img\/people\/mikekus.jpg": {
@@ -4510,7 +4510,7 @@
 		"oAP": "\/build\/_assets\/img\/people\/mikekus.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/build\/_assets\/img\/people\/narek.jpg": {
@@ -4521,7 +4521,7 @@
 		"oAP": "\/build\/_assets\/img\/people\/narek.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/build\/_assets\/img\/people\/tobias.jpg": {
@@ -4532,7 +4532,7 @@
 		"oAP": "\/build\/_assets\/img\/people\/tobias.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/build\/_assets\/img\/people\/vin.jpg": {
@@ -4554,7 +4554,7 @@
 		"oAP": "\/build\/_assets\/img\/people\/vincent.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/build\/_assets\/img\/screenshots\/figma.png": {
@@ -4689,8 +4689,8 @@
 		"oA": 0,
 		"oAP": "\/build\/_assets\/img\/showcase\/app-orig.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4700,8 +4700,8 @@
 		"oA": 0,
 		"oAP": "\/build\/_assets\/img\/showcase\/app.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4711,8 +4711,8 @@
 		"oA": 0,
 		"oAP": "\/build\/_assets\/img\/showcase\/applewatch.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4722,8 +4722,8 @@
 		"oA": 0,
 		"oAP": "\/build\/_assets\/img\/showcase\/iphone-light.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4733,8 +4733,8 @@
 		"oA": 0,
 		"oAP": "\/build\/_assets\/img\/showcase\/iphone.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4744,8 +4744,8 @@
 		"oA": 0,
 		"oAP": "\/build\/_assets\/img\/showcase\/spread-big.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4766,8 +4766,8 @@
 		"oA": 0,
 		"oAP": "\/build\/_assets\/img\/showcase\/spread.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4777,8 +4777,8 @@
 		"oA": 0,
 		"oAP": "\/build\/_assets\/img\/showcase\/window-zoom.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4788,8 +4788,8 @@
 		"oA": 0,
 		"oAP": "\/build\/_assets\/img\/showcase\/window.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

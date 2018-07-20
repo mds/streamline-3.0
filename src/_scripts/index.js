@@ -715,53 +715,53 @@ $(document).ready(function() {
   // Show light icons
   $("#light").on("click", function() {
     showLight();
-    changeTitleLight();
+    // changeTitleLight();
     controlClicked = true;
   });
 
   // Show REGULAR icons
   $("#regular").on("click", function() {
     showRegular();
-    changeTitleRegular();
+    // changeTitleRegular();
     controlClicked = true;
   });
 
   // Show BOLD icons
   $("#bold").on("click", function() {
     showBold();
-    changeTitleBold();
+    // changeTitleBold();
     controlClicked = true;
   });
 
-  function changeTitleLight (){
-    $(".section-right-icon-wrapper#interface h3").html("User Interface – Light");
-    $(".section-right-icon-wrapper#social h3").html("Social Media – Light");
-    $(".section-right-icon-wrapper#programming h3").html("Programming – Light");
-    $(".section-right-icon-wrapper#business h3").html("Business – Light");
-    $(".section-right-icon-wrapper#design h3").html("Design – Light");
-    $(".section-right-icon-wrapper#avatars h3").html("Avatars – Light");
-    $(".section-right-icon-wrapper#ecology h3").html("Ecology – Light");
-  }
+  // function changeTitleLight (){
+  //   $(".section-right-icon-wrapper#interface h3").html("User Interface – Light");
+  //   $(".section-right-icon-wrapper#social h3").html("Social Media – Light");
+  //   $(".section-right-icon-wrapper#programming h3").html("Programming – Light");
+  //   $(".section-right-icon-wrapper#business h3").html("Business – Light");
+  //   $(".section-right-icon-wrapper#design h3").html("Design – Light");
+  //   $(".section-right-icon-wrapper#avatars h3").html("Avatars – Light");
+  //   $(".section-right-icon-wrapper#ecology h3").html("Ecology – Light");
+  // }
 
-  function changeTitleRegular (){
-    $(".section-right-icon-wrapper#interface h3").html("User Interface – Regular");
-    $(".section-right-icon-wrapper#social h3").html("Social Media – Regular");
-    $(".section-right-icon-wrapper#programming h3").html("Programming – Regular");
-    $(".section-right-icon-wrapper#business h3").html("Business – Regular");
-    $(".section-right-icon-wrapper#design h3").html("Design – Regular");
-    $(".section-right-icon-wrapper#avatars h3").html("Avatars – Regular");
-    $(".section-right-icon-wrapper#ecology h3").html("Ecology – Regular");
-  }
+  // // function changeTitleRegular (){
+  //   $(".section-right-icon-wrapper#interface h3").html("User Interface – Regular");
+  //   $(".section-right-icon-wrapper#social h3").html("Social Media – Regular");
+  //   $(".section-right-icon-wrapper#programming h3").html("Programming – Regular");
+  //   $(".section-right-icon-wrapper#business h3").html("Business – Regular");
+  //   $(".section-right-icon-wrapper#design h3").html("Design – Regular");
+  //   $(".section-right-icon-wrapper#avatars h3").html("Avatars – Regular");
+  //   $(".section-right-icon-wrapper#ecology h3").html("Ecology – Regular");
+  // }
 
-  function changeTitleBold (){
-    $(".section-right-icon-wrapper#interface h3").html("User Interface – Bold");
-    $(".section-right-icon-wrapper#social h3").html("Social Media – Bold");
-    $(".section-right-icon-wrapper#programming h3").html("Programming – Bold");
-    $(".section-right-icon-wrapper#business h3").html("Business – Bold");
-    $(".section-right-icon-wrapper#design h3").html("Design – Bold");
-    $(".section-right-icon-wrapper#avatars h3").html("Avatars – Bold");
-    $(".section-right-icon-wrapper#ecology h3").html("Ecology – Bold");
-  }
+  // function changeTitleBold (){
+  //   $(".section-right-icon-wrapper#interface h3").html("User Interface – Bold");
+  //   $(".section-right-icon-wrapper#social h3").html("Social Media – Bold");
+  //   $(".section-right-icon-wrapper#programming h3").html("Programming – Bold");
+  //   $(".section-right-icon-wrapper#business h3").html("Business – Bold");
+  //   $(".section-right-icon-wrapper#design h3").html("Design – Bold");
+  //   $(".section-right-icon-wrapper#avatars h3").html("Avatars – Bold");
+  //   $(".section-right-icon-wrapper#ecology h3").html("Ecology – Bold");
+  // }
 
   // ****************************************************
   // color control
