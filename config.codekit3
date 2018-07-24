@@ -3634,6 +3634,39 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/build\/_assets\/img\/favicon-color.png": {
+		"ft": 32768,
+		"iS": 630,
+		"oA": 0,
+		"oAP": "\/build\/_assets\/img\/favicon-color.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/_assets\/img\/favicon-dark.png": {
+		"ft": 32768,
+		"iS": 590,
+		"oA": 0,
+		"oAP": "\/build\/_assets\/img\/favicon-dark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/_assets\/img\/favicon-light.png": {
+		"ft": 32768,
+		"iS": 647,
+		"oA": 0,
+		"oAP": "\/build\/_assets\/img\/favicon-light.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/build\/_assets\/img\/icons\/bold\/binocular.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -3889,6 +3922,56 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/build\/_assets\/img\/icons\/bold\/whale.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/build\/_assets\/img\/icons\/giant-icon-sprite.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/_assets\/img\/icons\/giant-icon-sprite.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/build\/_assets\/img\/icons\/icon-divider.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/_assets\/img\/icons\/icon-divider.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/build\/_assets\/img\/icons\/icon-sprite-bold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/_assets\/img\/icons\/icon-sprite-bold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/build\/_assets\/img\/icons\/icon-sprite-light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/_assets\/img\/icons\/icon-sprite-light.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/build\/_assets\/img\/icons\/icon-sprite-regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/_assets\/img\/icons\/icon-sprite-regular.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -4414,6 +4497,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/build\/_assets\/img\/icons\/streamline.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/_assets\/img\/icons\/streamline.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/build\/_assets\/img\/people\/dan.jpg": {
 		"ft": 16384,
 		"iS": 22335,
@@ -4568,16 +4661,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/build\/_assets\/img\/screenshots\/figma.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/_assets\/img\/screenshots\/figma.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/build\/_assets\/img\/screenshots\/iconjar.png": {
 		"ft": 32768,
 		"iS": 570527,
@@ -4610,16 +4693,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/build\/_assets\/img\/screenshots\/illustrator.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/_assets\/img\/screenshots\/illustrator.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/build\/_assets\/img\/screenshots\/sketch.png": {
 		"ft": 32768,
 		"iS": 719109,
@@ -4630,16 +4703,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/build\/_assets\/img\/screenshots\/sketch.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/_assets\/img\/screenshots\/sketch.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/build\/_assets\/img\/screenshots\/studio.png": {
 		"ft": 32768,
@@ -4652,16 +4715,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/build\/_assets\/img\/screenshots\/studio.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/_assets\/img\/screenshots\/studio.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/build\/_assets\/img\/screenshots\/svg.png": {
 		"ft": 32768,
 		"iS": 75859,
@@ -4672,16 +4725,6 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
-		},
-	"\/build\/_assets\/img\/screenshots\/svg.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/_assets\/img\/screenshots\/svg.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/build\/_assets\/img\/showcase\/app-orig.png": {
 		"ft": 32768,
@@ -5383,6 +5426,26 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/build\/_scripts\/streamline.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/_scripts\/streamline-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/build\/_scripts\/streamline.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/_scripts\/streamline.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/build\/_scripts\/svg-replace.js": {
 		"ft": 64,
 		"ma": 0,
@@ -5419,6 +5482,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/build\/extended-license\/index.html",
+		"oF": 0
+		},
+	"\/build\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/favicon.ico",
 		"oF": 0
 		},
 	"\/build\/index.html": {
@@ -5458,6 +5528,30 @@
 		"oAP": "\/build\/style-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/Gruntfile.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/Gruntfile-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/node_modules",
+		"oF": 0
+		},
+	"\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/src\/_assets\/fonts\/IBMPlexSans-Bold.woff": {
 		"cB": 0,
@@ -5683,3027 +5777,3655 @@
 		"oAP": "\/src\/_assets\/fonts\/IBMPlexSans-ThinItalic.woff2",
 		"oF": 1
 		},
-	"\/src\/_assets\/img\/01-light\/analytics-graph-bar.svg": {
+	"\/src\/_assets\/img\/svg\/brand-adobe.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/analytics-graph-bar.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-adobe.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/baby-trolley.svg": {
+	"\/src\/_assets\/img\/svg\/brand-amazon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/baby-trolley.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-amazon.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/baggage.svg": {
+	"\/src\/_assets\/img\/svg\/brand-boa.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/baggage.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-boa.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/beach-parasol-water-1.svg": {
+	"\/src\/_assets\/img\/svg\/brand-capital-one.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/beach-parasol-water-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-capital-one.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/biking-person.svg": {
+	"\/src\/_assets\/img\/svg\/brand-cisco.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/biking-person.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-cisco.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/bin-2.svg": {
+	"\/src\/_assets\/img\/svg\/brand-citi.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/bin-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-citi.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/binocular.svg": {
+	"\/src\/_assets\/img\/svg\/brand-converse.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/binocular.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-converse.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/bomb-grenade.svg": {
+	"\/src\/_assets\/img\/svg\/brand-ea.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/bomb-grenade.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-ea.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/building-modern-1.svg": {
+	"\/src\/_assets\/img\/svg\/brand-ebay.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/building-modern-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-ebay.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/camera-flash.svg": {
+	"\/src\/_assets\/img\/svg\/brand-garmin.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/camera-flash.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-garmin.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/coffee-cold.svg": {
+	"\/src\/_assets\/img\/svg\/brand-mastercard.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/coffee-cold.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-mastercard.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/coffee-machine.svg": {
+	"\/src\/_assets\/img\/svg\/brand-mercedes.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/coffee-machine.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-mercedes.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/cog.svg": {
+	"\/src\/_assets\/img\/svg\/brand-mit.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/cog.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-mit.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/content-ink-pen-write.svg": {
+	"\/src\/_assets\/img\/svg\/brand-oracle.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/content-ink-pen-write.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-oracle.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/content-pen-3.svg": {
+	"\/src\/_assets\/img\/svg\/brand-qualcomm.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/content-pen-3.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-qualcomm.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/content-typing-machine.svg": {
+	"\/src\/_assets\/img\/svg\/brand-reuters.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/content-typing-machine.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-reuters.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/couple-man-woman.svg": {
+	"\/src\/_assets\/img\/svg\/brand-sage.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/couple-man-woman.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-sage.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/coupon-cut.svg": {
+	"\/src\/_assets\/img\/svg\/brand-salesforce.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/coupon-cut.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-salesforce.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/crypto-currency-bitcoin-imac.svg": {
+	"\/src\/_assets\/img\/svg\/brand-samsung.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/crypto-currency-bitcoin-imac.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-samsung.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/dating-rose.svg": {
+	"\/src\/_assets\/img\/svg\/brand-sap.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/dating-rose.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-sap.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/dating-smartphone-man.svg": {
+	"\/src\/_assets\/img\/svg\/brand-sprint.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/dating-smartphone-man.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-sprint.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/design-tool-pen-station.svg": {
+	"\/src\/_assets\/img\/svg\/brand-tripadvisor.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/design-tool-pen-station.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-tripadvisor.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/design-tool-quill-2.svg": {
+	"\/src\/_assets\/img\/svg\/brand-vw.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/design-tool-quill-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-vw.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/desktop-monitor-download.svg": {
+	"\/src\/_assets\/img\/svg\/brand-wells.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/desktop-monitor-download.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/brand-wells.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/desktop-monitor-upload.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-bold-alert-message-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/desktop-monitor-upload.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-bold-alert-message-laptop.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/diet-waist-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-bold-cog-double-3.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/diet-waist-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-bold-cog-double-3.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/e-learning-monitor.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-bold-face-id-3.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/e-learning-monitor.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-bold-face-id-3.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/email-action-receive.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-bold-graph-stats-circle.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/email-action-receive.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-bold-graph-stats-circle.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/filter-picture.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-bold-headphones-customer-support-human-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/filter-picture.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-bold-headphones-customer-support-human-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/flag.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-bold-login-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/flag.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-bold-login-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/footwear-heels-ankle.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-bold-pen-write.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/footwear-heels-ankle.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-bold-pen-write.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/gauge-dashboard-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-bold-pie-line-graph-desktop.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/gauge-dashboard-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-bold-pie-line-graph-desktop.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/golf-hole.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-bold-pin.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/golf-hole.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-bold-pin.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/graph-stats-circle.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-bold-screwdriver.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/graph-stats-circle.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-bold-screwdriver.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/hammer-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-bold-settings-slider-desktop-vertical.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/hammer-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-bold-settings-slider-desktop-vertical.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/headphones-human.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-bold-settings-toggle-horizontal.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/headphones-human.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-bold-settings-toggle-horizontal.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/human-resources-search-employees.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-light-alert-message-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/human-resources-search-employees.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-light-alert-message-laptop.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/insurance-card.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-light-cog-double-3.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/insurance-card.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-light-cog-double-3.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/lab-flask-experiment.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-light-face-id-3.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/lab-flask-experiment.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-light-face-id-3.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/landmark-japan-shrine.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-light-graph-stats-circle.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/landmark-japan-shrine.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-light-graph-stats-circle.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/laptop-smiley-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-light-headphones-customer-support-human-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/laptop-smiley-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-light-headphones-customer-support-human-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/lighter.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-light-login-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/lighter.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-light-login-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/like-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-light-pen-write.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/like-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-light-pen-write.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/login-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-light-pie-line-graph-desktop.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/login-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-light-pie-line-graph-desktop.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/love-boat.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-light-pin.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/love-boat.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-light-pin.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/maps-pin.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-light-screwdriver.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/maps-pin.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-light-screwdriver.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/medical-personnel-doctor.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-light-settings-slider-desktop-vertical.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/medical-personnel-doctor.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-light-settings-slider-desktop-vertical.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/megaphone-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-light-settings-toggle-horizontal.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/megaphone-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-light-settings-toggle-horizontal.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/messages-people-person-bubble-oval.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-regular-alert-message-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/messages-people-person-bubble-oval.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-regular-alert-message-laptop.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/mobile-phone-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-regular-cog-double-3.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/mobile-phone-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-regular-cog-double-3.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/modern-tv-3d-glasses.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-regular-face-id-3.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/modern-tv-3d-glasses.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-regular-face-id-3.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/money-wallet-open.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-regular-graph-stats-circle.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/money-wallet-open.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-regular-graph-stats-circle.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/monkey.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-regular-headphones-customer-support-human-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/monkey.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-regular-headphones-customer-support-human-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/mood-happy.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-regular-login-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/mood-happy.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-regular-login-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/mouse.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-regular-pen-write.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/mouse.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-regular-pen-write.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/nautic-sports-sailing-person.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-regular-pie-line-graph-desktop.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/nautic-sports-sailing-person.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-regular-pie-line-graph-desktop.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/office-work-wireless.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-regular-pin.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/office-work-wireless.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-regular-pin.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/optimization-timer-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-regular-screwdriver.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/optimization-timer-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-regular-screwdriver.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/outdoors-tree-valley.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-regular-settings-slider-desktop-vertical.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/outdoors-tree-valley.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-regular-settings-slider-desktop-vertical.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/pencil-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-01-interface-regular-settings-toggle-horizontal.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/pencil-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-01-interface-regular-settings-toggle-horizontal.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/people-man-graduate.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-bold-award-medal-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/people-man-graduate.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-bold-award-medal-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/people-woman-glasses-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-bold-certified-ribbon-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/people-woman-glasses-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-bold-certified-ribbon-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/phone-actions-ring.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-bold-flag-plain-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/phone-actions-ring.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-bold-flag-plain-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/pin-monitor.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-bold-like-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/pin-monitor.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-bold-like-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/pin.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-bold-like-click.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/pin.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-bold-like-click.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/plane-trip-international.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-bold-love-it-phone.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/plane-trip-international.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-bold-love-it-phone.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/presentation-board-graph.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-bold-mood-happy-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/presentation-board-graph.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-bold-mood-happy-laptop.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/print-text.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-bold-mood-rock.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/print-text.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-bold-mood-rock.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/programming-flag.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-bold-ranking-first.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/programming-flag.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-bold-ranking-first.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/rat.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-bold-rating-star-square.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/rat.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-bold-rating-star-square.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/rooster.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-bold-social-profile-click.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/rooster.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-bold-social-profile-click.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/science-dna.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-bold-social-profile-smartphone-add.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/science-dna.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-bold-social-profile-smartphone-add.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/screen-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-light-award-medal-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/screen-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-light-award-medal-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/send-email-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-light-certified-ribbon-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/send-email-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-light-certified-ribbon-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/shipment-upload.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-light-flag-plain-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/shipment-upload.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-light-flag-plain-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/shop-cashier-man.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-light-like-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/shop-cashier-man.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-light-like-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/shop-cashier-woman.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-light-like-click.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/shop-cashier-woman.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-light-like-click.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/shopping-bag-heart.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-light-love-it-phone.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/shopping-bag-heart.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-light-love-it-phone.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/shopping-bag-tag-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-light-mood-happy-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/shopping-bag-tag-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-light-mood-happy-laptop.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/shopping-cart-download.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-light-mood-rock.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/shopping-cart-download.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-light-mood-rock.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/show-hat-magician-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-light-ranking-first.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/show-hat-magician-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-light-ranking-first.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/skull-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-light-rating-star-square.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/skull-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-light-rating-star-square.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/skunk.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-light-social-profile-click.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/skunk.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-light-social-profile-click.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/stamps-famous.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-light-social-profile-smartphone-add.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/stamps-famous.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-light-social-profile-smartphone-add.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/tablet-touch.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-regular-award-medal-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/tablet-touch.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-regular-award-medal-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/taking-pictures-circle.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-regular-certified-ribbon-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/taking-pictures-circle.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-regular-certified-ribbon-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/target-center-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-regular-flag-plain-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/target-center-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-regular-flag-plain-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/video-game-gamasutra.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-regular-like-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/video-game-gamasutra.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-regular-like-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/video-game-mario-3.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-regular-like-click.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/video-game-mario-3.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-regular-like-click.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/video-game-mario-enemy.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-regular-love-it-phone.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/video-game-mario-enemy.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-regular-love-it-phone.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/video-player-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-regular-mood-happy-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/video-player-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-regular-mood-happy-laptop.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/video-player-cloud.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-regular-mood-rock.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/video-player-cloud.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-regular-mood-rock.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/video-player-monitor.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-regular-ranking-first.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/video-player-monitor.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-regular-ranking-first.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/view-off.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-regular-rating-star-square.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/view-off.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-regular-rating-star-square.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/view.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-regular-social-profile-click.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/view.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-regular-social-profile-click.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/warehouse-cart-packages.svg": {
+	"\/src\/_assets\/img\/svg\/category-02-social-regular-social-profile-smartphone-add.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/warehouse-cart-packages.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-02-social-regular-social-profile-smartphone-add.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/warehouse-storage-3.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-bold-browser-hand.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/warehouse-storage-3.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-bold-browser-hand.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/wench-double.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-bold-browser-page-account.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/wench-double.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-bold-browser-page-account.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/whale-body.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-bold-database-share.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/whale-body.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-bold-database-share.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/01-light\/wireless-payment-credit-card-dollar.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-bold-firewall.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/01-light\/wireless-payment-credit-card-dollar.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-bold-firewall.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/analytics-graph-bar.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-bold-module-phone-puzzle.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/analytics-graph-bar.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-bold-module-phone-puzzle.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/baby-trolley.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-bold-monitor-page.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/baby-trolley.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-bold-monitor-page.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/baggage.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-bold-programming-flag.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/baggage.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-bold-programming-flag.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/beach-parasol-water-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-bold-programming-hold-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/beach-parasol-water-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-bold-programming-hold-laptop.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/biking-person.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-bold-programming-language-code.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/biking-person.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-bold-programming-language-code.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/bin-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-bold-programming-search.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/bin-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-bold-programming-search.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/binocular.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-bold-programming-team-chat.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/binocular.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-bold-programming-team-chat.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/bomb-grenade.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-bold-responsive-design.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/bomb-grenade.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-bold-responsive-design.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/building-modern-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-light-browser-hand.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/building-modern-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-light-browser-hand.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/camera-flash.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-light-browser-page-account.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/camera-flash.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-light-browser-page-account.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/coffee-cold.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-light-database-share.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/coffee-cold.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-light-database-share.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/coffee-machine.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-light-firewall.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/coffee-machine.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-light-firewall.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/cog.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-light-module-phone-puzzle.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/cog.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-light-module-phone-puzzle.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/content-ink-pen-write.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-light-monitor-page.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/content-ink-pen-write.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-light-monitor-page.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/content-pen-3.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-light-programming-flag.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/content-pen-3.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-light-programming-flag.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/content-typing-machine.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-light-programming-hold-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/content-typing-machine.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-light-programming-hold-laptop.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/couple-man-woman.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-light-programming-language-code.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/couple-man-woman.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-light-programming-language-code.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/coupon-cut.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-light-programming-search.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/coupon-cut.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-light-programming-search.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/crypto-currency-bitcoin-imac.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-light-programming-team-chat.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/crypto-currency-bitcoin-imac.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-light-programming-team-chat.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/dating-rose.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-light-responsive-design.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/dating-rose.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-light-responsive-design.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/dating-smartphone-man.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-regular-browser-hand.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/dating-smartphone-man.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-regular-browser-hand.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/design-tool-pen-station.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-regular-browser-page-account.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/design-tool-pen-station.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-regular-browser-page-account.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/design-tool-quill-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-regular-database-share.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/design-tool-quill-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-regular-database-share.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/desktop-monitor-download.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-regular-firewall.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/desktop-monitor-download.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-regular-firewall.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/desktop-monitor-upload.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-regular-module-phone-puzzle.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/desktop-monitor-upload.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-regular-module-phone-puzzle.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/diet-waist-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-regular-monitor-page.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/diet-waist-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-regular-monitor-page.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/e-learning-monitor.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-regular-programming-flag.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/e-learning-monitor.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-regular-programming-flag.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/email-action-receive.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-regular-programming-hold-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/email-action-receive.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-regular-programming-hold-laptop.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/filter-picture.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-regular-programming-language-code.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/filter-picture.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-regular-programming-language-code.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/flag.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-regular-programming-search.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/flag.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-regular-programming-search.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/footwear-heels-ankle.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-regular-programming-team-chat.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/footwear-heels-ankle.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-regular-programming-team-chat.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/gauge-dashboard-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-03-programming-regular-responsive-design.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/gauge-dashboard-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-03-programming-regular-responsive-design.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/golf-hole.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-bold-ab-testing-chemistry.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/golf-hole.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-bold-ab-testing-chemistry.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/graph-stats-circle.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-bold-advertising-megaphone.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/graph-stats-circle.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-bold-advertising-megaphone.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/hammer-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-bold-analytics-graph-bar.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/hammer-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-bold-analytics-graph-bar.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/headphones-human.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-bold-business-climb-top.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/headphones-human.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-bold-business-climb-top.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/human-resources-search-employees.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-bold-business-contract-give.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/human-resources-search-employees.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-bold-business-contract-give.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/insurance-card.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-bold-business-deal-handshake.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/insurance-card.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-bold-business-deal-handshake.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/lab-flask-experiment.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-bold-business-flame.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/lab-flask-experiment.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-bold-business-flame.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/landmark-japan-shrine.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-bold-business-shark-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/landmark-japan-shrine.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-bold-business-shark-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/laptop-smiley-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-bold-business-team-goal.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/laptop-smiley-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-bold-business-team-goal.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/lighter.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-bold-business-trip-plane.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/lighter.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-bold-business-trip-plane.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/like-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-bold-profile-user-cash-message.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/like-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-bold-profile-user-cash-message.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/login-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-bold-startup-launch-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/login-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-bold-startup-launch-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/love-boat.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-light-ab-testing-chemistry.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/love-boat.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-light-ab-testing-chemistry.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/maps-pin.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-light-advertising-megaphone.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/maps-pin.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-light-advertising-megaphone.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/medical-personnel-doctor.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-light-analytics-graph-bar-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/medical-personnel-doctor.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-light-analytics-graph-bar-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/megaphone-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-light-analytics-graph-bar.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/megaphone-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-light-analytics-graph-bar.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/messages-people-person-bubble-oval.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-light-business-climb-top.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/messages-people-person-bubble-oval.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-light-business-climb-top.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/mobile-phone-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-light-business-contract-give.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/mobile-phone-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-light-business-contract-give.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/modern-tv-3d-glasses.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-light-business-deal-handshake.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/modern-tv-3d-glasses.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-light-business-deal-handshake.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/money-wallet-open.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-light-business-flame.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/money-wallet-open.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-light-business-flame.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/monkey.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-light-business-shark-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/monkey.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-light-business-shark-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/mood-happy.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-light-business-team-goal.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/mood-happy.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-light-business-team-goal.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/mouse.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-light-business-trip-plane.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/mouse.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-light-business-trip-plane.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/nautic-sports-sailing-person.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-light-profile-user-cash-message.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/nautic-sports-sailing-person.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-light-profile-user-cash-message.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/office-work-wireless.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-light-startup-launch-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/office-work-wireless.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-light-startup-launch-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/optimization-timer-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-regular-ab-testing-chemistry.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/optimization-timer-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-regular-ab-testing-chemistry.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/outdoors-tree-valley.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-regular-advertising-megaphone.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/outdoors-tree-valley.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-regular-advertising-megaphone.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/pencil-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-regular-analytics-graph-bar.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/pencil-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-regular-analytics-graph-bar.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/people-man-graduate.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-regular-business-climb-top.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/people-man-graduate.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-regular-business-climb-top.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/people-woman-glasses-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-regular-business-contract-give.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/people-woman-glasses-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-regular-business-contract-give.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/phone-actions-ring.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-regular-business-deal-handshake.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/phone-actions-ring.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-regular-business-deal-handshake.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/pin-monitor.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-regular-business-flame.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/pin-monitor.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-regular-business-flame.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/pin.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-regular-business-shark-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/pin.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-regular-business-shark-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/plane-trip-international.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-regular-business-team-goal.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/plane-trip-international.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-regular-business-team-goal.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/presentation-board-graph.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-regular-business-trip-plane.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/presentation-board-graph.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-regular-business-trip-plane.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/print-text.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-regular-profile-user-cash-message.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/print-text.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-regular-profile-user-cash-message.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/programming-flag.svg": {
+	"\/src\/_assets\/img\/svg\/category-04-business-regular-startup-launch-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/programming-flag.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-04-business-regular-startup-launch-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/rat.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-bold-artboard-image.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/rat.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-bold-artboard-image.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/rooster.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-bold-color-brush-paint.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/rooster.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-bold-color-brush-paint.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/science-dna.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-bold-color-bucket.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/science-dna.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-bold-color-bucket.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/screen-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-bold-color-palette-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/screen-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-bold-color-palette-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/send-email-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-bold-color-palette-sample-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/send-email-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-bold-color-palette-sample-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/shipment-upload.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-bold-design-pen-tool.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/shipment-upload.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-bold-design-pen-tool.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/shop-cashier-man.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-bold-design-tool-layout.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/shop-cashier-man.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-bold-design-tool-layout.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/shop-cashier-woman.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-bold-design-tool-pen-station.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/shop-cashier-woman.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-bold-design-tool-pen-station.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/shopping-bag-heart.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-bold-design-tool-pens.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/shopping-bag-heart.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-bold-design-tool-pens.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/shopping-bag-tag-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-bold-graphic-tablet-draw.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/shopping-bag-tag-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-bold-graphic-tablet-draw.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/shopping-cart-download.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-bold-shape-rhomboid.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/shopping-cart-download.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-bold-shape-rhomboid.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/show-hat-magician-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-bold-vectors-pen-anchor.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/show-hat-magician-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-bold-vectors-pen-anchor.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/skull-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-light-artboard-image.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/skull-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-light-artboard-image.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/skunk.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-light-color-brush-paint.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/skunk.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-light-color-brush-paint.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/stamps-famous.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-light-color-bucket.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/stamps-famous.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-light-color-bucket.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/tablet-touch.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-light-color-palette-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/tablet-touch.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-light-color-palette-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/taking-pictures-circle.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-light-color-palette-sample-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/taking-pictures-circle.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-light-color-palette-sample-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/target-center-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-light-design-pen-tool.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/target-center-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-light-design-pen-tool.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/video-game-gamasutra.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-light-design-tool-layout.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/video-game-gamasutra.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-light-design-tool-layout.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/video-game-mario-3.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-light-design-tool-pen-station.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/video-game-mario-3.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-light-design-tool-pen-station.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/video-game-mario-enemy.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-light-design-tool-pens.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/video-game-mario-enemy.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-light-design-tool-pens.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/video-player-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-light-graphic-tablet-draw.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/video-player-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-light-graphic-tablet-draw.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/video-player-cloud.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-light-shape-rhomboid.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/video-player-cloud.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-light-shape-rhomboid.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/video-player-monitor.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-light-vectors-pen-anchor.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/video-player-monitor.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-light-vectors-pen-anchor.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/view-off.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-regular-artboard-image.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/view-off.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-regular-artboard-image.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/view.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-regular-color-brush-paint.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/view.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-regular-color-brush-paint.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/warehouse-cart-packages.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-regular-color-bucket.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/warehouse-cart-packages.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-regular-color-bucket.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/warehouse-storage-3.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-regular-color-palette-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/warehouse-storage-3.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-regular-color-palette-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/wench-double.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-regular-color-palette-sample-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/wench-double.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-regular-color-palette-sample-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/whale-body.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-regular-design-pen-tool.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/whale-body.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-regular-design-pen-tool.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/02-regular\/wireless-payment-credit-card-dollar.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-regular-design-tool-layout.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/02-regular\/wireless-payment-credit-card-dollar.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-regular-design-tool-layout.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/analytics-graph-bar.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-regular-design-tool-pen-station.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/analytics-graph-bar.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-regular-design-tool-pen-station.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/baby-trolley.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-regular-design-tool-pens.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/baby-trolley.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-regular-design-tool-pens.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/baggage.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-regular-graphic-tablet-draw.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/baggage.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-regular-graphic-tablet-draw.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/beach-parasol-water-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-regular-shape-rhomboid.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/beach-parasol-water-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-regular-shape-rhomboid.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/biking-person.svg": {
+	"\/src\/_assets\/img\/svg\/category-05-design-regular-vectors-pen-anchor.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/biking-person.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-05-design-regular-vectors-pen-anchor.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/bin-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-bold-history-man-napoleon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/bin-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-bold-history-man-napoleon.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/binocular.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-bold-people-man-12.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/binocular.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-bold-people-man-12.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/bomb-grenade.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-bold-people-man-cap-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/bomb-grenade.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-bold-people-man-cap-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/building-modern-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-bold-people-man-graduate.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/building-modern-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-bold-people-man-graduate.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/camera-flash.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-bold-people-woman-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/camera-flash.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-bold-people-woman-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/coffee-cold.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-bold-people-woman-7.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/coffee-cold.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-bold-people-woman-7.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/coffee-machine.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-bold-police-man-spy-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/coffee-machine.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-bold-police-man-spy-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/cog.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-bold-police-woman-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/cog.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-bold-police-woman-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/content-ink-pen-write.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-bold-professions-man-magician.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/content-ink-pen-write.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-bold-professions-man-magician.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/content-pen-3.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-bold-professions-man-post.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/content-pen-3.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-bold-professions-man-post.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/content-typing-machine.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-bold-professions-woman-doctor-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/content-typing-machine.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-bold-professions-woman-doctor-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/couple-man-woman.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-bold-professions-woman-telecommunicator.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/couple-man-woman.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-bold-professions-woman-telecommunicator.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/coupon-cut.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-light-history-man-napoleon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/coupon-cut.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-light-history-man-napoleon.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/crypto-currency-bitcoin-imac.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-light-people-man-12.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/crypto-currency-bitcoin-imac.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-light-people-man-12.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/dating-rose.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-light-people-man-cap-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/dating-rose.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-light-people-man-cap-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/dating-smartphone-man.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-light-people-man-graduate.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/dating-smartphone-man.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-light-people-man-graduate.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/design-tool-pen-station.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-light-people-woman-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/design-tool-pen-station.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-light-people-woman-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/design-tool-quill-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-light-people-woman-7.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/design-tool-quill-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-light-people-woman-7.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/desktop-monitor-download.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-light-police-man-spy-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/desktop-monitor-download.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-light-police-man-spy-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/desktop-monitor-upload.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-light-police-woman-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/desktop-monitor-upload.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-light-police-woman-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/diet-waist-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-light-professions-man-magician.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/diet-waist-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-light-professions-man-magician.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/e-learning-monitor.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-light-professions-man-post.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/e-learning-monitor.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-light-professions-man-post.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/email-action-receive.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-light-professions-woman-doctor-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/email-action-receive.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-light-professions-woman-doctor-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/filter-picture.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-light-professions-woman-telecommunicator.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/filter-picture.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-light-professions-woman-telecommunicator.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/flag.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-regular-history-man-napoleon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/flag.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-regular-history-man-napoleon.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/footwear-heels-ankle.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-regular-people-man-12.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/footwear-heels-ankle.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-regular-people-man-12.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/gauge-dashboard-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-regular-people-man-cap-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/gauge-dashboard-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-regular-people-man-cap-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/golf-hole.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-regular-people-man-graduate.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/golf-hole.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-regular-people-man-graduate.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/graph-stats-circle.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-regular-people-woman-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/graph-stats-circle.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-regular-people-woman-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/hammer-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-regular-people-woman-7.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/hammer-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-regular-people-woman-7.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/headphones-human.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-regular-police-man-spy-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/headphones-human.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-regular-police-man-spy-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/human-resources-search-employees.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-regular-police-woman-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/human-resources-search-employees.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-regular-police-woman-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/insurance-card.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-regular-professions-man-magician.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/insurance-card.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-regular-professions-man-magician.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/lab-flask-experiment.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-regular-professions-man-post.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/lab-flask-experiment.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-regular-professions-man-post.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/landmark-japan-shrine.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-regular-professions-woman-doctor-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/landmark-japan-shrine.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-regular-professions-woman-doctor-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/laptop-smiley-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-06-avatars-regular-professions-woman-telecommunicator.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/laptop-smiley-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-06-avatars-regular-professions-woman-telecommunicator.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/lighter.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-bold-clean-bicycle.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/lighter.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-bold-clean-bicycle.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/like-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-bold-ecology-globe-hand.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/like-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-bold-ecology-globe-hand.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/login-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-bold-ecology-globe-house.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/login-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-bold-ecology-globe-house.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/love-boat.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-bold-ecology-plant-deal.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/love-boat.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-bold-ecology-plant-deal.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/maps-pin.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-bold-global-warming-globe-fire-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/maps-pin.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-bold-global-warming-globe-fire-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/medical-personnel-doctor.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-bold-gmo-food-apple.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/medical-personnel-doctor.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-bold-gmo-food-apple.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/megaphone-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-bold-non-gmo-organic-flask.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/megaphone-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-bold-non-gmo-organic-flask.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/messages-people-person-bubble-oval.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-bold-organic-flask-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/messages-people-person-bubble-oval.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-bold-organic-flask-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/mobile-phone-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-bold-organic-plant.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/mobile-phone-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-bold-organic-plant.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/modern-tv-3d-glasses.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-bold-pollution-rain-skull.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/modern-tv-3d-glasses.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-bold-pollution-rain-skull.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/money-wallet-open.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-bold-renewable-energy-solar-panel.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/money-wallet-open.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-bold-renewable-energy-solar-panel.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/monkey.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-bold-renewable-energy-wind-turbine-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/monkey.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-bold-renewable-energy-wind-turbine-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/mood-happy.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-light-clean-bicycle.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/mood-happy.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-light-clean-bicycle.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/mouse.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-light-ecology-globe-hand.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/mouse.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-light-ecology-globe-hand.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/nautic-sports-sailing-person.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-light-ecology-globe-house.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/nautic-sports-sailing-person.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-light-ecology-globe-house.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/office-work-wireless.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-light-ecology-plant-deal.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/office-work-wireless.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-light-ecology-plant-deal.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/optimization-timer-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-light-global-warming-globe-fire-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/optimization-timer-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-light-global-warming-globe-fire-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/outdoors-tree-valley.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-light-gmo-food-apple.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/outdoors-tree-valley.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-light-gmo-food-apple.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/pencil-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-light-non-gmo-organic-flask.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/pencil-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-light-non-gmo-organic-flask.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/people-man-graduate.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-light-organic-flask-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/people-man-graduate.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-light-organic-flask-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/people-woman-glasses-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-light-organic-plant.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/people-woman-glasses-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-light-organic-plant.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/phone-actions-ring.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-light-pollution-rain-skull.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/phone-actions-ring.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-light-pollution-rain-skull.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/pin-monitor.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-light-renewable-energy-solar-panel.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/pin-monitor.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-light-renewable-energy-solar-panel.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/pin.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-light-renewable-energy-wind-turbine-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/pin.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-light-renewable-energy-wind-turbine-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/plane-trip-international.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-regular-clean-bicycle.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/plane-trip-international.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-regular-clean-bicycle.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/presentation-board-graph.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-regular-ecology-globe-hand.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/presentation-board-graph.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-regular-ecology-globe-hand.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/print-text.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-regular-ecology-globe-house.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/print-text.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-regular-ecology-globe-house.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/programming-flag.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-regular-ecology-plant-deal.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/programming-flag.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-regular-ecology-plant-deal.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/rat.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-regular-global-warming-globe-fire-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/rat.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-regular-global-warming-globe-fire-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/rooster.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-regular-gmo-food-apple.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/rooster.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-regular-gmo-food-apple.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/science-dna.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-regular-non-gmo-organic-flask.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/science-dna.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-regular-non-gmo-organic-flask.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/screen-1.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-regular-organic-flask-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/screen-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-regular-organic-flask-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/send-email-2.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-regular-organic-plant.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/send-email-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-regular-organic-plant.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/shipment-upload.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-regular-pollution-rain-skull.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/shipment-upload.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-regular-pollution-rain-skull.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/shop-cashier-man.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-regular-renewable-energy-solar-panel.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/shop-cashier-man.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-regular-renewable-energy-solar-panel.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/shop-cashier-woman.svg": {
+	"\/src\/_assets\/img\/svg\/category-07-ecology-regular-renewable-energy-wind-turbine-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/shop-cashier-woman.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/category-07-ecology-regular-renewable-energy-wind-turbine-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/shopping-bag-heart.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-binocular.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/shopping-bag-heart.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-binocular.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/shopping-bag-tag-1.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-camera.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/shopping-bag-tag-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-camera.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/shopping-cart-download.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-cog.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/shopping-cart-download.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-cog.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/show-hat-magician-1.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-content-ink-pen-write.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/show-hat-magician-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-content-ink-pen-write.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/skull-1.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-cup.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/skull-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-cup.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/skunk.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-design-tool-quill-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/skunk.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-design-tool-quill-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/stamps-famous.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-flag.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/stamps-famous.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-flag.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/tablet-touch.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-frame.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/tablet-touch.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-frame.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/taking-pictures-circle.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-golf-hole.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/taking-pictures-circle.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-golf-hole.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/target-center-2.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-grenade.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/target-center-2.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-grenade.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/video-game-gamasutra.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-headphones-human.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/video-game-gamasutra.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-headphones-human.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/video-game-mario-3.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-lab-flask-experiment.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/video-game-mario-3.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-lab-flask-experiment.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/video-game-mario-enemy.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-laptop-smiley-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/video-game-mario-enemy.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-laptop-smiley-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/video-player-1.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-login-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/video-player-1.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-login-2.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/video-player-cloud.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-love.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/video-player-cloud.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-love.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/video-player-monitor.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-mario.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/video-player-monitor.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-mario.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/view-off.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-modern-tv-3d-glasses.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/view-off.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-modern-tv-3d-glasses.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/view.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-mood-happy.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/view.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-mood-happy.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/warehouse-cart-packages.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-rooster.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/warehouse-cart-packages.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-rooster.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/warehouse-storage-3.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-rose.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/warehouse-storage-3.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-rose.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/wench-double.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-science-dna.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/wench-double.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-science-dna.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/whale-body.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-skull-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/whale-body.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-skull-1.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/03-bold\/wireless-payment-credit-card-dollar.svg": {
+	"\/src\/_assets\/img\/svg\/divider-bold-slim.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/03-bold\/wireless-payment-credit-card-dollar.svg",
-		"oF": 1,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-slim.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/src\/_assets\/img\/mds.jpg": {
-		"ft": 16384,
-		"iS": 505806,
-		"jF": 0,
+	"\/src\/_assets\/img\/svg\/divider-bold-video.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-video.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-bold-view.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-view.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-bold-whale.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-bold-whale.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-binocular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-binocular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-business-shark-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-business-shark-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-camera.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-camera.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-clean-bicycle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-clean-bicycle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-cog.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-cog.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-content-ink-pen-write.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-content-ink-pen-write.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-cup.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-cup.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-design-tool-quill-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-design-tool-quill-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-flag.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-flag.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-frame.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-frame.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-golf-hole.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-golf-hole.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-grenade.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-grenade.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-headphones-human.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-headphones-human.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-lab-flask-experiment.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-lab-flask-experiment.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-laptop-smiley-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-laptop-smiley-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-login-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-login-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-love.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-love.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-mario.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-mario.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-modern-tv-3d-glasses.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-modern-tv-3d-glasses.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-mood-happy.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-mood-happy.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-rooster.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-rooster.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-rose.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-rose.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-science-dna.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-science-dna.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-skull-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-skull-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-slim.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-slim.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-video.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-video.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-view.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-view.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-light-whale.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-light-whale.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-binocular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-binocular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-camera.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-camera.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-cog.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-cog.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-content-ink-pen-write.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-content-ink-pen-write.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-cup.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-cup.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-design-tool-quill-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-design-tool-quill-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-flag.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-flag.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-frame.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-frame.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-golf-hole.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-golf-hole.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-grenade.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-grenade.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-headphones-human.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-headphones-human.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-lab-flask-experiment.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-lab-flask-experiment.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-laptop-smiley-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-laptop-smiley-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-login-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-login-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-love.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-love.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-mario.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-mario.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-modern-tv-3d-glasses.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-modern-tv-3d-glasses.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-mood-happy.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-mood-happy.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-rooster.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-rooster.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-rose.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-rose.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-science-dna.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-science-dna.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-skull-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-skull-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-slim.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-slim.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-video.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-video.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-view.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-view.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/divider-regular-whale.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/divider-regular-whale.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/ui-close.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/ui-close.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/ui-hamburger.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/ui-hamburger.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/workflow-figma.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/workflow-figma.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/workflow-iconjar.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/workflow-iconjar.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/workflow-illustrator.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/workflow-illustrator.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/workflow-sketch.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/src\/_assets\/img\/svg\/workflow-sketch.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/_assets\/img\/svg\/workflow-studio.svg": {
+		"ft": 2097152,
+		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/mds.jpg",
-		"oF": 1,
-		"oIPL": 0,
+		"oAP": "\/src\/_assets\/img\/svg\/workflow-studio.svg",
+		"oF": 0,
 		"opt": 0,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
-	"\/src\/_assets\/img\/vincent.jpg": {
-		"ft": 16384,
-		"iS": 23962,
-		"jF": 0,
+	"\/src\/_assets\/img\/svg\/workflow-svg.svg": {
+		"ft": 2097152,
+		"miP": 0,
 		"oA": 2,
-		"oAP": "\/src\/_assets\/img\/vincent.jpg",
-		"oF": 1,
-		"oIPL": 0,
+		"oAP": "\/src\/_assets\/img\/svg\/workflow-svg.svg",
+		"oF": 0,
 		"opt": 0,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/src\/_includes\/buy.html": {
 		"cB": 0,
@@ -8787,653 +9509,732 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/src\/_scripts\/floatl.umd.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
+	"\/src\/_includes\/sprite-script.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
 		"oA": 1,
-		"oAP": "\/src\/_scripts\/floatl.umd-min.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
+		"oAP": "\/src\/_includes\/sprite-script.html",
+		"oF": 0,
+		"oS": 0
 		},
-	"\/src\/_scripts\/index.js": {
+	"\/src\/_scripts\/_archive\/jquery.countdown.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/build\/_scripts\/index.js",
+		"oAP": "\/src\/_scripts\/_archive\/jquery.countdown.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/jquery.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/jquery-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/easing\/EasePack.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/easing\/EasePack.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/easing\/EasePack.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/easing\/EasePack.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/jquery.gsap.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/jquery.gsap.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/jquery.gsap.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/jquery.gsap.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/AttrPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/AttrPlugin.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/AttrPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/AttrPlugin.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/BezierPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/BezierPlugin.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/BezierPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/BezierPlugin.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/ColorPropsPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/ColorPropsPlugin.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/ColorPropsPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/ColorPropsPlugin.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/CSSPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/CSSPlugin.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/CSSPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/CSSPlugin.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/CSSRulePlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/CSSRulePlugin.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/CSSRulePlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/CSSRulePlugin.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/DirectionalRotationPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/DirectionalRotationPlugin.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/DirectionalRotationPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/DirectionalRotationPlugin.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/EaselPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/EaselPlugin.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/EaselPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/EaselPlugin.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/EndArrayPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/EndArrayPlugin.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/EndArrayPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/EndArrayPlugin.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/KineticPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/KineticPlugin.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/KineticPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/KineticPlugin.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/RaphaelPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/RaphaelPlugin.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/RaphaelPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/RaphaelPlugin.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/RoundPropsPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/RoundPropsPlugin.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/RoundPropsPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/RoundPropsPlugin.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/ScrollToPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/ScrollToPlugin.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/ScrollToPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/ScrollToPlugin.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/TextPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/TextPlugin.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/TextPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/plugins\/TextPlugin.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/TimelineLite.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/TimelineLite.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/TimelineLite.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/TimelineLite.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/TimelineMax.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/TimelineMax.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/TimelineMax.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/TimelineMax.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/TweenLite.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/TweenLite.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/TweenLite.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/TweenLite.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/TweenMax.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/TweenMax.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/TweenMax.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/TweenMax.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/utils\/Draggable.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/utils\/Draggable.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/greensock\/utils\/Draggable.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/greensock\/utils\/Draggable.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/highlight.pack-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/highlight.pack-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/highlight.pack.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/highlight.pack-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/iscroll-probe-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/iscroll-probe-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/iscroll-probe.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/iscroll-probe-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/jquery.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/jquery.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/jquery.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/jquery.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/modernizr.custom.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/modernizr.custom.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/modernizr.custom.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/modernizr.custom.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/velocity.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/velocity.min-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/lib\/velocity.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/lib\/velocity.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/scrollmagic\/minified\/plugins\/animation.gsap.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/scrollmagic\/minified\/plugins\/animation.gsap.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/scrollmagic\/minified\/plugins\/animation.velocity.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/scrollmagic\/minified\/plugins\/animation.velocity.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/scrollmagic\/minified\/plugins\/debug.addIndicators.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/scrollmagic\/minified\/plugins\/debug.addIndicators.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/scrollmagic\/minified\/plugins\/jquery.ScrollMagic.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/scrollmagic\/minified\/plugins\/jquery.ScrollMagic.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/scrollmagic\/minified\/ScrollMagic.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/scrollmagic\/minified\/ScrollMagic.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/scrollmagic\/uncompressed\/plugins\/animation.gsap.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/scrollmagic\/uncompressed\/plugins\/animation.gsap-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/scrollmagic\/uncompressed\/plugins\/animation.velocity.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/scrollmagic\/uncompressed\/plugins\/animation.velocity-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/scrollmagic\/uncompressed\/plugins\/debug.addIndicators.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/scrollmagic\/uncompressed\/plugins\/debug.addIndicators-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/scrollmagic\/uncompressed\/plugins\/jquery.ScrollMagic.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/scrollmagic\/uncompressed\/plugins\/jquery.ScrollMagic-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/scrollmagic\/uncompressed\/ScrollMagic.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/scrollmagic\/uncompressed\/ScrollMagic-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/_archive\/svg-replace.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/_archive\/svg-replace-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/streamline.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/_scripts\/streamline.min.js",
 		"oF": 3,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/src\/_scripts\/jquery.countdown.min.js": {
+	"\/src\/_scripts\/vendor\/animation.gsap.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/src\/_scripts\/jquery.countdown.min-min.js",
-		"oF": 1,
+		"oAP": "\/src\/_scripts\/vendor\/animation.gsap-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/src\/_scripts\/jquery.js": {
+	"\/src\/_scripts\/vendor\/bodymovin.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/src\/_scripts\/jquery-min.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/easing\/EasePack.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/easing\/EasePack.min-min-min.js",
+		"oAP": "\/src\/_scripts\/vendor\/bodymovin-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
-	"\/src\/_scripts\/lib\/greensock\/easing\/EasePack.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/easing\/EasePack.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/jquery.gsap.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/jquery.gsap.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/jquery.gsap.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/jquery.gsap.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/AttrPlugin.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/AttrPlugin.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/AttrPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/AttrPlugin.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/BezierPlugin.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/BezierPlugin.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/BezierPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/BezierPlugin.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/ColorPropsPlugin.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/ColorPropsPlugin.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/ColorPropsPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/ColorPropsPlugin.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/CSSPlugin.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/CSSPlugin.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/CSSPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/CSSPlugin.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/CSSRulePlugin.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/CSSRulePlugin.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/CSSRulePlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/CSSRulePlugin.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/DirectionalRotationPlugin.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/DirectionalRotationPlugin.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/DirectionalRotationPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/DirectionalRotationPlugin.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/EaselPlugin.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/EaselPlugin.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/EaselPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/EaselPlugin.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/EndArrayPlugin.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/EndArrayPlugin.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/EndArrayPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/EndArrayPlugin.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/KineticPlugin.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/KineticPlugin.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/KineticPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/KineticPlugin.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/RaphaelPlugin.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/RaphaelPlugin.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/RaphaelPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/RaphaelPlugin.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/RoundPropsPlugin.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/RoundPropsPlugin.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/RoundPropsPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/RoundPropsPlugin.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/ScrollToPlugin.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/ScrollToPlugin.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/ScrollToPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/ScrollToPlugin.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/TextPlugin.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/TextPlugin.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/plugins\/TextPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/plugins\/TextPlugin.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/TimelineLite.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/TimelineLite.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/TimelineLite.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/TimelineLite.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/TimelineMax.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/TimelineMax.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/TimelineMax.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/TimelineMax.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/TweenLite.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/TweenLite.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/TweenLite.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/TweenLite.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/TweenMax.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/TweenMax.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/TweenMax.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/TweenMax.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/utils\/Draggable.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/utils\/Draggable.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/greensock\/utils\/Draggable.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/greensock\/utils\/Draggable.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/highlight.pack-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/highlight.pack-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/highlight.pack.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/highlight.pack-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/iscroll-probe-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/iscroll-probe-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/iscroll-probe.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/iscroll-probe-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/jquery.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/jquery.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/jquery.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/jquery.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/modernizr.custom.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/modernizr.custom.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/modernizr.custom.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/modernizr.custom.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/velocity.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/velocity.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/lib\/velocity.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/lib\/velocity.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/scrollmagic\/minified\/plugins\/animation.gsap.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/scrollmagic\/minified\/plugins\/animation.gsap.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/scrollmagic\/minified\/plugins\/animation.velocity.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/scrollmagic\/minified\/plugins\/animation.velocity.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/scrollmagic\/minified\/plugins\/debug.addIndicators.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/scrollmagic\/minified\/plugins\/debug.addIndicators.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/scrollmagic\/minified\/plugins\/jquery.ScrollMagic.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/scrollmagic\/minified\/plugins\/jquery.ScrollMagic.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/scrollmagic\/minified\/ScrollMagic.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/scrollmagic\/minified\/ScrollMagic.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/scrollmagic\/uncompressed\/plugins\/animation.gsap.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/scrollmagic\/uncompressed\/plugins\/animation.gsap-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/scrollmagic\/uncompressed\/plugins\/animation.velocity.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/scrollmagic\/uncompressed\/plugins\/animation.velocity-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/scrollmagic\/uncompressed\/plugins\/debug.addIndicators.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/scrollmagic\/uncompressed\/plugins\/debug.addIndicators-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/scrollmagic\/uncompressed\/plugins\/jquery.ScrollMagic.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/scrollmagic\/uncompressed\/plugins\/jquery.ScrollMagic-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/scrollmagic\/uncompressed\/ScrollMagic.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/src\/_scripts\/scrollmagic\/uncompressed\/ScrollMagic-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/_scripts\/svg-replace.js": {
+	"\/src\/_scripts\/vendor\/jquery.cookie.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/src\/_scripts\/svg-replace-min.js",
-		"oF": 1,
+		"oAP": "\/src\/_scripts\/vendor\/jquery.cookie-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/vendor\/jquery.countdown.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/src\/_scripts\/vendor\/jquery.countdown.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/vendor\/jquery.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/src\/_scripts\/vendor\/jquery-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/vendor\/lottie.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/_scripts\/vendor\/lottie-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/vendor\/ScrollMagic.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/src\/_scripts\/vendor\/ScrollMagic-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/src\/_scripts\/vendor\/TweenMax.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/src\/_scripts\/vendor\/TweenMax.min-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -9810,6 +10611,14 @@
 		"oAP": "\/build\/index.html",
 		"oF": 2,
 		"oS": 0
+		},
+	"\/src\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/src\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/src\/privacy-policy\/index.pug": {
 		"cB": 0,

@@ -5,14 +5,14 @@
   color: $color-light
   font-size: $font-small
   position: absolute
-  bottom: .625rem
+  bottom: .25rem
   right: 1rem
   z-index: 2500
 
   +small
-    position: relative
-    right: 2.5rem
-    bottom: 0
+    position: absolute // relative
+    right: 3rem
+    bottom: 1rem
 
   ul
     text-align: right
@@ -49,16 +49,15 @@
             box-shadow: 0 0 0 1px $color-white
 
           &:before // the active state
-            +small
-              transform: scale(1.5)
-              transform-origin: center center
+            transform: scale(1.5)
+            transform-origin: center center
               // +easeall
 
         &:before
           content: ""
           display: block
-          width: 16px
-          height: 16px
+          width: 12px
+          height: 12px
           border-radius: 50%
           position: absolute
           border: 1px solid black

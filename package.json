@@ -1,0 +1,33 @@
+{
+  "name": "streamline",
+  "version": "1.0.0",
+  "description": "Marketing site for streamline icons",
+  "main": "streamline.js",
+  "dependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-svg2png": "^0.2.8",
+    "grunt-svgmin": "^5.0.0",
+    "grunt-svgstore": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt-svgstore": "^1.0.0"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mds/streamline-3.0.git"
+  },
+  "keywords": [
+    "streamline",
+    "icons"
+  ],
+  "author": "Matt D. Smith",
+  "license": "All rights reserved.",
+  "bugs": {
+    "url": "https://github.com/mds/streamline-3.0/issues"
+  },
+  "homepage": "http://streamlineicons.com"
+}

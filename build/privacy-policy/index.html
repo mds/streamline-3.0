@@ -7,7 +7,7 @@
     <meta name="description" content="Prototype"/>
     <meta name="HandheldFriendly" content="True"/>
     <meta name="MobileOptimized" content="320"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
     <meta name="description" content="Download FREE icons from the all new Streamline. Over 30,000 in three styles coming very soon."/>
     <meta itemprop="name" content="Download 100 FREE Streamline Icons"/>
     <meta itemprop="description" content="Download 100 FREE icons from the all new Streamline. Over 30,000 in three styles coming very soon."/>
@@ -27,6 +27,16 @@
     <link rel="stylesheet" type="text/css" href="../style.css"/>
   </head>
   <body>
+    <script>
+      var ajax = new XMLHttpRequest()
+      ajax.open("GET", "_assets/img/icons/giant-icon-sprite.svg", true)
+      ajax.send()
+      ajax.onload = function(e) {
+        var div = document.createElement("div")
+        div.innerHTML = ajax.responseText;
+        document.body.insertBefore(div, document.body.childNodes[0]);
+      }
+    </script>
     <div class="body-wrapper">
       <div class="controls">
         <header>
@@ -42,7 +52,7 @@
             <div class="ui-btn menu-btn">
               <div class="ui-btn-content">
                 <svg>
-                  <use xlink:href="_assets/img/ui/icon-hamburger.svg#target"></use>
+                  <use xlink:href="#icon-ui-hamburger"></use>
                 </svg>
               </div>
             </div>
@@ -56,7 +66,7 @@
                 <li><a href="#brands">Brands Love'm</a></li>
                 <li><a href="#webviewer">Web Viewer</a></li>
                 <li><a href="#options">Package Options</a></li>
-                <li><a href="#buy">Buy Now</a></li>
+                <li><a href="#price">Buy Now</a></li>
               </ul>
             </div>
           </div>

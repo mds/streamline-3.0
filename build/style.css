@@ -238,9 +238,9 @@ code {
       .controls footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        -webkit-box-align: end;
-            -ms-flex-align: end;
-                align-items: end;
+        -webkit-box-align: self-end;
+            -ms-flex-align: self-end;
+                align-items: self-end;
         padding: 1rem 1rem; } }
 
 header {
@@ -402,7 +402,7 @@ section {
     @media (min-width: 820px) {
       section .section-text-wrapper {
         max-width: 44rem; } }
-    @media (min-width: 1439px) {
+    @media (min-width: 1300px) {
       section .section-text-wrapper {
         max-width: 64rem;
         padding: 0; } }
@@ -418,7 +418,7 @@ section {
     @media (min-width: 820px) {
       section .section-text-big {
         font-size: 3rem; } }
-    @media (min-width: 1439px) {
+    @media (min-width: 1300px) {
       section .section-text-big {
         font-size: 4rem;
         padding: 6rem 0; } }
@@ -438,7 +438,7 @@ section {
         justify-items: center;
         grid-gap: 3rem;
         padding: 10rem 0; } }
-    @media (min-width: 1439px) {
+    @media (min-width: 1300px) {
       section .section-split {
         grid-gap: 3rem; } }
   section .section-left {
@@ -448,7 +448,7 @@ section {
     @media (min-width: 820px) {
       section .section-left {
         font-size: 2rem; } }
-    @media (min-width: 1439px) {
+    @media (min-width: 1300px) {
       section .section-left {
         font-size: 3.5rem; } }
     section .section-left h2 {
@@ -462,7 +462,7 @@ section {
     @media (min-width: 820px) {
       section .section-right {
         max-width: 40rem; } }
-    @media (min-width: 1439px) {
+    @media (min-width: 1300px) {
       section .section-right {
         max-width: 45rem; } }
     @media (min-width: 1600px) {
@@ -474,7 +474,7 @@ section {
       @media (min-width: 820px) {
         section .section-right p {
           font-size: 1.25rem; } }
-      @media (min-width: 1439px) {
+      @media (min-width: 1300px) {
         section .section-right p {
           font-size: 1.325rem; } }
       @media (min-width: 1600px) {
@@ -541,7 +541,6 @@ section {
     text-decoration: none;
     -webkit-box-shadow: none;
             box-shadow: none;
-    cursor: wait;
     -webkit-transition: all .2s ease-out;
     transition: all .2s ease-out; }
     .color section a.big-cta {
@@ -916,6 +915,7 @@ section .icon-footer {
           transform: scale(-36, 36);
   top: 4rem;
   left: -4rem;
+  fill: none;
   -webkit-transition: all .2s ease-out;
   transition: all .2s ease-out; }
   .color .icon-large svg {
@@ -1031,7 +1031,7 @@ section .icon-footer {
   width: 100%;
   -webkit-transition: all .2s ease-out;
   transition: all .2s ease-out; }
-  @media (min-width: 1439px) {
+  @media (min-width: 1300px) {
     .section-nav {
       font-size: 0.675rem;
       display: block;
@@ -1122,7 +1122,7 @@ section .icon-footer {
           color: black; }
         .dark .section-nav ul li a {
           color: #999; } }
-      @media (min-width: 1439px) {
+      @media (min-width: 1300px) {
         .section-nav ul li a {
           padding: 0; } }
 
@@ -1159,35 +1159,35 @@ section .icon-footer {
     @media (min-width: 1180px) {
       #main p {
         max-width: 50rem; } }
-  #main .icon-mood-small svg {
+  #main .icon-small svg {
     top: -15rem;
     left: -6rem; }
     @media (min-width: 1180px) {
-      #main .icon-mood-small svg {
+      #main .icon-small svg {
         -webkit-transform: scale(-7, 7);
                 transform: scale(-7, 7);
         top: -15rem;
         left: -16rem; } }
     @media (min-width: 1600px) {
-      #main .icon-mood-small svg {
+      #main .icon-small svg {
         top: -17rem; } }
-  #main .icon-mood-medium svg {
+  #main .icon-medium svg {
     top: 12rem;
     left: 0; }
     @media (min-width: 1180px) {
-      #main .icon-mood-medium svg {
+      #main .icon-medium svg {
         -webkit-transform: scale(22);
                 transform: scale(22);
         top: 15rem;
         left: 10rem; } }
     @media (min-width: 1600px) {
-      #main .icon-mood-medium svg {
+      #main .icon-medium svg {
         top: 26rem; } }
-  #main .icon-mood-large svg {
+  #main .icon-large svg {
     top: 4rem;
     left: 10rem; }
     @media (min-width: 1180px) {
-      #main .icon-mood-large svg {
+      #main .icon-large svg {
         top: -10rem;
         left: 30rem; } }
 
@@ -1218,8 +1218,8 @@ section.icon-divider-one .icon-small svg {
 section.icon-divider-one .icon-medium svg {
   -webkit-transform: scale(12);
           transform: scale(12);
-  top: 3rem;
-  left: -9rem; }
+  top: 7rem;
+  left: -4rem; }
   @media (min-width: 820px) {
     section.icon-divider-one .icon-medium svg {
       -webkit-transform: scale(16);
@@ -1256,7 +1256,9 @@ section.icon-divider-two .icon-small svg {
       left: -20rem; } }
 
 section.icon-divider-two .icon-medium svg {
-  stroke-width: .5px; }
+  stroke-width: .5px;
+  -webkit-transform: scale(8);
+          transform: scale(8); }
   @media (min-width: 1180px) {
     section.icon-divider-two .icon-medium svg {
       -webkit-transform: scale(14);
@@ -1495,7 +1497,7 @@ section.icon-divider-eight .icon-small svg {
     -webkit-transform: scale(72, 72);
             transform: scale(72, 72);
     top: 0rem;
-    left: -20rem; } }
+    left: -24rem; } }
 
 @media (min-width: 1180px) {
   section.icon-divider-eleven .icon-small svg {
@@ -1545,7 +1547,7 @@ section.icon-divider-eight .icon-small svg {
   section.icon-divider-twelve .icon-large svg {
     -webkit-transform: scale(72);
             transform: scale(72);
-    top: 0rem;
+    top: -2rem;
     left: -28rem; } }
 
 @media (min-width: 1180px) {
@@ -1568,7 +1570,7 @@ section.icon-divider-thirteen .icon-large svg {
   @media (min-width: 1180px) {
     section.icon-divider-thirteen .icon-large svg {
       top: 0rem;
-      left: 52rem; } }
+      left: 54rem; } }
 
 section.icon-divider-fourteen .icon-small svg {
   -webkit-transform: scale(5);
@@ -1598,10 +1600,10 @@ section.icon-divider-fourteen .icon-medium svg {
 
 @media (min-width: 1180px) {
   section.icon-divider-fourteen .icon-large svg {
-    -webkit-transform: scale(72, 72);
-            transform: scale(72, 72);
-    top: 8rem;
-    left: 34rem; } }
+    -webkit-transform: scale(58);
+            transform: scale(58);
+    top: -10rem;
+    left: 36rem; } }
 
 @media (min-width: 1600px) {
   section.icon-divider-fourteen .icon-large svg {
@@ -1642,9 +1644,9 @@ section.icon-divider-fifteen .icon-medium svg {
 section.icon-divider-fifteen .icon-large svg {
   top: 4rem;
   left: 4rem;
-  opacity: .1; }
+  fill: rgba(0, 0, 0, 0.1); }
   .dark section.icon-divider-fifteen .icon-large svg {
-    fill: white; }
+    fill: rgba(255, 255, 255, 0.1); }
   @media (min-width: 1180px) {
     section.icon-divider-fifteen .icon-large svg {
       top: 48rem;
@@ -1664,6 +1666,9 @@ section.icon-divider-fifteen .icon-large svg {
       grid-template-columns: 5rem 1fr;
       grid-row-gap: 0; } }
   #workflow .software-description .app-icon {
+    position: static;
+    -webkit-transform: none;
+            transform: none;
     width: 48px;
     height: 48px; }
   #workflow .software-description h3 {
@@ -1846,7 +1851,7 @@ button {
     position: absolute;
     text-indent: 0;
     left: 3rem;
-    top: 1.4rem;
+    top: 1.45rem;
     font-size: 1.125rem;
     opacity: 0;
     -webkit-transition: all .2s ease-out;
@@ -2214,7 +2219,7 @@ section .section-right-container blockquote {
     @media (min-width: 1180px) {
       section .section-right-container blockquote p {
         padding: 3.5rem !important; } }
-    @media (min-width: 1439px) {
+    @media (min-width: 1300px) {
       section .section-right-container blockquote p {
         padding: 5rem !important;
         font-size: 2.25rem !important; } }
@@ -2233,7 +2238,7 @@ section .section-right-container blockquote {
     @media (min-width: 1180px) {
       section .section-right-container blockquote .cite {
         padding-left: 3.5rem; } }
-    @media (min-width: 1439px) {
+    @media (min-width: 1300px) {
       section .section-right-container blockquote .cite {
         padding-left: 5rem; } }
     section .section-right-container blockquote .cite h5, section .section-right-container blockquote .cite h6 {
@@ -2257,7 +2262,7 @@ section .section-right-container blockquote {
       font-weight: 200;
       color: #767676; }
       .color section .section-right-container blockquote .cite h6 {
-        color: black !important;
+        color: #767676 !important;
         -webkit-transition: all .2s ease-out;
         transition: all .2s ease-out; }
       .dark section .section-right-container blockquote .cite h6 {
@@ -2328,14 +2333,14 @@ section .section-right-container blockquote {
   color: #767676;
   font-size: 0.675rem;
   position: absolute;
-  bottom: .625rem;
+  bottom: .25rem;
   right: 1rem;
   z-index: 2500; }
   @media (min-width: 820px) {
     .color-selector {
-      position: relative;
-      right: 2.5rem;
-      bottom: 0; } }
+      position: absolute;
+      right: 3rem;
+      bottom: 1rem; } }
   .color-selector ul {
     text-align: right; }
     .color-selector ul li {
@@ -2362,17 +2367,16 @@ section .section-right-container blockquote {
           .color-selector ul li a.is-active.dark:before, .color-selector ul li a.is-active.dark:hover:before {
             -webkit-box-shadow: 0 0 0 1px white;
                     box-shadow: 0 0 0 1px white; }
-          @media (min-width: 820px) {
-            .color-selector ul li a.is-active:before {
-              -webkit-transform: scale(1.5);
-                      transform: scale(1.5);
-              -webkit-transform-origin: center center;
-                      transform-origin: center center; } }
+          .color-selector ul li a.is-active:before {
+            -webkit-transform: scale(1.5);
+                    transform: scale(1.5);
+            -webkit-transform-origin: center center;
+                    transform-origin: center center; }
         .color-selector ul li a:before {
           content: "";
           display: block;
-          width: 16px;
-          height: 16px;
+          width: 12px;
+          height: 12px;
           border-radius: 50%;
           position: absolute;
           border: 1px solid black;

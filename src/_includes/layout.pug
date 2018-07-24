@@ -10,7 +10,7 @@ html
       meta(name="description" content="Prototype")
       meta(name="HandheldFriendly" content="True")
       meta(name="MobileOptimized" content="320")
-      meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui")
+      meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no")
 
       meta(name='description', content='Download FREE icons from the all new Streamline. Over 30,000 in three styles coming very soon.')
 
@@ -37,13 +37,15 @@ html
       meta(property='og:description', content='Download FREE icons from the all new Streamline. Over 30,000 in three styles coming very soon.')
       meta(property='og:site_name', content='Streamline 3.0')
 
-
     block styles
       link(rel="stylesheet" type="text/css" href="style.css")
-      script(src='_scripts/jquery.js')
-      script(src='_scripts/jquery.cookie.js')
+      link(id="favicon" rel="shortcut icon" type="image/png" href="_assets/img/favicon-light.png")
 
   body
+
+    //- load combined svg file (with symbols) into body
+    include sprite-script
+
     div.body-wrapper
       block controls
         div.controls
@@ -56,7 +58,7 @@ html
           footer
             div.section-nav
               div.ui-btn.menu-btn
-                div.ui-btn-content: svg: use(xlink:href="_assets/img/ui/icon-hamburger.svg#target")
+                div.ui-btn-content: svg: use(xlink:href="#icon-ui-hamburger")
               div.menu
                 ul
                   li: a(href="#main").is-active Welcome
@@ -67,7 +69,7 @@ html
                   li: a(href="#brands") Brands Love'm
                   li: a(href="#webviewer") Web Viewer
                   li: a(href="#options") Package Options
-                  li: a(href="#buy") Buy Now
+                  li: a(href="#price") Buy Now
             div.color-selector
               ul
                 li: a.white.is-active(): span White
