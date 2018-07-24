@@ -784,8 +784,10 @@ $(document).ready(function() {
     // console.log("menu clicked");
     if(menuShowing == false){
       menuShowing = true;
-      $(".section-nav .menu").fadeIn();
-      $(".menu-btn .ui-btn-content").html("<svg><use xlink:href='#icon-ui-hamburger'></use></svg");
+      // $(".section-nav .menu").fadeIn();
+      $(".section-nav .menu").removeClass("menu-flyout-hide");
+      $(".section-nav .menu").addClass("menu-flyout-show");
+      $(".menu-btn .ui-btn-content").html("<svg><use xlink:href='#icon-ui-close'></use></svg");
     } else {
       hideMenu();
     }
@@ -793,8 +795,10 @@ $(document).ready(function() {
 
   function hideMenu(){
     menuShowing = false;
-    $(".section-nav .menu").fadeOut();
-    $(".menu-btn .ui-btn-content").html("<svg><use xlink:href='_assets/img/ui/icon-hamburger.svg#target'></use></svg");
+    // $(".section-nav .menu").fadeOut();
+    $(".section-nav .menu").removeClass("menu-flyout-show");
+    $(".section-nav .menu").addClass("menu-flyout-hide");
+    $(".menu-btn .ui-btn-content").html("<svg><use xlink:href='#icon-ui-hamburger'></use></svg");
   }
 
 });

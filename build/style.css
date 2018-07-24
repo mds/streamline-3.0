@@ -1041,34 +1041,41 @@ section .icon-footer {
               box-shadow: none; } }
   .section-nav .menu {
     font-size: 1rem;
-    padding: 2rem;
+    padding: 1rem 2rem;
     position: relative;
     z-index: 2600;
     max-width: 375px;
     left: 0;
-    bottom: 3.5rem;
+    bottom: 2.5rem;
     background: white;
     border: 1px solid black;
     -webkit-box-shadow: 2px 2px 0 0 black;
             box-shadow: 2px 2px 0 0 black;
-    display: none;
+    opacity: 0;
+    pointer-events: none;
     -webkit-transition: all .2s ease-out;
     transition: all .2s ease-out; }
     @media (min-width: 820px) {
       .section-nav .menu {
         left: 2rem;
+        bottom: 2.5rem;
         padding: 2rem; } }
     @media (min-width: 1180px) {
       .section-nav .menu {
         font-size: 0.675rem;
         display: block;
+        opacity: 1;
         background: none;
         border: none;
         -webkit-box-shadow: none;
                 box-shadow: none;
         padding: 2rem 2rem 1rem;
-        bottom: 0rem;
-        left: 0; } }
+        bottom: 0;
+        left: 0;
+        pointer-events: auto; } }
+    @media (min-width: 1300px) {
+      .section-nav .menu {
+        bottom: 0rem; } }
   .section-nav ul {
     pointer-events: auto;
     padding: 0;
@@ -1083,7 +1090,7 @@ section .icon-footer {
       text-decoration: none;
       display: inline-block;
       outline: none;
-      line-height: 2em;
+      line-height: 2.5em;
       position: relative;
       -webkit-transition: all .2s ease-out;
       transition: all .2s ease-out; }
@@ -1118,10 +1125,12 @@ section .icon-footer {
           .dark .section-nav ul li a.is-active {
             color: white !important; } }
       @media (min-width: 820px) {
-        .color .section-nav ul li a {
-          color: black; }
-        .dark .section-nav ul li a {
-          color: #999; } }
+        .section-nav ul li a {
+          line-height: 2em; }
+          .color .section-nav ul li a {
+            color: black; }
+          .dark .section-nav ul li a {
+            color: #999; } }
       @media (min-width: 1300px) {
         .section-nav ul li a {
           padding: 0; } }
@@ -1144,6 +1153,17 @@ section .icon-footer {
         background: #202020 !important;
         -webkit-transition: all .2s ease-out;
         transition: all .2s ease-out; }
+
+.menu-flyout-show {
+  opacity: 1 !important;
+  -webkit-transform: translateY(-1rem);
+          transform: translateY(-1rem);
+  pointer-events: auto; }
+
+.menu-flyout-hide {
+  opacity: 0;
+  -webkit-transform: translateY(1rem);
+          transform: translateY(1rem); }
 
 #main {
   z-index: 500; }

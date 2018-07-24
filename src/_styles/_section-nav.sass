@@ -38,31 +38,38 @@
 
   .menu
     font-size: 1rem
-    padding: 2rem
+    padding: 1rem 2rem
     position: relative
     z-index: 2600
     max-width: 375px
     left: 0
-    bottom: 3.5rem
+    bottom: 2.5rem
     background: white
     border: 1px solid black
     box-shadow: 2px 2px 0 0 black
-    display: none
+    opacity: 0
+    pointer-events: none
     +easeall
 
     +small
       left: 2rem
+      bottom: 2.5rem
       padding: 2rem
 
     +medium
       font-size: $font-small
       display: block
+      opacity: 1
       background: none
       border: none
       box-shadow: none
       padding: 2rem 2rem 1rem
-      bottom: 0rem
+      bottom: 0
       left: 0
+      pointer-events: auto
+
+    +large
+      bottom: 0rem
 
   ul
     pointer-events: auto
@@ -80,7 +87,7 @@
         text-decoration: none
         display: inline-block
         outline: none
-        line-height: 2em
+        line-height: 2.5em
         position: relative
         +easeall
 
@@ -117,6 +124,8 @@
               color: $color-white !important
 
         +small
+          line-height: 2em
+
           .color &
             color: black
           .dark &
@@ -137,18 +146,12 @@
       background: white
       +themebackground($color-primary, $color-dark)
 
-// .dark .section-nav a
 
+.menu-flyout-show
+  opacity: 1 !important
+  transform: translateY(-1rem)
+  pointer-events: auto
 
-//   +large
-//     color: white !important
-
-  // &:hover
-    // color: $color-white
-    // +easeall
-
-  // &.is-active
-  //   font-weight: bold
-  //   +small
-  //     color: $color-white
-
+.menu-flyout-hide
+  opacity: 0
+  transform: translateY(1rem)
