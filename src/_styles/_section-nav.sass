@@ -42,19 +42,25 @@
     position: relative
     z-index: 2600
     max-width: 375px
+    display: block
     left: 0
     bottom: 2.5rem
     background: white
     border: 1px solid black
     box-shadow: 2px 2px 0 0 black
     opacity: 0
-    pointer-events: none
     +easeall
+
+    a
+      pointer-events: none
 
     +small
       left: 2rem
       bottom: 2.5rem
       padding: 2rem
+
+      a
+        pointer-events: auto
 
     +medium
       font-size: $font-small
@@ -64,12 +70,12 @@
       border: none
       box-shadow: none
       padding: 2rem 2rem 1rem
-      bottom: 0
+      bottom: 0rem
       left: 0
       pointer-events: auto
 
     +large
-      bottom: 0rem
+      // bottom: 0rem
 
   ul
     pointer-events: auto
@@ -105,14 +111,6 @@
           .color &
             background: white
 
-        &:hover
-          color: $color-black
-          +easeall
-
-          &:after
-            width: 100%
-            +easeall
-
         &.is-active
           color: $color-black !important
           opacity: 1
@@ -125,6 +123,14 @@
 
         +small
           line-height: 2em
+
+          &:hover
+            color: $color-black
+            +easeall
+
+            &:after
+              width: 100%
+              +easeall
 
           .color &
             color: black
@@ -150,8 +156,12 @@
 .menu-flyout-show
   opacity: 1 !important
   transform: translateY(-1rem)
-  pointer-events: auto
+  +easeall
+
+  a
+    pointer-events: auto !important
 
 .menu-flyout-hide
   opacity: 0
   transform: translateY(1rem)
+  +easeall

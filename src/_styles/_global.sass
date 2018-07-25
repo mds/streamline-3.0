@@ -21,6 +21,22 @@ body
     background-color: $color-dark-darken
     +easeall
 
+::-moz-selection
+  background: $color-primary
+  .color &
+    color: $color-primary
+    background: $color-dark
+  .dark &
+    color: $color-dark
+
+::selection
+  background: $color-primary
+  .color &
+    color: $color-primary
+    background: $color-dark
+  .dark &
+    color: $color-dark
+
 .body-wrapper
   // overflow-y: scroll
   // overflow-x: hidden
@@ -146,4 +162,10 @@ code
   opacity: 1 !important
   transform: translateY(0)
   +easeall
+
+.display-none
+  display: none !important
+
+.display-block
+  display: block !important
 

@@ -16,7 +16,9 @@ $(document).ready(function() {
   if ($.cookie('colorPref') === 'color') { setThemeColor(); };
   if ($.cookie('colorPref') === "dark")  { setThemeDark();  };
 
-  // disable horizontal scroll – THIS IS A TOTAL HACK because I couldn't figure out how to get the position: sticky <h2>s working while having the .body-wrapper class set to overflow-x: hidden
+  // disable horizontal scroll – THIS IS A TOTAL HACK
+  // because I couldn't figure out how to get
+  // the position: sticky <h2>s working while having the .body-wrapper class set to overflow-x: hidden
   $(function() {
       var $body = $(document);
       $body.bind('scroll', function() {
@@ -29,12 +31,17 @@ $(document).ready(function() {
   });
 
   // make sure the menu is showing if the menu get's closed on mobile and then the browser gets scaled up
-  $(window).resize(function() {
-    if ($(window).width() > 1180) {
-       // console.log('Greater than 1180');
-       $(".section-nav .menu").fadeIn();
-    }
-  });
+  // $(window).resize(function() {
+  //   if ($(window).width() > 1180) {
+  //      // console.log('Greater than 1180');
+  //      // $(".section-nav .menu").fadeIn();
+  //      $(".section-nav .menu").removeClass("display-none");
+  //      $(".section-nav .menu").addClass("display-block");
+  //   } else {
+  //     $(".section-nav .menu").remove("display-block");
+  //     $(".section-nav .menu").addClass("display-none");
+  //   }
+  // });
 
   //////////////////////////////////////////////////////////////////////
 
@@ -85,259 +92,268 @@ $(document).ready(function() {
   // SCROLL MAGIC
   // init controller
 
-  var controller = new ScrollMagic.Controller();
+  // firefox detect
+  if(navigator.userAgent.indexOf("Firefox") > 0){
+    // it's Firefox
+    // alert("I had to disable certain JavaScript features like SVG animation and parallaxy stuff, because Firefox is challenging to get that to work and I'm out of time. Sorry for the jankiness! Pop open Chrome or Safari for a better experience on this site. —MDS");
+  } else {
+    // it's something else
+    var controller = new ScrollMagic.Controller();
 
-  var smallDistance = 100;
-  var mediumDistance = 300;
-  var largeDistance = -400;
+    var smallDistance = 100;
+    var mediumDistance = 300;
+    var largeDistance = -400;
 
-  var tweenMainContent = new TimelineMax ()
-    .add([
-      TweenMax.staggerFromTo("#main .section-content-wrapper .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo("#main .section-content-wrapper .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo("#main .section-content-wrapper .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut}),
-    ]);
+    var tweenMainContent = new TimelineMax ()
+      .add([
+        TweenMax.staggerFromTo("#main .section-content-wrapper .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo("#main .section-content-wrapper .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo("#main .section-content-wrapper .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut}),
+      ]);
 
-  var sceneMainContent = new ScrollMagic.Scene({triggerElement: "#main", triggerHook: 'onLeave', duration: ($("#main").height()+800)})
-      .setTween(tweenMainContent)
-      .addTo(controller);
+    var sceneMainContent = new ScrollMagic.Scene({triggerElement: "#main", triggerHook: 'onLeave', duration: ($("#main").height()+800)})
+        .setTween(tweenMainContent)
+        .addTo(controller);
 
-  // play/stop animation on scene enter/leave
-  sceneMainContent.on("enter", function (event) { aniMood.play(); });
-  sceneMainContent.on("leave", function (event) { aniMood.pause(); });
-
-
-  ////////////////////////////////////////////////////////////////////
-
-  var tweenIconDividerone = new TimelineMax ()
-    .add([
-      TweenMax.staggerFromTo(".icon-divider-one .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-one .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-one .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
-    ]);
-
-  var sceneIconDividerone = new ScrollMagic.Scene({triggerElement: ".icon-divider-one", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-one").height()+800)})
-      .setTween(tweenIconDividerone)
-      .addTo(controller);
-  // play/stop animation on scene enter/leave
-  sceneIconDividerone.on("enter", function (event) { aniYesno.play(); });
-  sceneIconDividerone.on("leave", function (event) { aniYesno.pause(); });
-
-  //////////////////////////////////////////////////////////////////////
-
-  var tweenIconDividertwo = new TimelineMax ()
-    .add([
-      TweenMax.staggerFromTo(".icon-divider-two .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-two .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-two .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
-    ]);
-
-  var sceneIconDividertwo = new ScrollMagic.Scene({triggerElement: ".icon-divider-two", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-two").height()+800)})
-      .setTween(tweenIconDividertwo)
-      .addTo(controller);
-
-  //////////////////////////////////////////////////////////////////////
-
-  var tweenIconDividerthree = new TimelineMax ()
-    .add([
-      TweenMax.staggerFromTo(".icon-divider-three .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-three .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-three .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
-    ]);
-
-  var sceneIconDividerthree = new ScrollMagic.Scene({triggerElement: ".icon-divider-three", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-three").height()+800)})
-      .setTween(tweenIconDividerthree)
-      .addTo(controller);
-  // play/stop animation on scene enter/leave
-  sceneIconDividerthree.on("enter", function (event) { aniLaptop.play(); });
-  sceneIconDividerthree.on("leave", function (event) { aniLaptop.pause(); });
-
-  //////////////////////////////////////////////////////////////////////
-
-  var tweenIconDividerfour = new TimelineMax ()
-    .add([
-      TweenMax.staggerFromTo(".icon-divider-four .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-four .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-four .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
-    ]);
-
-  var sceneIconDividerfour = new ScrollMagic.Scene({triggerElement: ".icon-divider-four", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-four").height()+800)})
-      .setTween(tweenIconDividerfour)
-      .addTo(controller);
-  // play/stop animation on scene enter/leave
-  sceneIconDividerfour.on("enter", function (event) { aniPencil.play(); });
-  sceneIconDividerfour.on("leave", function (event) { aniPencil.pause(); });
-
-  //////////////////////////////////////////////////////////////////////
-
-  var tweenIconDividerfive = new TimelineMax ()
-    .add([
-      TweenMax.staggerFromTo(".icon-divider-five .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-five .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-five .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
-    ]);
-
-  var sceneIconDividerfive = new ScrollMagic.Scene({triggerElement: ".icon-divider-five", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-five").height()+800)})
-      .setTween(tweenIconDividerfive)
-      .addTo(controller);
-  // play/stop animation on scene enter/leave
-  sceneIconDividerfive.on("enter", function (event) { aniHeadphones.play(); });
-  sceneIconDividerfive.on("leave", function (event) { aniHeadphones.pause(); });
+    // play/stop animation on scene enter/leave
+    sceneMainContent.on("enter", function (event) { aniMood.play(); });
+    sceneMainContent.on("leave", function (event) { aniMood.pause(); });
 
 
-  //////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////
 
-  var tweenIconDividersix = new TimelineMax ()
-    .add([
-      TweenMax.staggerFromTo(".icon-divider-six .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-six .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-six .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
-    ]);
+    var tweenIconDividerone = new TimelineMax ()
+      .add([
+        TweenMax.staggerFromTo(".icon-divider-one .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-one .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-one .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
+      ]);
 
-  var sceneIconDividersix = new ScrollMagic.Scene({triggerElement: ".icon-divider-six", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-six").height()+800)})
-      .setTween(tweenIconDividersix)
-      .addTo(controller);
-  // play/stop animation on scene enter/leave
-  sceneIconDividersix.on("enter", function (event) { aniView.play(); });
-  sceneIconDividersix.on("leave", function (event) { aniView.pause(); });
+    var sceneIconDividerone = new ScrollMagic.Scene({triggerElement: ".icon-divider-one", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-one").height()+800)})
+        .setTween(tweenIconDividerone)
+        .addTo(controller);
+    // play/stop animation on scene enter/leave
+    sceneIconDividerone.on("enter", function (event) { aniYesno.play(); });
+    sceneIconDividerone.on("leave", function (event) { aniYesno.pause(); });
 
-  //////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////
 
-  var tweenIconDividerseven = new TimelineMax ()
-    .add([
-      TweenMax.staggerFromTo(".icon-divider-seven .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-seven .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-seven .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
-    ]);
+    var tweenIconDividertwo = new TimelineMax ()
+      .add([
+        TweenMax.staggerFromTo(".icon-divider-two .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-two .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-two .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
+      ]);
 
-  var sceneIconDividerseven = new ScrollMagic.Scene({triggerElement: ".icon-divider-seven", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-seven").height()+800)})
-      .setTween(tweenIconDividerseven)
-      .addTo(controller);
-  // play/stop animation on scene enter/leave
-  sceneIconDividerseven.on("enter", function (event) { aniGirl.play(); });
-  sceneIconDividerseven.on("leave", function (event) { aniGirl.pause(); });
+    var sceneIconDividertwo = new ScrollMagic.Scene({triggerElement: ".icon-divider-two", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-two").height()+800)})
+        .setTween(tweenIconDividertwo)
+        .addTo(controller);
 
-  //////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////
 
-  var tweenIconDividereight = new TimelineMax ()
-    .add([
-      TweenMax.staggerFromTo(".icon-divider-eight .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-eight .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-eight .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
-    ]);
+    var tweenIconDividerthree = new TimelineMax ()
+      .add([
+        TweenMax.staggerFromTo(".icon-divider-three .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-three .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-three .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
+      ]);
 
-  var sceneIconDividereight = new ScrollMagic.Scene({triggerElement: ".icon-divider-eight", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-eight").height()+800)})
-      .setTween(tweenIconDividereight)
-      .addTo(controller);
-  // play/stop animation on scene enter/leave
-  sceneIconDividereight.on("enter", function (event) { aniShake.play(); });
-  sceneIconDividereight.on("leave", function (event) { aniShake.pause(); });
+    var sceneIconDividerthree = new ScrollMagic.Scene({triggerElement: ".icon-divider-three", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-three").height()+800)})
+        .setTween(tweenIconDividerthree)
+        .addTo(controller);
+    // play/stop animation on scene enter/leave
+    sceneIconDividerthree.on("enter", function (event) { aniLaptop.play(); });
+    sceneIconDividerthree.on("leave", function (event) { aniLaptop.pause(); });
 
-  //////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////
 
-  var tweenIconDividernine = new TimelineMax ()
-    .add([
-      TweenMax.staggerFromTo(".icon-divider-nine .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-nine .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-nine .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
-    ]);
+    var tweenIconDividerfour = new TimelineMax ()
+      .add([
+        TweenMax.staggerFromTo(".icon-divider-four .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-four .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-four .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
+      ]);
 
-  var sceneIconDividernine = new ScrollMagic.Scene({triggerElement: ".icon-divider-nine", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-nine").height()+800)})
-      .setTween(tweenIconDividernine)
-      .addTo(controller);
-  // play/stop animation on scene enter/leave
-  sceneIconDividernine.on("enter", function (event) { aniCamera.play(); });
-  sceneIconDividernine.on("leave", function (event) { aniCamera.pause(); });
+    var sceneIconDividerfour = new ScrollMagic.Scene({triggerElement: ".icon-divider-four", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-four").height()+800)})
+        .setTween(tweenIconDividerfour)
+        .addTo(controller);
+    // play/stop animation on scene enter/leave
+    sceneIconDividerfour.on("enter", function (event) { aniPencil.play(); });
+    sceneIconDividerfour.on("leave", function (event) { aniPencil.pause(); });
 
-  //////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////////////////////////////
 
-  var tweenIconDividerten = new TimelineMax ()
-    .add([
-      TweenMax.staggerFromTo(".icon-divider-ten .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-ten .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-ten .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
-    ]);
+    var tweenIconDividerfive = new TimelineMax ()
+      .add([
+        TweenMax.staggerFromTo(".icon-divider-five .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-five .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-five .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
+      ]);
 
-  var sceneIconDividerten = new ScrollMagic.Scene({triggerElement: ".icon-divider-ten", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-ten").height()+800)})
-      .setTween(tweenIconDividerten)
-      .addTo(controller);
-  // play/stop animation on scene enter/leave
-  sceneIconDividerten.on("enter", function (event) { aniTarget.play(); });
-  sceneIconDividerten.on("leave", function (event) { aniTarget.pause(); });
+    var sceneIconDividerfive = new ScrollMagic.Scene({triggerElement: ".icon-divider-five", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-five").height()+800)})
+        .setTween(tweenIconDividerfive)
+        .addTo(controller);
+    // play/stop animation on scene enter/leave
+    sceneIconDividerfive.on("enter", function (event) { aniHeadphones.play(); });
+    sceneIconDividerfive.on("leave", function (event) { aniHeadphones.pause(); });
 
-  //////////////////////////////////////////////////////////////////////
 
-  var tweenIconDividereleven = new TimelineMax ()
-    .add([
-      TweenMax.staggerFromTo(".icon-divider-eleven .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-eleven .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-eleven .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
-    ]);
+    //////////////////////////////////////////////////////////////////////
 
-  var sceneIconDividereleven = new ScrollMagic.Scene({triggerElement: ".icon-divider-eleven", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-eleven").height()+800)})
-      .setTween(tweenIconDividereleven)
-      .addTo(controller);
-  // play/stop animation on scene enter/leave
-  sceneIconDividereleven.on("enter", function (event) { aniFlag.play(); });
-  sceneIconDividereleven.on("leave", function (event) { aniFlag.pause(); });
+    var tweenIconDividersix = new TimelineMax ()
+      .add([
+        TweenMax.staggerFromTo(".icon-divider-six .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-six .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-six .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
+      ]);
 
-  //////////////////////////////////////////////////////////////////////
+    var sceneIconDividersix = new ScrollMagic.Scene({triggerElement: ".icon-divider-six", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-six").height()+800)})
+        .setTween(tweenIconDividersix)
+        .addTo(controller);
+    // play/stop animation on scene enter/leave
+    sceneIconDividersix.on("enter", function (event) { aniView.play(); });
+    sceneIconDividersix.on("leave", function (event) { aniView.pause(); });
 
-  var tweenIconDividertwelve = new TimelineMax ()
-    .add([
-      TweenMax.staggerFromTo(".icon-divider-twelve .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-twelve .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-twelve .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
-    ]);
+    //////////////////////////////////////////////////////////////////////
 
-  var sceneIconDividertwelve = new ScrollMagic.Scene({triggerElement: ".icon-divider-twelve", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-twelve").height()+800)})
-      .setTween(tweenIconDividertwelve)
-      .addTo(controller);
+    var tweenIconDividerseven = new TimelineMax ()
+      .add([
+        TweenMax.staggerFromTo(".icon-divider-seven .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-seven .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-seven .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
+      ]);
 
-  //////////////////////////////////////////////////////////////////////
+    var sceneIconDividerseven = new ScrollMagic.Scene({triggerElement: ".icon-divider-seven", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-seven").height()+800)})
+        .setTween(tweenIconDividerseven)
+        .addTo(controller);
+    // play/stop animation on scene enter/leave
+    sceneIconDividerseven.on("enter", function (event) { aniGirl.play(); });
+    sceneIconDividerseven.on("leave", function (event) { aniGirl.pause(); });
 
-  var tweenIconDividerthirteen = new TimelineMax ()
-    .add([
-      TweenMax.staggerFromTo(".icon-divider-thirteen .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-thirteen .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-thirteen .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
-    ]);
+    //////////////////////////////////////////////////////////////////////
 
-  var sceneIconDividerthirteen = new ScrollMagic.Scene({triggerElement: ".icon-divider-thirteen", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-thirteen").height()+800)})
-      .setTween(tweenIconDividerthirteen)
-      .addTo(controller);
-  // play/stop animation on scene enter/leave
-  sceneIconDividerthirteen.on("enter", function (event) { aniWifi.play(); });
-  sceneIconDividerthirteen.on("leave", function (event) { aniWifi.pause(); });
+    var tweenIconDividereight = new TimelineMax ()
+      .add([
+        TweenMax.staggerFromTo(".icon-divider-eight .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-eight .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-eight .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
+      ]);
 
-  //////////////////////////////////////////////////////////////////////
+    var sceneIconDividereight = new ScrollMagic.Scene({triggerElement: ".icon-divider-eight", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-eight").height()+800)})
+        .setTween(tweenIconDividereight)
+        .addTo(controller);
+    // play/stop animation on scene enter/leave
+    sceneIconDividereight.on("enter", function (event) { aniShake.play(); });
+    sceneIconDividereight.on("leave", function (event) { aniShake.pause(); });
 
-  var tweenIconDividerfourteen = new TimelineMax ()
-    .add([
-      TweenMax.staggerFromTo(".icon-divider-fourteen .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-fourteen .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-fourteen .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
-    ]);
+    //////////////////////////////////////////////////////////////////////
 
-  var sceneIconDividerfourteen = new ScrollMagic.Scene({triggerElement: ".icon-divider-fourteen", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-fourteen").height()+800)})
-      .setTween(tweenIconDividerfourteen)
-      .addTo(controller);
-  // play/stop animation on scene enter/leave
-  sceneIconDividerfourteen.on("enter", function (event) { aniPen.play(); });
-  sceneIconDividerfourteen.on("leave", function (event) { aniPen.pause(); });
+    var tweenIconDividernine = new TimelineMax ()
+      .add([
+        TweenMax.staggerFromTo(".icon-divider-nine .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-nine .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-nine .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
+      ]);
 
-  //////////////////////////////////////////////////////////////////////
+    var sceneIconDividernine = new ScrollMagic.Scene({triggerElement: ".icon-divider-nine", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-nine").height()+800)})
+        .setTween(tweenIconDividernine)
+        .addTo(controller);
+    // play/stop animation on scene enter/leave
+    sceneIconDividernine.on("enter", function (event) { aniCamera.play(); });
+    sceneIconDividernine.on("leave", function (event) { aniCamera.pause(); });
 
-  var tweenIconDividerfifteen = new TimelineMax ()
-    .add([
-      TweenMax.staggerFromTo(".icon-divider-fifteen .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-fifteen .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
-      TweenMax.staggerFromTo(".icon-divider-fifteen .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
-    ]);
+    //////////////////////////////////////////////////////////////////////
 
-  var sceneIconDividerfifteen = new ScrollMagic.Scene({triggerElement: ".icon-divider-fifteen", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-fifteen").height()+800)})
-      .setTween(tweenIconDividerfifteen)
-      .addTo(controller);
+    var tweenIconDividerten = new TimelineMax ()
+      .add([
+        TweenMax.staggerFromTo(".icon-divider-ten .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-ten .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-ten .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
+      ]);
+
+    var sceneIconDividerten = new ScrollMagic.Scene({triggerElement: ".icon-divider-ten", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-ten").height()+800)})
+        .setTween(tweenIconDividerten)
+        .addTo(controller);
+    // play/stop animation on scene enter/leave
+    sceneIconDividerten.on("enter", function (event) { aniTarget.play(); });
+    sceneIconDividerten.on("leave", function (event) { aniTarget.pause(); });
+
+    //////////////////////////////////////////////////////////////////////
+
+    var tweenIconDividereleven = new TimelineMax ()
+      .add([
+        TweenMax.staggerFromTo(".icon-divider-eleven .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-eleven .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-eleven .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
+      ]);
+
+    var sceneIconDividereleven = new ScrollMagic.Scene({triggerElement: ".icon-divider-eleven", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-eleven").height()+800)})
+        .setTween(tweenIconDividereleven)
+        .addTo(controller);
+    // play/stop animation on scene enter/leave
+    sceneIconDividereleven.on("enter", function (event) { aniFlag.play(); });
+    sceneIconDividereleven.on("leave", function (event) { aniFlag.pause(); });
+
+    //////////////////////////////////////////////////////////////////////
+
+    var tweenIconDividertwelve = new TimelineMax ()
+      .add([
+        TweenMax.staggerFromTo(".icon-divider-twelve .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-twelve .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-twelve .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
+      ]);
+
+    var sceneIconDividertwelve = new ScrollMagic.Scene({triggerElement: ".icon-divider-twelve", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-twelve").height()+800)})
+        .setTween(tweenIconDividertwelve)
+        .addTo(controller);
+
+    //////////////////////////////////////////////////////////////////////
+
+    var tweenIconDividerthirteen = new TimelineMax ()
+      .add([
+        TweenMax.staggerFromTo(".icon-divider-thirteen .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-thirteen .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-thirteen .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
+      ]);
+
+    var sceneIconDividerthirteen = new ScrollMagic.Scene({triggerElement: ".icon-divider-thirteen", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-thirteen").height()+800)})
+        .setTween(tweenIconDividerthirteen)
+        .addTo(controller);
+    // play/stop animation on scene enter/leave
+    sceneIconDividerthirteen.on("enter", function (event) { aniWifi.play(); });
+    sceneIconDividerthirteen.on("leave", function (event) { aniWifi.pause(); });
+
+    //////////////////////////////////////////////////////////////////////
+
+    var tweenIconDividerfourteen = new TimelineMax ()
+      .add([
+        TweenMax.staggerFromTo(".icon-divider-fourteen .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-fourteen .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-fourteen .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
+      ]);
+
+    var sceneIconDividerfourteen = new ScrollMagic.Scene({triggerElement: ".icon-divider-fourteen", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-fourteen").height()+800)})
+        .setTween(tweenIconDividerfourteen)
+        .addTo(controller);
+    // play/stop animation on scene enter/leave
+    sceneIconDividerfourteen.on("enter", function (event) { aniPen.play(); });
+    sceneIconDividerfourteen.on("leave", function (event) { aniPen.pause(); });
+
+    //////////////////////////////////////////////////////////////////////
+
+    var tweenIconDividerfifteen = new TimelineMax ()
+      .add([
+        TweenMax.staggerFromTo(".icon-divider-fifteen .icon-small", 1, {y: 0}, {y: smallDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-fifteen .icon-medium", 1, {y: 0}, {y: mediumDistance, ease: Power0.easeOut}),
+        TweenMax.staggerFromTo(".icon-divider-fifteen .icon-large", 1, {y: 0}, {y: largeDistance, ease: Power0.easeOut})
+      ]);
+
+    var sceneIconDividerfifteen = new ScrollMagic.Scene({triggerElement: ".icon-divider-fifteen", offset: -500, triggerHook: 'onLeave', duration: ($(".icon-divider-fifteen").height()+800)})
+        .setTween(tweenIconDividerfifteen)
+        .addTo(controller);
+  }
+
+
 
   //////////////////////////////////////////////////////////////////////
 
@@ -530,7 +546,6 @@ $(document).ready(function() {
     $("html, body").animate({
         scrollTop: $(section).offset().top
     });
-    // if(menuShowing == true){hideMenu();}
   });
 
 
@@ -779,23 +794,28 @@ $(document).ready(function() {
 
   // ****************************************************
   // mobile menu
+
   var menuShowing = false;
   $(".menu-btn").click(function() {
-    // console.log("menu clicked");
     if(menuShowing == false){
-      menuShowing = true;
-      // $(".section-nav .menu").fadeIn();
-      $(".section-nav .menu").removeClass("menu-flyout-hide");
-      $(".section-nav .menu").addClass("menu-flyout-show");
-      $(".menu-btn .ui-btn-content").html("<svg><use xlink:href='#icon-ui-close'></use></svg");
+      showMenu();
     } else {
       hideMenu();
     }
   });
 
+  function showMenu(){
+    menuShowing = true;
+    // $(".section-nav .menu").fadeIn("fast");
+    $(".section-nav .menu").removeClass("menu-flyout-hide");
+    $(".section-nav .menu").addClass("menu-flyout-show");
+    $(".menu-btn .ui-btn-content").html("<svg><use xlink:href='#icon-ui-close'></use></svg");
+  }
+
   function hideMenu(){
     menuShowing = false;
-    // $(".section-nav .menu").fadeOut();
+    // $(".section-nav .menu").fadeOut("fast");
+    console.log("hideMenu fired");
     $(".section-nav .menu").removeClass("menu-flyout-show");
     $(".section-nav .menu").addClass("menu-flyout-hide");
     $(".menu-btn .ui-btn-content").html("<svg><use xlink:href='#icon-ui-hamburger'></use></svg");

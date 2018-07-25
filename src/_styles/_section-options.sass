@@ -1,9 +1,11 @@
 .section-options-list
   display: grid
+  grid-row-gap: 2rem
 
   +small
     grid-template-columns: 1fr 1fr
     grid-column-gap: 4px
+
 
   ul
     padding: 2rem
@@ -40,3 +42,7 @@
 
     em
       font-size: .75rem
+
+    &.not-included
+      opacity: .2
+      cursor: no-drop

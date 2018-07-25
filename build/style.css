@@ -88,6 +88,30 @@ body {
     -webkit-transition: all .2s ease-out;
     transition: all .2s ease-out; }
 
+::-moz-selection {
+  background: #2AFEF1; }
+  .color ::-moz-selection {
+    color: #2AFEF1;
+    background: #202020; }
+  .dark ::-moz-selection {
+    color: #202020; }
+
+::-moz-selection {
+  background: #2AFEF1; }
+
+::selection {
+  background: #2AFEF1; }
+  .color ::-moz-selection {
+    color: #2AFEF1;
+    background: #202020; }
+  .color ::selection {
+    color: #2AFEF1;
+    background: #202020; }
+  .dark ::-moz-selection {
+    color: #202020; }
+  .dark ::selection {
+    color: #202020; }
+
 .main-wrapper {
   width: 100%;
   max-width: 120rem;
@@ -213,6 +237,12 @@ code {
           transform: translateY(0);
   -webkit-transition: all .2s ease-out;
   transition: all .2s ease-out; }
+
+.display-none {
+  display: none !important; }
+
+.display-block {
+  display: block !important; }
 
 .controls {
   height: 100%;
@@ -523,10 +553,10 @@ section {
         -webkit-box-shadow: inset 0 -12px 0 0 #2AFEF1;
                 box-shadow: inset 0 -12px 0 0 #2AFEF1; }
   section .section-right-content {
-    margin-top: 2rem; }
+    margin-top: 4rem; }
     @media (min-width: 820px) {
       section .section-right-content {
-        margin-top: 4rem; } }
+        margin-top: 6rem; } }
     @media (min-width: 1180px) {
       section .section-right-content {
         margin-top: 8rem; } }
@@ -1045,6 +1075,7 @@ section .icon-footer {
     position: relative;
     z-index: 2600;
     max-width: 375px;
+    display: block;
     left: 0;
     bottom: 2.5rem;
     background: white;
@@ -1052,14 +1083,17 @@ section .icon-footer {
     -webkit-box-shadow: 2px 2px 0 0 black;
             box-shadow: 2px 2px 0 0 black;
     opacity: 0;
-    pointer-events: none;
     -webkit-transition: all .2s ease-out;
     transition: all .2s ease-out; }
+    .section-nav .menu a {
+      pointer-events: none; }
     @media (min-width: 820px) {
       .section-nav .menu {
         left: 2rem;
         bottom: 2.5rem;
-        padding: 2rem; } }
+        padding: 2rem; }
+        .section-nav .menu a {
+          pointer-events: auto; } }
     @media (min-width: 1180px) {
       .section-nav .menu {
         font-size: 0.675rem;
@@ -1070,12 +1104,9 @@ section .icon-footer {
         -webkit-box-shadow: none;
                 box-shadow: none;
         padding: 2rem 2rem 1rem;
-        bottom: 0;
+        bottom: 0rem;
         left: 0;
         pointer-events: auto; } }
-    @media (min-width: 1300px) {
-      .section-nav .menu {
-        bottom: 0rem; } }
   .section-nav ul {
     pointer-events: auto;
     padding: 0;
@@ -1107,14 +1138,6 @@ section .icon-footer {
         transition: all .2s ease-out; }
         .color .section-nav ul li a:after {
           background: white; }
-      .section-nav ul li a:hover {
-        color: black;
-        -webkit-transition: all .2s ease-out;
-        transition: all .2s ease-out; }
-        .section-nav ul li a:hover:after {
-          width: 100%;
-          -webkit-transition: all .2s ease-out;
-          transition: all .2s ease-out; }
       .section-nav ul li a.is-active {
         color: black !important;
         opacity: 1;
@@ -1127,6 +1150,14 @@ section .icon-footer {
       @media (min-width: 820px) {
         .section-nav ul li a {
           line-height: 2em; }
+          .section-nav ul li a:hover {
+            color: black;
+            -webkit-transition: all .2s ease-out;
+            transition: all .2s ease-out; }
+            .section-nav ul li a:hover:after {
+              width: 100%;
+              -webkit-transition: all .2s ease-out;
+              transition: all .2s ease-out; }
           .color .section-nav ul li a {
             color: black; }
           .dark .section-nav ul li a {
@@ -1158,12 +1189,17 @@ section .icon-footer {
   opacity: 1 !important;
   -webkit-transform: translateY(-1rem);
           transform: translateY(-1rem);
-  pointer-events: auto; }
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out; }
+  .menu-flyout-show a {
+    pointer-events: auto !important; }
 
 .menu-flyout-hide {
   opacity: 0;
   -webkit-transform: translateY(1rem);
-          transform: translateY(1rem); }
+          transform: translateY(1rem);
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out; }
 
 #main {
   z-index: 500; }
@@ -1180,7 +1216,7 @@ section .icon-footer {
       #main p {
         max-width: 50rem; } }
   #main .icon-small svg {
-    top: -15rem;
+    top: -14rem;
     left: -6rem; }
     @media (min-width: 1180px) {
       #main .icon-small svg {
@@ -1192,7 +1228,7 @@ section .icon-footer {
       #main .icon-small svg {
         top: -17rem; } }
   #main .icon-medium svg {
-    top: 12rem;
+    top: 9rem;
     left: 0; }
     @media (min-width: 1180px) {
       #main .icon-medium svg {
@@ -1225,7 +1261,7 @@ section.icon-divider {
   transition: all .2s ease-out; }
 
 section.icon-divider-one .icon-small svg {
-  top: 0rem;
+  top: -6rem;
   left: 6rem; }
   @media (min-width: 1180px) {
     section.icon-divider-one .icon-small svg {
@@ -1301,8 +1337,6 @@ section.icon-divider-two .icon-medium svg {
     left: 24rem; } }
 
 section.icon-divider-three .icon-small svg {
-  -webkit-transform: scale(10);
-          transform: scale(10);
   top: 9rem;
   left: 0rem; }
   @media (min-width: 1180px) {
@@ -1337,7 +1371,7 @@ section.icon-divider-three .icon-large svg {
       left: -24rem; } }
 
 section.icon-divider-four .icon-small svg {
-  top: 10rem;
+  top: 18rem;
   left: -6rem; }
   @media (min-width: 1180px) {
     section.icon-divider-four .icon-small svg {
@@ -1348,7 +1382,7 @@ section.icon-divider-four .icon-small svg {
 
 section.icon-divider-four .icon-medium svg {
   top: -6rem;
-  left: 5rem; }
+  left: 0rem; }
   @media (min-width: 1180px) {
     section.icon-divider-four .icon-medium svg {
       -webkit-transform: scale(24);
@@ -1380,6 +1414,8 @@ section.icon-divider-five .icon-small svg {
       left: -12rem; } }
 
 section.icon-divider-five .icon-medium svg {
+  -webkit-transform: scale(16);
+          transform: scale(16);
   top: -12rem;
   left: 5rem; }
   @media (min-width: 1180px) {
@@ -1412,7 +1448,10 @@ section.icon-divider-six .icon-small svg {
       left: 30rem; } }
 
 section.icon-divider-six .icon-medium svg {
-  top: -12rem; }
+  -webkit-transform: scale(16);
+          transform: scale(16);
+  top: -12rem;
+  left: 2rem; }
   @media (min-width: 1180px) {
     section.icon-divider-six .icon-medium svg {
       -webkit-transform: scale(34);
@@ -1498,19 +1537,27 @@ section.icon-divider-eight .icon-small svg {
     top: -10rem;
     left: 16rem; } }
 
-@media (min-width: 1180px) {
-  section.icon-divider-ten .icon-small svg {
-    -webkit-transform: scale(13);
-            transform: scale(13);
-    top: -4rem;
-    left: 28rem; } }
+section.icon-divider-ten .icon-small svg {
+  top: 14rem;
+  left: -2rem; }
+  @media (min-width: 1180px) {
+    section.icon-divider-ten .icon-small svg {
+      -webkit-transform: scale(13);
+              transform: scale(13);
+      top: -4rem;
+      left: 28rem; } }
 
-@media (min-width: 1180px) {
-  section.icon-divider-ten .icon-medium svg {
-    -webkit-transform: scale(28);
-            transform: scale(28);
-    top: -6rem;
-    left: -10rem; } }
+section.icon-divider-ten .icon-medium svg {
+  -webkit-transform: scale(16);
+          transform: scale(16);
+  left: 0;
+  top: -12rem; }
+  @media (min-width: 1180px) {
+    section.icon-divider-ten .icon-medium svg {
+      -webkit-transform: scale(28);
+              transform: scale(28);
+      top: -6rem;
+      left: -10rem; } }
 
 @media (min-width: 1180px) {
   section.icon-divider-ten .icon-large svg {
@@ -1570,12 +1617,15 @@ section.icon-divider-eight .icon-small svg {
     top: -2rem;
     left: -28rem; } }
 
-@media (min-width: 1180px) {
-  section.icon-divider-thirteen .icon-small svg {
-    -webkit-transform: scale(6);
-            transform: scale(6);
-    top: 4rem;
-    left: 8rem; } }
+section.icon-divider-thirteen .icon-small svg {
+  -webkit-transform: scale(4);
+          transform: scale(4); }
+  @media (min-width: 1180px) {
+    section.icon-divider-thirteen .icon-small svg {
+      -webkit-transform: scale(6);
+              transform: scale(6);
+      top: 4rem;
+      left: 8rem; } }
 
 @media (min-width: 1180px) {
   section.icon-divider-thirteen .icon-medium svg {
@@ -1585,16 +1635,16 @@ section.icon-divider-eight .icon-small svg {
     left: -18rem; } }
 
 section.icon-divider-thirteen .icon-large svg {
-  -webkit-transform: scale(72);
-          transform: scale(72); }
+  -webkit-transform: scale(48);
+          transform: scale(48); }
   @media (min-width: 1180px) {
     section.icon-divider-thirteen .icon-large svg {
       top: 0rem;
       left: 54rem; } }
 
 section.icon-divider-fourteen .icon-small svg {
-  -webkit-transform: scale(5);
-          transform: scale(5);
+  -webkit-transform: scale(4);
+          transform: scale(4);
   top: 4rem;
   left: -4rem; }
   @media (min-width: 1180px) {
@@ -1606,8 +1656,10 @@ section.icon-divider-fourteen .icon-small svg {
 
 section.icon-divider-fourteen .icon-medium svg {
   top: -16rem;
-  left: 4rem;
-  stroke-width: .5px; }
+  left: 2rem;
+  stroke-width: .5px;
+  -webkit-transform: scale(18);
+          transform: scale(18); }
   @media (min-width: 1180px) {
     section.icon-divider-fourteen .icon-medium svg {
       -webkit-transform: scale(38);
@@ -1651,7 +1703,9 @@ section.icon-divider-fifteen .icon-small svg {
 
 section.icon-divider-fifteen .icon-medium svg {
   top: -17rem;
-  left: 0rem; }
+  left: 0rem;
+  -webkit-transform: scale(8);
+          transform: scale(8); }
   @media (min-width: 1180px) {
     section.icon-divider-fifteen .icon-medium svg {
       -webkit-transform: scale(16);
@@ -1707,7 +1761,8 @@ section.icon-divider-fifteen .icon-large svg {
         padding: 1.5rem 3rem 2rem 0; } }
 
 .section-options-list {
-  display: grid; }
+  display: grid;
+  grid-row-gap: 2rem; }
   @media (min-width: 820px) {
     .section-options-list {
       grid-template-columns: 1fr 1fr;
@@ -1766,6 +1821,9 @@ section.icon-divider-fifteen .icon-large svg {
         transition: all .2s ease-out; }
     .section-options-list li em {
       font-size: .75rem; }
+    .section-options-list li.not-included {
+      opacity: .2;
+      cursor: no-drop; }
 
 @media (min-width: 820px) {
   form {
