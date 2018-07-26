@@ -744,6 +744,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/build\/_assets\/img\/people\/madelena.jpg": {
+		"ft": 16384,
+		"iS": 149798,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/_assets\/img\/people\/madelena.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/build\/_assets\/img\/people\/mds.jpg": {
 		"ft": 16384,
 		"iS": 505806,
@@ -775,6 +786,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/build\/_assets\/img\/people\/stephanie.jpg": {
+		"ft": 16384,
+		"iS": 141124,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/build\/_assets\/img\/people\/stephanie.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/build\/_assets\/img\/people\/tobias.jpg": {
@@ -883,6 +905,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/build\/_assets\/img\/screenshots\/xd.png": {
+		"ft": 32768,
+		"iS": 237875,
+		"oA": 0,
+		"oAP": "\/build\/_assets\/img\/screenshots\/xd.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1138,13 +1171,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/build\/extended-license\/index.html",
-		"oF": 0
-		},
-	"\/build\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/index.html",
 		"oF": 0
 		},
 	"\/build\/privacy-policy\/index.html": {
