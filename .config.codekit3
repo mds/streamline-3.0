@@ -1,0 +1,8311 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "1CA7F492-3C60-4A27-B1EA-0701959A910E"
+		}
+	],
+"creatorBuild": "28795",
+"files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/.gitignore",
+		"oF": 0
+		},
+	"/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/build",
+		"oF": 0
+		},
+	"/Gruntfile.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/build/Gruntfile-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/node_modules",
+		"oF": 0
+		},
+	"/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/build/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Bd.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Bd.eot",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Bd.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Bd.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/fonts/ArGr1000-Bd.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Bd.ttf",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Bd.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Bd.woff",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Bd.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Bd.woff2",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-BdIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-BdIt.eot",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-BdIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-BdIt.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/fonts/ArGr1000-BdIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-BdIt.ttf",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-BdIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-BdIt.woff",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-BdIt.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-BdIt.woff2",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Blk.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Blk.eot",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Blk.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Blk.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/fonts/ArGr1000-Blk.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Blk.ttf",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Blk.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Blk.woff",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Blk.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Blk.woff2",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-BlkIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-BlkIt.eot",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-BlkIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-BlkIt.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/fonts/ArGr1000-BlkIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-BlkIt.ttf",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-BlkIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-BlkIt.woff",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-BlkIt.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-BlkIt.woff2",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Lt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Lt.eot",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Lt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Lt.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/fonts/ArGr1000-Lt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Lt.ttf",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Lt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Lt.woff",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Lt.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Lt.woff2",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-LtIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-LtIt.eot",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-LtIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-LtIt.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/fonts/ArGr1000-LtIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-LtIt.ttf",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-LtIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-LtIt.woff",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-LtIt.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-LtIt.woff2",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Md.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Md.eot",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Md.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Md.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/fonts/ArGr1000-Md.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Md.ttf",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Md.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Md.woff",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Md.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Md.woff2",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-MdIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-MdIt.eot",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-MdIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-MdIt.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/fonts/ArGr1000-MdIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-MdIt.ttf",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-MdIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-MdIt.woff",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-MdIt.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-MdIt.woff2",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Rg.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Rg.eot",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Rg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Rg.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/fonts/ArGr1000-Rg.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Rg.ttf",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Rg.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Rg.woff",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Rg.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Rg.woff2",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-RgIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-RgIt.eot",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-RgIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-RgIt.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/fonts/ArGr1000-RgIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-RgIt.ttf",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-RgIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-RgIt.woff",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-RgIt.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-RgIt.woff2",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Th.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Th.eot",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Th.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Th.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/fonts/ArGr1000-Th.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Th.ttf",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Th.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Th.woff",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-Th.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-Th.woff2",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-ThIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-ThIt.eot",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-ThIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-ThIt.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/fonts/ArGr1000-ThIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-ThIt.ttf",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-ThIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-ThIt.woff",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-ThIt.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-ThIt.woff2",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-UltLt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-UltLt.eot",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-UltLt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-UltLt.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/fonts/ArGr1000-UltLt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-UltLt.ttf",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-UltLt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-UltLt.woff",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-UltLt.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-UltLt.woff2",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-UltLtIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-UltLtIt.eot",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-UltLtIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-UltLtIt.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/fonts/ArGr1000-UltLtIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-UltLtIt.ttf",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-UltLtIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-UltLtIt.woff",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-UltLtIt.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-UltLtIt.woff2",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-XLt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-XLt.eot",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-XLt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-XLt.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/fonts/ArGr1000-XLt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-XLt.ttf",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-XLt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-XLt.woff",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-XLt.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-XLt.woff2",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-XLtIt.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-XLtIt.eot",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-XLtIt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-XLtIt.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/fonts/ArGr1000-XLtIt.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-XLtIt.ttf",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-XLtIt.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-XLtIt.woff",
+		"oF": 1
+		},
+	"/src/_assets/fonts/ArGr1000-XLtIt.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/fonts/ArGr1000-XLtIt.woff2",
+		"oF": 1
+		},
+	"/src/_assets/img/favicon-color.png": {
+		"ft": 32768,
+		"iS": 630,
+		"oA": 0,
+		"oAP": "/build/_assets/img/favicon-color.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/favicon-dark.png": {
+		"ft": 32768,
+		"iS": 590,
+		"oA": 0,
+		"oAP": "/build/_assets/img/favicon-dark.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/favicon-light.png": {
+		"ft": 32768,
+		"iS": 647,
+		"oA": 0,
+		"oAP": "/build/_assets/img/favicon-light.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/icons/giant-icon-sprite.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/icons/giant-icon-sprite.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/people/dan.jpg": {
+		"ft": 16384,
+		"iS": 21740,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/people/dan.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/src/_assets/img/people/dburka.jpg": {
+		"ft": 16384,
+		"iS": 74597,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/people/dburka.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/src/_assets/img/people/emiland.jpg": {
+		"ft": 16384,
+		"iS": 31062,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/people/emiland.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/src/_assets/img/people/heath.jpg": {
+		"ft": 16384,
+		"iS": 23199,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/people/heath.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/src/_assets/img/people/jad.jpg": {
+		"ft": 16384,
+		"iS": 24941,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/people/jad.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/src/_assets/img/people/khoi.jpg": {
+		"ft": 16384,
+		"iS": 49165,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/people/khoi.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/src/_assets/img/people/lucinda.jpg": {
+		"ft": 16384,
+		"iS": 23376,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/people/lucinda.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/src/_assets/img/people/madelena.jpg": {
+		"ft": 16384,
+		"iS": 513612,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/people/madelena.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/src/_assets/img/people/mds.jpg": {
+		"ft": 16384,
+		"iS": 470185,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/people/mds.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/src/_assets/img/people/mikekus.jpg": {
+		"ft": 16384,
+		"iS": 41181,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/people/mikekus.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/src/_assets/img/people/narek.jpg": {
+		"ft": 16384,
+		"iS": 25400,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/people/narek.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/src/_assets/img/people/stephanie.jpg": {
+		"ft": 16384,
+		"iS": 141124,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/people/stephanie.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/src/_assets/img/people/tobias.jpg": {
+		"ft": 16384,
+		"iS": 56127,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/people/tobias.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/src/_assets/img/people/vin.jpg": {
+		"ft": 16384,
+		"iS": 38764,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/people/vin.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/src/_assets/img/people/vincent.jpg": {
+		"ft": 16384,
+		"iS": 23218,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/people/vincent.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/src/_assets/img/screenshots/figma.png": {
+		"ft": 32768,
+		"iS": 412810,
+		"oA": 0,
+		"oAP": "/build/_assets/img/screenshots/figma.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/screenshots/iconjar.png": {
+		"ft": 32768,
+		"iS": 570527,
+		"oA": 0,
+		"oAP": "/build/_assets/img/screenshots/iconjar.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/screenshots/iconjar.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/screenshots/iconjar.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/screenshots/illustrator.png": {
+		"ft": 32768,
+		"iS": 122510,
+		"oA": 0,
+		"oAP": "/build/_assets/img/screenshots/illustrator.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/screenshots/sketch.png": {
+		"ft": 32768,
+		"iS": 719109,
+		"oA": 0,
+		"oAP": "/build/_assets/img/screenshots/sketch.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/screenshots/studio.png": {
+		"ft": 32768,
+		"iS": 124828,
+		"oA": 0,
+		"oAP": "/build/_assets/img/screenshots/studio.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/screenshots/svg.png": {
+		"ft": 32768,
+		"iS": 210919,
+		"oA": 0,
+		"oAP": "/build/_assets/img/screenshots/svg.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/screenshots/xd.png": {
+		"ft": 32768,
+		"iS": 237875,
+		"oA": 0,
+		"oAP": "/build/_assets/img/screenshots/xd.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/showcase/app-orig.png": {
+		"ft": 32768,
+		"iS": 39681,
+		"oA": 0,
+		"oAP": "/build/_assets/img/showcase/app-orig.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/showcase/app.png": {
+		"ft": 32768,
+		"iS": 93101,
+		"oA": 0,
+		"oAP": "/build/_assets/img/showcase/app.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/showcase/applewatch.png": {
+		"ft": 32768,
+		"iS": 46559,
+		"oA": 0,
+		"oAP": "/build/_assets/img/showcase/applewatch.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/showcase/iphone-light.png": {
+		"ft": 32768,
+		"iS": 61726,
+		"oA": 0,
+		"oAP": "/build/_assets/img/showcase/iphone-light.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/showcase/iphone.png": {
+		"ft": 32768,
+		"iS": 67687,
+		"oA": 0,
+		"oAP": "/build/_assets/img/showcase/iphone.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/showcase/spread-big.png": {
+		"ft": 32768,
+		"iS": 138734,
+		"oA": 0,
+		"oAP": "/build/_assets/img/showcase/spread-big.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/showcase/spread-flat.png": {
+		"ft": 32768,
+		"iS": 426128,
+		"oA": 0,
+		"oAP": "/build/_assets/img/showcase/spread-flat.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/showcase/spread.png": {
+		"ft": 32768,
+		"iS": 141120,
+		"oA": 0,
+		"oAP": "/build/_assets/img/showcase/spread.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/showcase/window-zoom.png": {
+		"ft": 32768,
+		"iS": 154857,
+		"oA": 0,
+		"oAP": "/build/_assets/img/showcase/window-zoom.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/showcase/window.png": {
+		"ft": 32768,
+		"iS": 101676,
+		"oA": 0,
+		"oAP": "/build/_assets/img/showcase/window.png",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/svg/brand-adobe.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-adobe.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-amazon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-amazon.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-boa.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-boa.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-capital-one.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-capital-one.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-cisco.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-cisco.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-citi.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-citi.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-converse.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-converse.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-ea.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-ea.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-ebay.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-ebay.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-garmin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-garmin.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-mastercard.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-mastercard.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-mercedes.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-mercedes.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-mit.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-mit.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-oracle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-oracle.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-qualcomm.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-qualcomm.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-reuters.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-reuters.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-sage.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-sage.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-salesforce.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-salesforce.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-samsung.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-samsung.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-sap.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-sap.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-sprint.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-sprint.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-tripadvisor.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-tripadvisor.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-vw.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-vw.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/brand-wells.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/brand-wells.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-bold-alert-message-laptop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-bold-alert-message-laptop.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-bold-cog-double-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-bold-cog-double-3.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-bold-face-id-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-bold-face-id-3.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-bold-graph-stats-circle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-bold-graph-stats-circle.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-bold-headphones-customer-support-human-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-bold-headphones-customer-support-human-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-bold-login-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-bold-login-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-bold-pen-write.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-bold-pen-write.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-bold-pie-line-graph-desktop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-bold-pie-line-graph-desktop.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-bold-pin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-bold-pin.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-bold-screwdriver.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-bold-screwdriver.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-bold-settings-slider-desktop-vertical.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-bold-settings-slider-desktop-vertical.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-bold-settings-toggle-horizontal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-bold-settings-toggle-horizontal.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-light-alert-message-laptop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-light-alert-message-laptop.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-light-cog-double-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-light-cog-double-3.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-light-face-id-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-light-face-id-3.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-light-graph-stats-circle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-light-graph-stats-circle.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-light-headphones-customer-support-human-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-light-headphones-customer-support-human-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-light-login-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-light-login-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-light-pen-write.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-light-pen-write.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-light-pie-line-graph-desktop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-light-pie-line-graph-desktop.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-light-pin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-light-pin.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-light-screwdriver.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-light-screwdriver.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-light-settings-slider-desktop-vertical.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-light-settings-slider-desktop-vertical.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-light-settings-toggle-horizontal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-light-settings-toggle-horizontal.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-regular-alert-message-laptop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-regular-alert-message-laptop.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-regular-cog-double-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-regular-cog-double-3.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-regular-face-id-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-regular-face-id-3.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-regular-graph-stats-circle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-regular-graph-stats-circle.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-regular-headphones-customer-support-human-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-regular-headphones-customer-support-human-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-regular-login-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-regular-login-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-regular-pen-write.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-regular-pen-write.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-regular-pie-line-graph-desktop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-regular-pie-line-graph-desktop.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-regular-pin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-regular-pin.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-regular-screwdriver.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-regular-screwdriver.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-regular-settings-slider-desktop-vertical.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-regular-settings-slider-desktop-vertical.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-01-interface-regular-settings-toggle-horizontal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-01-interface-regular-settings-toggle-horizontal.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-bold-award-medal-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-bold-award-medal-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-bold-certified-ribbon-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-bold-certified-ribbon-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-bold-flag-plain-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-bold-flag-plain-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-bold-like-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-bold-like-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-bold-like-click.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-bold-like-click.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-bold-love-it-phone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-bold-love-it-phone.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-bold-mood-happy-laptop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-bold-mood-happy-laptop.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-bold-mood-rock.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-bold-mood-rock.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-bold-ranking-first.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-bold-ranking-first.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-bold-rating-star-square.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-bold-rating-star-square.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-bold-social-profile-click.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-bold-social-profile-click.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-bold-social-profile-smartphone-add.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-bold-social-profile-smartphone-add.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-light-award-medal-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-light-award-medal-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-light-certified-ribbon-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-light-certified-ribbon-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-light-flag-plain-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-light-flag-plain-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-light-like-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-light-like-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-light-like-click.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-light-like-click.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-light-love-it-phone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-light-love-it-phone.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-light-mood-happy-laptop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-light-mood-happy-laptop.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-light-mood-rock.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-light-mood-rock.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-light-ranking-first.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-light-ranking-first.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-light-rating-star-square.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-light-rating-star-square.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-light-social-profile-click.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-light-social-profile-click.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-light-social-profile-smartphone-add.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-light-social-profile-smartphone-add.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-regular-award-medal-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-regular-award-medal-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-regular-certified-ribbon-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-regular-certified-ribbon-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-regular-flag-plain-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-regular-flag-plain-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-regular-like-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-regular-like-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-regular-like-click.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-regular-like-click.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-regular-love-it-phone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-regular-love-it-phone.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-regular-mood-happy-laptop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-regular-mood-happy-laptop.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-regular-mood-rock.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-regular-mood-rock.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-regular-ranking-first.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-regular-ranking-first.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-regular-rating-star-square.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-regular-rating-star-square.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-regular-social-profile-click.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-regular-social-profile-click.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-02-social-regular-social-profile-smartphone-add.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-02-social-regular-social-profile-smartphone-add.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-bold-browser-hand.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-bold-browser-hand.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-bold-browser-page-account.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-bold-browser-page-account.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-bold-database-share.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-bold-database-share.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-bold-firewall.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-bold-firewall.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-bold-module-phone-puzzle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-bold-module-phone-puzzle.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-bold-monitor-page.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-bold-monitor-page.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-bold-programming-flag.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-bold-programming-flag.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-bold-programming-hold-laptop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-bold-programming-hold-laptop.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-bold-programming-language-code.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-bold-programming-language-code.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-bold-programming-search.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-bold-programming-search.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-bold-programming-team-chat.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-bold-programming-team-chat.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-bold-responsive-design.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-bold-responsive-design.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-light-browser-hand.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-light-browser-hand.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-light-browser-page-account.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-light-browser-page-account.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-light-database-share.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-light-database-share.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-light-firewall.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-light-firewall.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-light-module-phone-puzzle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-light-module-phone-puzzle.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-light-monitor-page.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-light-monitor-page.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-light-programming-flag.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-light-programming-flag.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-light-programming-hold-laptop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-light-programming-hold-laptop.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-light-programming-language-code.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-light-programming-language-code.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-light-programming-search.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-light-programming-search.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-light-programming-team-chat.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-light-programming-team-chat.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-light-responsive-design.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-light-responsive-design.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-regular-browser-hand.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-regular-browser-hand.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-regular-browser-page-account.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-regular-browser-page-account.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-regular-database-share.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-regular-database-share.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-regular-firewall.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-regular-firewall.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-regular-module-phone-puzzle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-regular-module-phone-puzzle.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-regular-monitor-page.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-regular-monitor-page.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-regular-programming-flag.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-regular-programming-flag.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-regular-programming-hold-laptop.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-regular-programming-hold-laptop.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-regular-programming-language-code.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-regular-programming-language-code.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-regular-programming-search.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-regular-programming-search.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-regular-programming-team-chat.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-regular-programming-team-chat.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-03-programming-regular-responsive-design.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-03-programming-regular-responsive-design.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-bold-ab-testing-chemistry.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-bold-ab-testing-chemistry.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-bold-advertising-megaphone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-bold-advertising-megaphone.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-bold-analytics-graph-bar.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-bold-analytics-graph-bar.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-bold-business-climb-top.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-bold-business-climb-top.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-bold-business-contract-give.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-bold-business-contract-give.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-bold-business-deal-handshake.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-bold-business-deal-handshake.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-bold-business-flame.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-bold-business-flame.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-bold-business-shark-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-bold-business-shark-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-bold-business-team-goal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-bold-business-team-goal.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-bold-business-trip-plane.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-bold-business-trip-plane.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-bold-profile-user-cash-message.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-bold-profile-user-cash-message.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-bold-startup-launch-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-bold-startup-launch-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-light-ab-testing-chemistry.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-light-ab-testing-chemistry.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-light-advertising-megaphone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-light-advertising-megaphone.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-light-analytics-graph-bar-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-light-analytics-graph-bar-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-light-analytics-graph-bar.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-light-analytics-graph-bar.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-light-business-climb-top.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-light-business-climb-top.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-light-business-contract-give.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-light-business-contract-give.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-light-business-deal-handshake.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-light-business-deal-handshake.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-light-business-flame.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-light-business-flame.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-light-business-shark-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-light-business-shark-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-light-business-team-goal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-light-business-team-goal.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-light-business-trip-plane.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-light-business-trip-plane.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-light-profile-user-cash-message.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-light-profile-user-cash-message.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-light-startup-launch-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-light-startup-launch-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-regular-ab-testing-chemistry.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-regular-ab-testing-chemistry.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-regular-advertising-megaphone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-regular-advertising-megaphone.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-regular-analytics-graph-bar.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-regular-analytics-graph-bar.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-regular-business-climb-top.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-regular-business-climb-top.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-regular-business-contract-give.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-regular-business-contract-give.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-regular-business-deal-handshake.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-regular-business-deal-handshake.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-regular-business-flame.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-regular-business-flame.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-regular-business-shark-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-regular-business-shark-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-regular-business-team-goal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-regular-business-team-goal.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-regular-business-trip-plane.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-regular-business-trip-plane.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-regular-profile-user-cash-message.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-regular-profile-user-cash-message.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-04-business-regular-startup-launch-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-04-business-regular-startup-launch-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-bold-artboard-image.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-bold-artboard-image.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-bold-color-brush-paint.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-bold-color-brush-paint.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-bold-color-bucket.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-bold-color-bucket.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-bold-color-palette-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-bold-color-palette-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-bold-color-palette-sample-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-bold-color-palette-sample-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-bold-design-pen-tool.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-bold-design-pen-tool.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-bold-design-tool-layout.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-bold-design-tool-layout.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-bold-design-tool-pen-station.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-bold-design-tool-pen-station.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-bold-design-tool-pens.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-bold-design-tool-pens.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-bold-graphic-tablet-draw.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-bold-graphic-tablet-draw.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-bold-shape-rhomboid.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-bold-shape-rhomboid.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-bold-vectors-pen-anchor.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-bold-vectors-pen-anchor.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-light-artboard-image.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-light-artboard-image.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-light-color-brush-paint.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-light-color-brush-paint.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-light-color-bucket.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-light-color-bucket.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-light-color-palette-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-light-color-palette-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-light-color-palette-sample-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-light-color-palette-sample-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-light-design-pen-tool.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-light-design-pen-tool.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-light-design-tool-layout.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-light-design-tool-layout.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-light-design-tool-pen-station.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-light-design-tool-pen-station.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-light-design-tool-pens.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-light-design-tool-pens.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-light-graphic-tablet-draw.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-light-graphic-tablet-draw.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-light-shape-rhomboid.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-light-shape-rhomboid.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-light-vectors-pen-anchor.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-light-vectors-pen-anchor.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-regular-artboard-image.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-regular-artboard-image.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-regular-color-brush-paint.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-regular-color-brush-paint.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-regular-color-bucket.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-regular-color-bucket.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-regular-color-palette-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-regular-color-palette-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-regular-color-palette-sample-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-regular-color-palette-sample-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-regular-design-pen-tool.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-regular-design-pen-tool.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-regular-design-tool-layout.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-regular-design-tool-layout.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-regular-design-tool-pen-station.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-regular-design-tool-pen-station.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-regular-design-tool-pens.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-regular-design-tool-pens.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-regular-graphic-tablet-draw.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-regular-graphic-tablet-draw.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-regular-shape-rhomboid.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-regular-shape-rhomboid.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-05-design-regular-vectors-pen-anchor.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-05-design-regular-vectors-pen-anchor.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-bold-history-man-napoleon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-history-man-napoleon.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-bold-people-man-12.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-people-man-12.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-bold-people-man-cap-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-people-man-cap-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-bold-people-man-graduate.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-people-man-graduate.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-bold-people-woman-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-people-woman-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-bold-people-woman-7.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-people-woman-7.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-bold-police-man-spy-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-police-man-spy-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-bold-police-woman-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-police-woman-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-bold-professions-man-magician.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-professions-man-magician.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-bold-professions-man-post.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-professions-man-post.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-bold-professions-woman-doctor-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-professions-woman-doctor-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-bold-professions-woman-telecommunicator.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-professions-woman-telecommunicator.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-light-history-man-napoleon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-light-history-man-napoleon.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-light-people-man-12.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-light-people-man-12.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-light-people-man-cap-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-light-people-man-cap-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-light-people-man-graduate.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-light-people-man-graduate.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-light-people-woman-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-light-people-woman-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-light-people-woman-7.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-light-people-woman-7.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-light-police-man-spy-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-light-police-man-spy-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-light-police-woman-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-light-police-woman-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-light-professions-man-magician.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-light-professions-man-magician.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-light-professions-man-post.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-light-professions-man-post.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-light-professions-woman-doctor-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-light-professions-woman-doctor-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-light-professions-woman-telecommunicator.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-light-professions-woman-telecommunicator.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-regular-history-man-napoleon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-history-man-napoleon.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-regular-people-man-12.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-people-man-12.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-regular-people-man-cap-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-people-man-cap-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-regular-people-man-graduate.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-people-man-graduate.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-regular-people-woman-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-people-woman-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-regular-people-woman-7.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-people-woman-7.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-regular-police-man-spy-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-police-man-spy-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-regular-police-woman-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-police-woman-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-regular-professions-man-magician.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-professions-man-magician.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-regular-professions-man-post.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-professions-man-post.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-regular-professions-woman-doctor-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-professions-woman-doctor-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-06-avatars-regular-professions-woman-telecommunicator.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-professions-woman-telecommunicator.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-bold-clean-bicycle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-clean-bicycle.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-bold-ecology-globe-hand.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-ecology-globe-hand.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-bold-ecology-globe-house.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-ecology-globe-house.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-bold-ecology-plant-deal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-ecology-plant-deal.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-bold-global-warming-globe-fire-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-global-warming-globe-fire-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-bold-gmo-food-apple.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-gmo-food-apple.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-bold-non-gmo-organic-flask.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-non-gmo-organic-flask.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-bold-organic-flask-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-organic-flask-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-bold-organic-plant.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-organic-plant.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-bold-pollution-rain-skull.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-pollution-rain-skull.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-bold-renewable-energy-solar-panel.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-renewable-energy-solar-panel.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-bold-renewable-energy-wind-turbine-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-renewable-energy-wind-turbine-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-light-clean-bicycle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-light-clean-bicycle.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-light-ecology-globe-hand.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-light-ecology-globe-hand.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-light-ecology-globe-house.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-light-ecology-globe-house.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-light-ecology-plant-deal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-light-ecology-plant-deal.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-light-global-warming-globe-fire-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-light-global-warming-globe-fire-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-light-gmo-food-apple.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-light-gmo-food-apple.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-light-non-gmo-organic-flask.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-light-non-gmo-organic-flask.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-light-organic-flask-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-light-organic-flask-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-light-organic-plant.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-light-organic-plant.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-light-pollution-rain-skull.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-light-pollution-rain-skull.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-light-renewable-energy-solar-panel.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-light-renewable-energy-solar-panel.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-light-renewable-energy-wind-turbine-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-light-renewable-energy-wind-turbine-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-regular-clean-bicycle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-clean-bicycle.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-regular-ecology-globe-hand.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-ecology-globe-hand.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-regular-ecology-globe-house.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-ecology-globe-house.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-regular-ecology-plant-deal.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-ecology-plant-deal.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-regular-global-warming-globe-fire-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-global-warming-globe-fire-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-regular-gmo-food-apple.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-gmo-food-apple.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-regular-non-gmo-organic-flask.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-non-gmo-organic-flask.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-regular-organic-flask-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-organic-flask-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-regular-organic-plant.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-organic-plant.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-regular-pollution-rain-skull.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-pollution-rain-skull.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-regular-renewable-energy-solar-panel.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-renewable-energy-solar-panel.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/category-07-ecology-regular-renewable-energy-wind-turbine-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-renewable-energy-wind-turbine-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-binocular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-binocular.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-camera.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-camera.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-cog.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-cog.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-content-ink-pen-write.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-content-ink-pen-write.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-cup.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-cup.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-design-tool-quill-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-design-tool-quill-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-flag.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-flag.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-frame.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-frame.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-golf-hole.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-golf-hole.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-grenade.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-grenade.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-headphones-human.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-headphones-human.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-lab-flask-experiment.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-lab-flask-experiment.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-laptop-smiley-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-laptop-smiley-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-login-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-login-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-love.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-love.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-mario.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-mario.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-modern-tv-3d-glasses.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-modern-tv-3d-glasses.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-mood-happy.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-mood-happy.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-rooster.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-rooster.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-rose.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-rose.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-science-dna.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-science-dna.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-skull-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-skull-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-slim.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-slim.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-video.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-video.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-view.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-view.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-bold-whale.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-bold-whale.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-binocular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-binocular.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-business-shark-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-business-shark-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-camera.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-camera.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-clean-bicycle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-clean-bicycle.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-cog.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-cog.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-content-ink-pen-write.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-content-ink-pen-write.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-cup.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-cup.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-design-tool-quill-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-design-tool-quill-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-flag.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-flag.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-frame.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-frame.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-golf-hole.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-golf-hole.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-grenade.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-grenade.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-headphones-human.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-headphones-human.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-lab-flask-experiment.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-lab-flask-experiment.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-laptop-smiley-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-laptop-smiley-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-login-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-login-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-love.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-love.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-mario.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-mario.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-modern-tv-3d-glasses.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-modern-tv-3d-glasses.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-mood-happy.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-mood-happy.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-rooster.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-rooster.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-rose.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-rose.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-science-dna.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-science-dna.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-skull-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-skull-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-slim.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-slim.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-video.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-video.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-view.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-view.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-light-whale.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-light-whale.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-binocular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-binocular.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-camera.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-camera.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-cog.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-cog.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-content-ink-pen-write.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-content-ink-pen-write.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-cup.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-cup.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-design-tool-quill-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-design-tool-quill-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-flag.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-flag.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-frame.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-frame.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-golf-hole.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-golf-hole.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-grenade.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-grenade.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-headphones-human.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-headphones-human.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-lab-flask-experiment.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-lab-flask-experiment.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-laptop-smiley-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-laptop-smiley-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-login-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-login-2.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-love.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-love.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-mario.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-mario.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-modern-tv-3d-glasses.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-modern-tv-3d-glasses.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-mood-happy.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-mood-happy.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-rooster.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-rooster.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-rose.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-rose.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-science-dna.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-science-dna.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-skull-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-skull-1.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-slim.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-slim.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-video.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-video.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-view.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-view.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/divider-regular-whale.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/divider-regular-whale.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/ui-close.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/ui-close.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/ui-hamburger.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/ui-hamburger.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/workflow-figma.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/workflow-figma.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/workflow-iconjar.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/workflow-iconjar.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/workflow-illustrator.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/workflow-illustrator.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/workflow-sketch.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/workflow-sketch.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/workflow-studio.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/workflow-studio.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/workflow-svg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/workflow-svg.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/svg/workflow-xd.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/svg/workflow-xd.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_includes/buy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_includes/buy.html",
+		"oF": 1
+		},
+	"/src/_includes/buy.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/_includes/buy.html",
+		"oF": 1,
+		"oS": 0
+		},
+	"/src/_includes/foot.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/_includes/foot.html",
+		"oF": 1,
+		"oS": 0
+		},
+	"/src/_includes/form.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_includes/form.html",
+		"oF": 1
+		},
+	"/src/_includes/form.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/_includes/form.html",
+		"oF": 1,
+		"oS": 0
+		},
+	"/src/_includes/head.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/_includes/head.html",
+		"oF": 1,
+		"oS": 0
+		},
+	"/src/_includes/icon-categories.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_includes/icon-categories.html",
+		"oF": 1
+		},
+	"/src/_includes/icon-categories.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/_includes/icon-categories.html",
+		"oF": 1,
+		"oS": 0
+		},
+	"/src/_includes/icons.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_includes/icons.html",
+		"oF": 1
+		},
+	"/src/_includes/layout.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/_includes/layout.html",
+		"oF": 1,
+		"oS": 0
+		},
+	"/src/_includes/sprite-script.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/_includes/sprite-script.html",
+		"oF": 1,
+		"oS": 0
+		},
+	"/src/_json/bubble.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/build/_json/bubble-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"/src/_json/camera.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/build/_json/camera-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"/src/_json/flag.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/build/_json/flag-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"/src/_json/girl.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/build/_json/girl-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"/src/_json/headphones.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/build/_json/headphones-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"/src/_json/laptop.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/build/_json/laptop-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"/src/_json/pen.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/build/_json/pen-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"/src/_json/pencil.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/build/_json/pencil-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"/src/_json/shake.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/build/_json/shake-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"/src/_json/skull_roll.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/build/_json/skull_roll-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"/src/_json/skull_worm.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/build/_json/skull_worm-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"/src/_json/target.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/build/_json/target-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"/src/_json/view.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/build/_json/view-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"/src/_json/wifi.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/build/_json/wifi-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"/src/_json/yesno.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/build/_json/yesno-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
+	"/src/_scripts/_archive/jquery.countdown.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/jquery.countdown.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/jquery.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/jquery-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/easing/EasePack.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/easing/EasePack.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/easing/EasePack.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/easing/EasePack.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/jquery.gsap.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/jquery.gsap.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/jquery.gsap.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/jquery.gsap.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/AttrPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/AttrPlugin.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/AttrPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/AttrPlugin.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/BezierPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/BezierPlugin.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/BezierPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/BezierPlugin.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/ColorPropsPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/ColorPropsPlugin.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/ColorPropsPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/ColorPropsPlugin.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/CSSPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/CSSPlugin.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/CSSPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/CSSPlugin.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/CSSRulePlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/CSSRulePlugin.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/CSSRulePlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/CSSRulePlugin.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/DirectionalRotationPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/DirectionalRotationPlugin.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/DirectionalRotationPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/DirectionalRotationPlugin.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/EaselPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/EaselPlugin.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/EaselPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/EaselPlugin.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/EndArrayPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/EndArrayPlugin.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/EndArrayPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/EndArrayPlugin.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/KineticPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/KineticPlugin.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/KineticPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/KineticPlugin.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/RaphaelPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/RaphaelPlugin.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/RaphaelPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/RaphaelPlugin.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/RoundPropsPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/RoundPropsPlugin.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/RoundPropsPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/RoundPropsPlugin.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/ScrollToPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/ScrollToPlugin.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/ScrollToPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/ScrollToPlugin.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/TextPlugin.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/TextPlugin.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/plugins/TextPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/TextPlugin.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/TimelineLite.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/TimelineLite.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/TimelineLite.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/TimelineLite.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/TimelineMax.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/TimelineMax.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/TimelineMax.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/TimelineMax.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/TweenLite.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/TweenLite.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/TweenLite.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/TweenLite.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/TweenMax.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/TweenMax.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/TweenMax.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/TweenMax.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/utils/Draggable.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/utils/Draggable.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/greensock/utils/Draggable.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/greensock/utils/Draggable.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/highlight.pack-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/highlight.pack-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/highlight.pack.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/highlight.pack-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/iscroll-probe-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/iscroll-probe-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/iscroll-probe.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/iscroll-probe-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/jquery.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/jquery.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/jquery.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/jquery.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/modernizr.custom.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/modernizr.custom.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/modernizr.custom.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/modernizr.custom.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/velocity.min-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/velocity.min-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/lib/velocity.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/lib/velocity.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/scrollmagic/minified/plugins/animation.gsap.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/scrollmagic/minified/plugins/animation.gsap.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/scrollmagic/minified/plugins/animation.velocity.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/scrollmagic/minified/plugins/animation.velocity.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/scrollmagic/minified/plugins/debug.addIndicators.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/scrollmagic/minified/plugins/debug.addIndicators.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/scrollmagic/minified/plugins/jquery.ScrollMagic.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/scrollmagic/minified/plugins/jquery.ScrollMagic.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/scrollmagic/minified/ScrollMagic.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/scrollmagic/minified/ScrollMagic.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/scrollmagic/uncompressed/plugins/animation.gsap.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/scrollmagic/uncompressed/plugins/animation.gsap-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/scrollmagic/uncompressed/plugins/animation.velocity.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/scrollmagic/uncompressed/plugins/animation.velocity-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/scrollmagic/uncompressed/plugins/debug.addIndicators.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/scrollmagic/uncompressed/plugins/debug.addIndicators-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/scrollmagic/uncompressed/plugins/jquery.ScrollMagic.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/scrollmagic/uncompressed/plugins/jquery.ScrollMagic-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/scrollmagic/uncompressed/ScrollMagic.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/scrollmagic/uncompressed/ScrollMagic-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/_archive/svg-replace.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/_archive/svg-replace-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/streamline.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/streamline.min.js",
+		"oF": 3,
+		"sC": 0,
+		"tS": 0
+		},
+	"/src/_scripts/vendor/animation.gsap.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/vendor/animation.gsap-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/vendor/bodymovin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/vendor/bodymovin-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/vendor/jquery.cookie.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/vendor/jquery.cookie-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/vendor/jquery.countdown.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/vendor/jquery.countdown.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/vendor/jquery.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/vendor/jquery-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/vendor/lottie-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/vendor/lottie-min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/vendor/lottie.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/vendor/lottie-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/vendor/ScrollMagic.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/vendor/ScrollMagic-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_scripts/vendor/TweenMax.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/vendor/TweenMax.min-min.js",
+		"oF": 1,
+		"sC": 3,
+		"tS": 0
+		},
+	"/src/_styles/_blockquote.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_blockquote.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_color-control.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_color-control.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_controls.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_controls.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_floatl.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_floatl.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_fonts.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_fonts.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_footer.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_footer.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_form.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_form.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_global.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_global.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_header.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_header.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_icons-animated.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_icons-animated.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_icons.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_icons.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_mixins.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_mixins.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_reset.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_reset.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_section-buy.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_section-buy.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_section-icondivider.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_section-icondivider.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_section-main.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_section-main.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_section-nav.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_section-nav.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_section-options.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_section-options.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_section-workflow.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_section-workflow.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_section.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_section.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_sitewrapper.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_sitewrapper.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_small-testimonial.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_small-testimonial.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_variables.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_variables.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_weight-example.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_weight-example.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_weight-selector.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/_styles/_weight-selector.css",
+		"oF": 1,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/style.sass": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/style.css",
+		"oF": 3,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/index.html",
+		"oF": 3,
+		"oS": 0
+		},
+	"/src/package.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/build/package-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 549903483,
+	"displayValue": "Streamline",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "meme-ron",
+	"iconImageWasSetByUser": 0
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"destructuring": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"dotall-regex": {
+			"active": 0
+			},
+		"duplicate-keys": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"for-of": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"reserved-words": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"template-literals": {
+			"active": 0
+			},
+		"throw-expressions": {
+			"active": 0
+			},
+		"typeof-symbol": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
+			}
+		},
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
+	"buildFolderActive": 1,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-between-class-members": {
+			"active": 0,
+			"optionString": "'always', {exceptAfterSingleLine: false}"
+			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 0,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 1,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": "{'allowAtRootLevel': false}"
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowAllPropertiesOnSameLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-yield": {
+			"active": 1,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http://localhost:8888",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 1,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"shouldRunCacheBuster": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
+		"quality": 100
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 3,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
+		"enableJavascript": 0,
+		"ieCompatibility": 1,
+		"mathStyle": 0,
+		"outputStyle": 0,
+		"rewriteURLStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 2,
+		"removeComments": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"overrideExternalServerCSS": 0,
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
+	"sourceFolderName": "src",
+	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare_returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"braces": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"collapse_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"html5_comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"indent_level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max_line_len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote_keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"shebang": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": "/build"
+	},
+"settingsFileVersion": "3"
+}

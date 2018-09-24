@@ -4,7 +4,6 @@
 // @codekit-prepend 'vendor/TweenMax.min.js'
 // @codekit-prepend 'vendor/ScrollMagic.js'
 // @codekit-prepend 'vendor/animation.gsap.js'
-// @codekit-prepend 'vendor/jquery.countdown.min.js'
 
 $(document).ready(function() {
 
@@ -471,19 +470,19 @@ $(document).ready(function() {
 
 
   //Final countdown
-  var expiration= "2018/08/07";
-  $("#expiration1").countdown(expiration, function(event) {
-    $(this).html(
-      event.strftime('<strong>%-D</strong>'+' days  '+'<strong>%-H</strong>'+' hrs  '+'<strong>%M</strong>'+' mins  '+'<strong>%S</strong>'+' secs')
-    );
-  });
+  // var expiration= "2018/08/08";
+  // $("#expiration1").countdown(expiration, function(event) {
+  //   $(this).html(
+  //     event.strftime('<strong>%-D</strong>'+' days  '+'<strong>%-H</strong>'+' hrs  '+'<strong>%M</strong>'+' mins  '+'<strong>%S</strong>'+' secs')
+  //   );
+  // });
 
-  //Final countdown
-  $("#expiration2").countdown(expiration, function(event) {
-    $(this).html(
-      event.strftime('<strong>%-D</strong>'+' days  '+'<strong>%-H</strong>'+' hrs  '+'<strong>%M</strong>'+' mins  '+'<strong>%S</strong>'+' secs')
-    );
-  });
+  // //Final countdown
+  // $("#expiration2").countdown(expiration, function(event) {
+  //   $(this).html(
+  //     event.strftime('<strong>%-D</strong>'+' days  '+'<strong>%-H</strong>'+' hrs  '+'<strong>%M</strong>'+' mins  '+'<strong>%S</strong>'+' secs')
+  //   );
+  // });
 
 
   // console.log( $(".icon-categories").height() );

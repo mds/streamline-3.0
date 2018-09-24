@@ -1825,10 +1825,6 @@ section.icon-divider-fifteen .icon-large svg {
       opacity: .2;
       cursor: no-drop; }
 
-@media (min-width: 820px) {
-  form {
-    margin-top: 3.7rem; } }
-
 .form-label {
   background: rgba(0, 0, 0, 0.05);
   margin: 0 2rem 1px; }
@@ -2030,7 +2026,7 @@ section .price-panel {
     font-weight: 900; }
   @media (min-width: 820px) {
     section .price-panel {
-      height: 43rem; } }
+      height: 38rem; } }
   @media (min-width: 1180px) {
     section .price-panel--free:after {
       top: 0;
