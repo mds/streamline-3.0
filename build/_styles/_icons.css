@@ -1,0 +1,238 @@
+.icon-small
+  .icon-wrapper &
+    z-index: 0
+
+.icon-small svg
+  color: $color-electricteal-small
+  +themecolor($color-white, $color-primary)
+  transform: scale(-6, 6)
+  top: 10rem
+  left: -6rem
+  +easeall
+  +medium
+    transform: scale(-9, 9)
+  +xlarge
+    transform: scale(24)
+
+.icon-medium svg
+  color: $color-black
+  +themecolor($color-black, $color-white)
+  transform: scale(12)
+  top: -6rem
+  left: 5rem
+  +easeall
+  +small
+    transform: scale(16)
+  +medium
+    transform: scale(20)
+  +xlarge
+    transform: scale(60)
+
+  stroke-width: 1 !important
+
+.icon-large svg
+  color: rgba($color-black, .1)
+  transform: scale(-36, 36)
+  +themecolor(rgba($color-black, .1), rgba($color-white, .1))
+  top: 4rem
+  left: -4rem
+  fill: none
+  +easeall
+  +medium
+    transform: scale(-72, 72)
+  +xlarge
+    transform: scale(-85, 85)
+
+.icons--regular,
+.icons--bold
+  padding-top: 2rem
+
+// .section-right-icon-wrapper ul li
+//   +outline
+
+//   svg
+//     +outline
+
+.icon-wrapper
+  transform-origin: center center
+  position: absolute
+  width: 24px
+  height: 24px
+  +center
+
+.icons--out
+  transform: scale(.5)
+  opacity: 0
+  +easespeed(.3s)
+
+.icons--in
+  transform: scale(1)
+  opacity: 1
+  +easespeed(.3s)
+
+.is-active
+  // font-weight: bold
+  // box-shadow: 0 1px 0 0 black
+  +easeall
+
+.icons-hidden
+  display: none !important
+
+.icons-showing
+  display: grid !important
+
+.icons--out
+  transform: scale(.5)
+  opacity: 0
+  +easespeed(.3s)
+
+.icons--in
+  transform: scale(1)
+  opacity: 1
+  +easespeed(.3s)
+
+// .icon-preview
+//   max-width: 80rem
+//   margin: -20rem auto 20rem
+
+// a.is-active:hover
+//   background: none
+
+// .controls
+//   text-align: center
+//   padding: .5rem 0 2.5rem
+
+//   +small
+//     padding: 1.25rem 0 2rem
+
+//   li
+//     display: inline
+//     font-size: .675rem
+//     font-weight: 500
+//     padding: 1rem
+
+//     +medium
+//       text-indent: 0
+//       padding: 2rem
+
+//     a
+//       text-decoration: none
+//       padding: .25rem
+//       cursor: pointer
+//       +easeall
+
+// .dark .controls a
+//   color: white
+
+// ul.icons
+//   display: grid
+//   grid-template-columns: repeat(5, 20%)
+//   text-align: center
+//   padding: 0
+
+// .icons li
+//   padding: 8rem 0
+//   width: 100%
+//   transform-origin: center center
+//   +easeall
+
+//   .svg-wrap
+//     display: block
+//     width: 100%
+//     margin: 0
+//     padding: 0
+//     transform: scale(1)
+//     transform-origin: center center
+//     +easeall
+
+//     svg
+//       stroke-dasharray: 1000 // set up first for animation
+//       stroke-dashoffset: 0
+//       animation: icon-animate-in 8s 1 ease-in-out
+
+//   &:hover
+//     // background: $color-dark
+//     +easeall
+
+//     .svg-wrap
+//       transform: scale(1.5)
+//       transform-origin: center center
+//       +easeall
+
+//     svg
+//       animation: icon-animate-hover 4s 1 ease-in-out
+
+//   img, svg
+//     width: 24px
+//     height: 24px
+//     text-align: center
+//     margin: auto
+//     display: block
+//     +easeall
+
+//     +small
+//       width: 32px
+//       height: 32px
+//       +easeall
+
+//     +medium
+//       width: 48px
+//       height: 48px
+//       +easeall
+
+//     +xlarge
+//       width: 60px
+//       height: 60px
+//       +easeall
+
+// .icons--light svg
+//   fill: none
+//   stroke: $color-dark
+
+// .icons--regular svg
+//   fill: none
+//   stroke: $color-dark
+
+// .icons--bold
+//   stroke: none
+//   fill: $color-dark
+//   +easeall
+
+// .dark .icons--light svg
+//   stroke: $color-electricteal
+
+// .dark .icons--regular svg
+//   stroke: $color-electricteal
+
+// .dark .icons--bold
+//   stroke: none
+//   fill: $color-electricteal
+
+// .icons--out
+//   transform: scale(.5)
+//   opacity: 0
+//   +easespeed(.3s)
+
+// .icons--in
+//   transform: scale(1)
+//   opacity: 1
+//   +easeall
+
+// // .is-active
+// //   box-shadow: 0 1px 0 0 black
+// //   +easeall
+
+
+
+// // icon animation hover effect
+// @keyframes icon-animate-hover
+//   0%
+//     stroke-dashoffset: 1000
+//   100%
+//     stroke-dashoffset: 0
+
+// @keyframes icon-animate-in
+//   0%
+//     stroke-dashoffset: 1000
+//   100%
+//     stroke-dashoffest: 0

@@ -1,0 +1,21 @@
+.weight-example
+  min-height: 26rem
+  position: relative
+
+  svg
+    position: absolute
+    top: 45%
+    left: 55%
+    transform: scale(18)// translateY(-50%) translateX(-50%)
+
+  .light
+    color: rgba($color-black, .1)
+    left: 25.5%
+
+  .regular
+    color: black
+    z-index: 1000
+
+  .bold
+    color: $color-primary
+    left: 82.5%

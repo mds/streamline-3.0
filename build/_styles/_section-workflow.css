@@ -1,0 +1,33 @@
+#workflow
+  .software-description
+    display: grid
+    grid-template-columns: 4rem 1fr
+    padding: 2.5rem
+    grid-row-gap: 1.5rem
+
+    +medium
+      padding: 3rem 3rem 1rem
+      grid-template-columns: 5rem 1fr
+      grid-row-gap: 0
+
+    .app-icon
+      position: static
+      transform: none
+      width: 48px
+      height: 48px
+
+    h3
+      text-transform: uppercase
+      font-weight: 900
+      font-size: .875rem
+      letter-spacing: .02rem
+      margin-top: .75rem
+
+      .dark &
+        color: white
+
+    p
+      grid-column: span 2
+      +medium
+        grid-column: 2
+        padding: 1.5rem 3rem 2rem 0

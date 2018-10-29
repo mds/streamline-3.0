@@ -1,0 +1,48 @@
+.section-options-list
+  display: grid
+  grid-row-gap: 2rem
+
+  +small
+    grid-template-columns: 1fr 1fr
+    grid-column-gap: 4px
+
+
+  ul
+    padding: 2rem
+    +themebackgrounddefault
+    box-shadow: inset 0 4px 0 0 $color-electricteal-small
+
+    .color &
+      box-shadow: inset 0 4px 0 0 $color-white
+
+    .dark &
+      box-shadow: inset 0 4px 0 0 $color-primary
+
+    +small
+      padding: 3rem 3rem 5rem
+
+  li
+    font-size: .875rem
+    line-height: 2
+
+    &:first-child
+      font-size: 1rem
+      font-weight: 900
+      color: $color-dark
+      +themecolor($color-dark, $color-white)
+
+      +small
+        font-size: 1.5rem
+        line-height: 1.35
+
+    &:nth-child(2)
+      margin-bottom: 2rem
+      color: $color-light
+      +themecolor($color-dark, $color-light-ondark)
+
+    em
+      font-size: .75rem
+
+    &.not-included
+      opacity: .2
+      cursor: no-drop

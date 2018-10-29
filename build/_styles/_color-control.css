@@ -1,0 +1,105 @@
+
+
+
+.color-selector
+  color: $color-light
+  font-size: $font-small
+  position: absolute
+  bottom: .25rem
+  right: 1rem
+  z-index: 2500
+
+  +small
+    position: absolute // relative
+    right: 3rem
+    bottom: 1rem
+
+  ul
+    text-align: right
+
+    li
+      position: relative
+      margin-bottom: .325rem
+
+      +small
+        margin-bottom: -.25rem
+
+      a
+        pointer-events: auto
+        cursor: pointer
+        outline: none
+
+        &:selection
+          background: none
+
+        &.is-active
+          color: $color-black
+          font-weight: bold
+
+          &.white:before,
+          &.white:hover:before
+            box-shadow: 0 0 0 1px $color-black
+
+          &.color:before,
+          &.color:hover:before
+            box-shadow: 0 0 0 1px $color-black
+
+          &.dark:before,
+          &.dark:hover:before
+            box-shadow: 0 0 0 1px $color-white
+
+          &:before // the active state
+            transform: scale(1.5)
+            transform-origin: center center
+              // +easeall
+
+        &:before
+          content: ""
+          display: block
+          width: 12px
+          height: 12px
+          border-radius: 50%
+          position: absolute
+          border: 1px solid black
+          top: .5rem
+          right: 0
+          cursor: pointer
+          padding: .25rem
+          line-height: 2
+          +easeall
+
+          .dark &
+            border: 1px solid $color-dark
+
+          +small
+            padding: 0rem
+            line-height: 1.5
+            width: 8px
+            height: 8px
+
+        &.white:hover:before,
+        &.color:hover:before,
+        &.dark:hover:before,
+          box-shadow: 0 0 0 4px rgba($color-black, .1)
+          +easeall
+
+        &.white:before
+          background: white
+
+        &.color:before
+          background: $color-electricteal
+
+        &.dark:before
+          background: $color-dark
+
+        span
+          opacity: 0 // hides text
+
+.dark .color-selector a
+  &.white:hover:before,
+  &.color:hover:before,
+  &.dark:hover:before,
+    box-shadow: 0 0 0 4px rgba($color-white, .1)
+    +easeall
+
+

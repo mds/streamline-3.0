@@ -1,0 +1,73 @@
+$xsmall-width: 420px
+$small-width: 820px
+$medium-width: 1180px
+$large-width: 1300px//1439px
+$xlarge-width: 1600px
+
+=xsmall
+  @media (min-width: #{$xsmall-width})
+    @content
+
+=small
+  @media (min-width: #{$small-width})
+    @content
+
+=medium
+  @media (min-width: #{$medium-width})
+    @content
+
+=large
+  @media (min-width: #{$large-width})
+    @content
+
+=xlarge
+  @media (min-width: #{$xlarge-width})
+    @content
+
+=easeall
+  -webkit-transition: all .2s ease-out
+  -moz-transition: all .2s ease-out
+  -o-transition: all .2s ease-out
+  transition: all .2s ease-out
+
+=easespeed($speed)
+  -webkit-transition: all $speed ease-out
+  -moz-transition: all $speed ease-out
+  -o-transition: all $speed ease-out
+  transition: all $speed ease-out
+
+=sans
+  font-family: 'Aribau', -apple-system, ".SFNSText-Regular", "Helvetica Neue", "Segoe UI", sans-serif
+
+=center
+  top: 50%
+  left: 50%
+  transform: translateY(-50%) translateX(-50%)
+
+=outline
+  border: 1px solid red
+
+=themebackground($color, $dark)
+  .color &
+    background: $color !important
+    +easeall
+  .dark &
+    background: $dark !important
+    +easeall
+
+=themebackgrounddefault
+  background: $color-bg-light
+  +themebackground($color-primary-darken, $color-dark-darken)
+
+=themecolor($color, $dark)
+  .color &
+    color: $color !important
+    +easeall
+  .dark &
+    color: $dark !important
+    +easeall
+
+=bigshadow
+  box-shadow: 0 10px 120px 0 rgba($color-black, .1)
+  .dark &
+    box-shadow: 0 10px 120px 0 rgba($color-black, .8)

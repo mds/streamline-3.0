@@ -1,0 +1,29 @@
+.controls
+  height: 100%
+  width: 100%
+  position: fixed
+  max-width: $site-width
+  left: 50%
+  transform: translateX(-50%)
+  padding: 0 1rem
+  z-index: 2000
+  pointer-events: none
+
+  +small
+    padding: 0 3rem
+
+  footer
+    padding: 1rem
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+
+    +small
+      display: grid
+      grid-template-columns: 1fr 1fr
+      align-items: self-end
+      padding: 1rem 1rem
+
+
+

@@ -1,0 +1,65 @@
+section .section-right-container blockquote
+  margin-top: 4rem
+  background: $color-dark
+  color: white
+  +themebackground($color-dark, white)
+  p
+    padding: 2rem !important
+    font-size: 1.25rem !important
+    line-height: 1.35
+    font-weight: 200
+    font-style: italic
+    color: $color-white !important
+    +themecolor($color-white, $color-dark)
+
+    .dark &
+      font-weight: 400
+
+    +small
+      font-size: 2rem
+
+    +medium
+      padding: 3.5rem !important
+
+    +large
+       padding: 5rem !important
+       font-size: 2.25rem !important
+  footer
+    width: 100%
+    display: block
+    position: relative
+    height: 9rem
+    margin-top: 2rem
+
+    +small
+      margin-top: 5rem
+      height: 12rem
+  .cite
+    padding-left: 2rem
+    +medium
+      padding-left: 3.5rem
+    +large
+      padding-left: 5rem
+    h5, h6
+      text-transform: uppercase
+      font-weight: 900
+      font-size: .75rem
+      letter-spacing: .05rem
+      line-height: 1.35
+      +themecolor($color-white, $color-dark)
+      +small
+        font-size: .875rem
+    h6
+      font-weight: 200
+      color: $color-light
+      +themecolor($color-light, $color-light-ondark)
+
+  img
+    max-width: 6rem
+    position: absolute
+    mix-blend-mode: luminosity
+    right: 0
+    bottom: 0
+
+    +small
+      max-width: 12rem

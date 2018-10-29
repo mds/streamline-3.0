@@ -1,0 +1,167 @@
+
+
+.controls
+  .menu-btn
+    width: 2rem
+    height: 2rem
+    bottom: 2rem
+    left: 1rem
+    display: block
+    z-index: 1000
+    position: absolute
+    pointer-events: auto
+
+    +small
+      left: 3rem
+
+    +medium
+      bottom: 2rem
+      left: 0
+      display: none
+
+    svg
+      width: 16px
+      height: 16px
+      position: relative
+      top: .5rem
+
+.section-nav
+  width: 100%
+  +easeall
+
+  +large
+    font-size: $font-small
+    display: block
+    background: none
+    border: none
+    box-shadow: none
+
+  .menu
+    font-size: 1rem
+    padding: 1rem 2rem
+    position: relative
+    z-index: 2600
+    max-width: 375px
+    display: block
+    left: 0
+    bottom: 2.5rem
+    background: white
+    border: 1px solid black
+    box-shadow: 2px 2px 0 0 black
+    opacity: 0
+    +easeall
+
+    a
+      pointer-events: none
+
+    +small
+      left: 2rem
+      bottom: 2.5rem
+      padding: 2rem
+
+      a
+        pointer-events: auto
+
+    +medium
+      font-size: $font-small
+      display: block
+      opacity: 1
+      background: none
+      border: none
+      box-shadow: none
+      padding: 2rem 2rem 1rem
+      bottom: 0rem
+      left: 0
+      pointer-events: auto
+
+    +large
+      // bottom: 0rem
+
+  ul
+    pointer-events: auto
+    padding: 0
+    display: block
+
+    li
+      +medium
+        padding: 0
+        margin: 0
+        line-height: 0
+
+      a
+        color: $color-light
+        text-decoration: none
+        display: inline-block
+        outline: none
+        line-height: 2.5em
+        position: relative
+        +easeall
+
+        &:after
+          content: " "
+          display: inline-block
+          width: 0px
+          height: 1px
+          position: absolute
+          bottom: 2px
+          left: 0
+          background: $color-electricteal-small
+          +easeall
+
+          .color &
+            background: white
+
+        &.is-active
+          color: $color-black !important
+          opacity: 1
+          font-weight: bold
+          box-shadow: none
+
+          .dark &
+            +small
+              color: $color-white !important
+
+        +small
+          line-height: 2em
+
+          &:hover
+            color: $color-black
+            +easeall
+
+            &:after
+              width: 100%
+              +easeall
+
+          .color &
+            color: black
+          .dark &
+            color: $color-light-ondark
+
+        +large
+          padding: 0
+
+.is-faded
+  opacity: .1
+  +easeall
+
+  &:hover
+    opacity: .9
+    +easeall
+
+    .menu
+      background: white
+      +themebackground($color-primary, $color-dark)
+
+
+.menu-flyout-show
+  opacity: 1 !important
+  transform: translateY(-1rem)
+  +easeall
+
+  a
+    pointer-events: auto !important
+
+.menu-flyout-hide
+  opacity: 0
+  transform: translateY(1rem)
+  +easeall

@@ -61,20 +61,20 @@ $(document).ready(function() {
   var domFlag = document.getElementById('icon-flag');
   var domFooter = document.getElementById('icon-footer');
 
-  var aniMood = loadAnimation(domMood, 'svg', true, true, '_json/bubble.json');
-  var aniLaptop = loadAnimation(domLaptop, 'svg', false, true, '_json/laptop.json');
-  var aniCamera = loadAnimation(domCamera, 'svg', false, true, '_json/camera.json');
-  var aniGirl = loadAnimation(domGirl, 'svg', false, true, '_json/girl.json');
-  var aniPencil = loadAnimation(domPencil, 'svg', false, true, '_json/pencil.json');
-  var aniShake = loadAnimation(domShake, 'svg', false, true, '_json/shake.json');
-  var aniTarget = loadAnimation(domTarget, 'svg', false, true, '_json/target.json');
-  var aniWifi = loadAnimation(domWifi, 'svg', false, true, '_json/wifi.json');
-  var aniYesno = loadAnimation(domYesno, 'svg', false, true, '_json/yesno.json');
-  var aniHeadphones = loadAnimation(domHeadphones, 'svg', false, true, '_json/headphones.json');
-  var aniPen = loadAnimation(domPen, 'svg', false, true, '_json/pen.json');
-  var aniView = loadAnimation(domView, 'svg', false, true, '_json/view.json');
-  var aniFlag = loadAnimation(domFlag, 'svg', false, true, '_json/flag.json');
-  var aniFooter = loadAnimation(domFooter, 'svg', false, true, '_json/bubble.json');
+  var aniMood = loadAnimation(domMood, 'svg', true, true, '/_json/bubble.json');
+  var aniLaptop = loadAnimation(domLaptop, 'svg', false, true, '/_json/laptop.json');
+  var aniCamera = loadAnimation(domCamera, 'svg', false, true, '/_json/camera.json');
+  var aniGirl = loadAnimation(domGirl, 'svg', false, true, '/_json/girl.json');
+  var aniPencil = loadAnimation(domPencil, 'svg', false, true, '/_json/pencil.json');
+  var aniShake = loadAnimation(domShake, 'svg', false, true, '/_json/shake.json');
+  var aniTarget = loadAnimation(domTarget, 'svg', false, true, '/_json/target.json');
+  var aniWifi = loadAnimation(domWifi, 'svg', false, true, '/_json/wifi.json');
+  var aniYesno = loadAnimation(domYesno, 'svg', false, true, '/_json/yesno.json');
+  var aniHeadphones = loadAnimation(domHeadphones, 'svg', false, true, '/_json/headphones.json');
+  var aniPen = loadAnimation(domPen, 'svg', false, true, '/_json/pen.json');
+  var aniView = loadAnimation(domView, 'svg', false, true, '/_json/view.json');
+  var aniFlag = loadAnimation(domFlag, 'svg', false, true, '/_json/flag.json');
+  var aniFooter = loadAnimation(domFooter, 'svg', false, true, '/_json/bubble.json');
 
   function loadAnimation(container, renderer, autoplay, loop, jsonpath) {
     var animData = {

@@ -12,15 +12,9 @@
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
-		"oAP": "/build/.gitignore",
-		"oF": 0
-		},
-	"/build": {
-		"ft": 65536,
 		"oA": 1,
-		"oAP": "/build/build",
-		"oF": 0
+		"oAP": "/build/.gitignore",
+		"oF": 1
 		},
 	"/Gruntfile.js": {
 		"ft": 64,
@@ -34,9 +28,9 @@
 		},
 	"/node_modules": {
 		"ft": 65536,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "/build/node_modules",
-		"oF": 0
+		"oF": 1
 		},
 	"/package.json": {
 		"ft": 524288,
@@ -49,14 +43,14 @@
 	"/src/_assets/fonts/ArGr1000-Bd.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Bd.eot",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Bd.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Bd.svg",
 		"oF": 1,
 		"opt": 0,
@@ -66,35 +60,35 @@
 	"/src/_assets/fonts/ArGr1000-Bd.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Bd.ttf",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Bd.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Bd.woff",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Bd.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Bd.woff2",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-BdIt.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-BdIt.eot",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-BdIt.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-BdIt.svg",
 		"oF": 1,
 		"opt": 0,
@@ -104,35 +98,35 @@
 	"/src/_assets/fonts/ArGr1000-BdIt.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-BdIt.ttf",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-BdIt.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-BdIt.woff",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-BdIt.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-BdIt.woff2",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Blk.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Blk.eot",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Blk.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Blk.svg",
 		"oF": 1,
 		"opt": 0,
@@ -142,35 +136,35 @@
 	"/src/_assets/fonts/ArGr1000-Blk.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Blk.ttf",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Blk.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Blk.woff",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Blk.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Blk.woff2",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-BlkIt.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-BlkIt.eot",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-BlkIt.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-BlkIt.svg",
 		"oF": 1,
 		"opt": 0,
@@ -180,35 +174,35 @@
 	"/src/_assets/fonts/ArGr1000-BlkIt.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-BlkIt.ttf",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-BlkIt.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-BlkIt.woff",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-BlkIt.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-BlkIt.woff2",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Lt.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Lt.eot",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Lt.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Lt.svg",
 		"oF": 1,
 		"opt": 0,
@@ -218,35 +212,35 @@
 	"/src/_assets/fonts/ArGr1000-Lt.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Lt.ttf",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Lt.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Lt.woff",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Lt.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Lt.woff2",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-LtIt.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-LtIt.eot",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-LtIt.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-LtIt.svg",
 		"oF": 1,
 		"opt": 0,
@@ -256,35 +250,35 @@
 	"/src/_assets/fonts/ArGr1000-LtIt.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-LtIt.ttf",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-LtIt.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-LtIt.woff",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-LtIt.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-LtIt.woff2",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Md.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Md.eot",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Md.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Md.svg",
 		"oF": 1,
 		"opt": 0,
@@ -294,35 +288,35 @@
 	"/src/_assets/fonts/ArGr1000-Md.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Md.ttf",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Md.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Md.woff",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Md.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Md.woff2",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-MdIt.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-MdIt.eot",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-MdIt.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-MdIt.svg",
 		"oF": 1,
 		"opt": 0,
@@ -332,35 +326,35 @@
 	"/src/_assets/fonts/ArGr1000-MdIt.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-MdIt.ttf",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-MdIt.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-MdIt.woff",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-MdIt.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-MdIt.woff2",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Rg.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Rg.eot",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Rg.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Rg.svg",
 		"oF": 1,
 		"opt": 0,
@@ -370,35 +364,35 @@
 	"/src/_assets/fonts/ArGr1000-Rg.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Rg.ttf",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Rg.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Rg.woff",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Rg.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Rg.woff2",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-RgIt.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-RgIt.eot",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-RgIt.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-RgIt.svg",
 		"oF": 1,
 		"opt": 0,
@@ -408,35 +402,35 @@
 	"/src/_assets/fonts/ArGr1000-RgIt.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-RgIt.ttf",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-RgIt.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-RgIt.woff",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-RgIt.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-RgIt.woff2",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Th.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Th.eot",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Th.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Th.svg",
 		"oF": 1,
 		"opt": 0,
@@ -446,35 +440,35 @@
 	"/src/_assets/fonts/ArGr1000-Th.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Th.ttf",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Th.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Th.woff",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-Th.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-Th.woff2",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-ThIt.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-ThIt.eot",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-ThIt.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-ThIt.svg",
 		"oF": 1,
 		"opt": 0,
@@ -484,35 +478,35 @@
 	"/src/_assets/fonts/ArGr1000-ThIt.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-ThIt.ttf",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-ThIt.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-ThIt.woff",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-ThIt.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-ThIt.woff2",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-UltLt.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-UltLt.eot",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-UltLt.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-UltLt.svg",
 		"oF": 1,
 		"opt": 0,
@@ -522,35 +516,35 @@
 	"/src/_assets/fonts/ArGr1000-UltLt.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-UltLt.ttf",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-UltLt.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-UltLt.woff",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-UltLt.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-UltLt.woff2",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-UltLtIt.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-UltLtIt.eot",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-UltLtIt.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-UltLtIt.svg",
 		"oF": 1,
 		"opt": 0,
@@ -560,35 +554,35 @@
 	"/src/_assets/fonts/ArGr1000-UltLtIt.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-UltLtIt.ttf",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-UltLtIt.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-UltLtIt.woff",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-UltLtIt.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-UltLtIt.woff2",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-XLt.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-XLt.eot",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-XLt.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-XLt.svg",
 		"oF": 1,
 		"opt": 0,
@@ -598,35 +592,35 @@
 	"/src/_assets/fonts/ArGr1000-XLt.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-XLt.ttf",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-XLt.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-XLt.woff",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-XLt.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-XLt.woff2",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-XLtIt.eot": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-XLtIt.eot",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-XLtIt.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-XLtIt.svg",
 		"oF": 1,
 		"opt": 0,
@@ -636,28 +630,28 @@
 	"/src/_assets/fonts/ArGr1000-XLtIt.ttf": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-XLtIt.ttf",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-XLtIt.woff": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-XLtIt.woff",
 		"oF": 1
 		},
 	"/src/_assets/fonts/ArGr1000-XLtIt.woff2": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/fonts/ArGr1000-XLtIt.woff2",
 		"oF": 1
 		},
 	"/src/_assets/img/favicon-color.png": {
 		"ft": 32768,
 		"iS": 630,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/favicon-color.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -668,7 +662,7 @@
 	"/src/_assets/img/favicon-dark.png": {
 		"ft": 32768,
 		"iS": 590,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/favicon-dark.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -679,7 +673,7 @@
 	"/src/_assets/img/favicon-light.png": {
 		"ft": 32768,
 		"iS": 647,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/favicon-light.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -690,7 +684,7 @@
 	"/src/_assets/img/icons/giant-icon-sprite.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/icons/giant-icon-sprite.svg",
 		"oF": 1,
 		"opt": 0,
@@ -701,7 +695,7 @@
 		"ft": 16384,
 		"iS": 21740,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/people/dan.jpg",
 		"oF": 1,
 		"oIPL": 0,
@@ -712,7 +706,7 @@
 		"ft": 16384,
 		"iS": 74597,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/people/dburka.jpg",
 		"oF": 1,
 		"oIPL": 0,
@@ -723,7 +717,7 @@
 		"ft": 16384,
 		"iS": 31062,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/people/emiland.jpg",
 		"oF": 1,
 		"oIPL": 0,
@@ -734,7 +728,7 @@
 		"ft": 16384,
 		"iS": 23199,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/people/heath.jpg",
 		"oF": 1,
 		"oIPL": 0,
@@ -745,7 +739,7 @@
 		"ft": 16384,
 		"iS": 24941,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/people/jad.jpg",
 		"oF": 1,
 		"oIPL": 0,
@@ -756,7 +750,7 @@
 		"ft": 16384,
 		"iS": 49165,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/people/khoi.jpg",
 		"oF": 1,
 		"oIPL": 0,
@@ -767,7 +761,7 @@
 		"ft": 16384,
 		"iS": 23376,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/people/lucinda.jpg",
 		"oF": 1,
 		"oIPL": 0,
@@ -778,7 +772,7 @@
 		"ft": 16384,
 		"iS": 513612,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/people/madelena.jpg",
 		"oF": 1,
 		"oIPL": 0,
@@ -789,7 +783,7 @@
 		"ft": 16384,
 		"iS": 470185,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/people/mds.jpg",
 		"oF": 1,
 		"oIPL": 0,
@@ -800,7 +794,7 @@
 		"ft": 16384,
 		"iS": 41181,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/people/mikekus.jpg",
 		"oF": 1,
 		"oIPL": 0,
@@ -811,7 +805,7 @@
 		"ft": 16384,
 		"iS": 25400,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/people/narek.jpg",
 		"oF": 1,
 		"oIPL": 0,
@@ -822,7 +816,7 @@
 		"ft": 16384,
 		"iS": 141124,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/people/stephanie.jpg",
 		"oF": 1,
 		"oIPL": 0,
@@ -833,7 +827,7 @@
 		"ft": 16384,
 		"iS": 56127,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/people/tobias.jpg",
 		"oF": 1,
 		"oIPL": 0,
@@ -844,7 +838,7 @@
 		"ft": 16384,
 		"iS": 38764,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/people/vin.jpg",
 		"oF": 1,
 		"oIPL": 0,
@@ -855,7 +849,7 @@
 		"ft": 16384,
 		"iS": 23218,
 		"jF": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/people/vincent.jpg",
 		"oF": 1,
 		"oIPL": 0,
@@ -865,7 +859,7 @@
 	"/src/_assets/img/screenshots/figma.png": {
 		"ft": 32768,
 		"iS": 412810,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/screenshots/figma.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -876,7 +870,7 @@
 	"/src/_assets/img/screenshots/iconjar.png": {
 		"ft": 32768,
 		"iS": 570527,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/screenshots/iconjar.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -887,7 +881,7 @@
 	"/src/_assets/img/screenshots/iconjar.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/screenshots/iconjar.svg",
 		"oF": 1,
 		"opt": 0,
@@ -897,7 +891,7 @@
 	"/src/_assets/img/screenshots/illustrator.png": {
 		"ft": 32768,
 		"iS": 122510,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/screenshots/illustrator.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -908,7 +902,7 @@
 	"/src/_assets/img/screenshots/sketch.png": {
 		"ft": 32768,
 		"iS": 719109,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/screenshots/sketch.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -919,7 +913,7 @@
 	"/src/_assets/img/screenshots/studio.png": {
 		"ft": 32768,
 		"iS": 124828,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/screenshots/studio.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -930,7 +924,7 @@
 	"/src/_assets/img/screenshots/svg.png": {
 		"ft": 32768,
 		"iS": 210919,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/screenshots/svg.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -941,7 +935,7 @@
 	"/src/_assets/img/screenshots/xd.png": {
 		"ft": 32768,
 		"iS": 237875,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/screenshots/xd.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -952,7 +946,7 @@
 	"/src/_assets/img/showcase/app-orig.png": {
 		"ft": 32768,
 		"iS": 39681,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/showcase/app-orig.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -963,7 +957,7 @@
 	"/src/_assets/img/showcase/app.png": {
 		"ft": 32768,
 		"iS": 93101,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/showcase/app.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -974,7 +968,7 @@
 	"/src/_assets/img/showcase/applewatch.png": {
 		"ft": 32768,
 		"iS": 46559,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/showcase/applewatch.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -985,7 +979,7 @@
 	"/src/_assets/img/showcase/iphone-light.png": {
 		"ft": 32768,
 		"iS": 61726,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/showcase/iphone-light.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -996,7 +990,7 @@
 	"/src/_assets/img/showcase/iphone.png": {
 		"ft": 32768,
 		"iS": 67687,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/showcase/iphone.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -1007,7 +1001,7 @@
 	"/src/_assets/img/showcase/spread-big.png": {
 		"ft": 32768,
 		"iS": 138734,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/showcase/spread-big.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -1018,7 +1012,7 @@
 	"/src/_assets/img/showcase/spread-flat.png": {
 		"ft": 32768,
 		"iS": 426128,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/showcase/spread-flat.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -1029,7 +1023,7 @@
 	"/src/_assets/img/showcase/spread.png": {
 		"ft": 32768,
 		"iS": 141120,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/showcase/spread.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -1040,7 +1034,7 @@
 	"/src/_assets/img/showcase/window-zoom.png": {
 		"ft": 32768,
 		"iS": 154857,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/showcase/window-zoom.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -1051,7 +1045,7 @@
 	"/src/_assets/img/showcase/window.png": {
 		"ft": 32768,
 		"iS": 101676,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/showcase/window.png",
 		"oF": 1,
 		"oIPL": 0,
@@ -1062,7 +1056,7 @@
 	"/src/_assets/img/svg/brand-adobe.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-adobe.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1072,7 +1066,7 @@
 	"/src/_assets/img/svg/brand-amazon.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-amazon.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1082,7 +1076,7 @@
 	"/src/_assets/img/svg/brand-boa.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-boa.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1092,7 +1086,7 @@
 	"/src/_assets/img/svg/brand-capital-one.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-capital-one.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1102,7 +1096,7 @@
 	"/src/_assets/img/svg/brand-cisco.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-cisco.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1112,7 +1106,7 @@
 	"/src/_assets/img/svg/brand-citi.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-citi.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1122,7 +1116,7 @@
 	"/src/_assets/img/svg/brand-converse.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-converse.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1132,7 +1126,7 @@
 	"/src/_assets/img/svg/brand-ea.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-ea.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1142,7 +1136,7 @@
 	"/src/_assets/img/svg/brand-ebay.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-ebay.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1152,7 +1146,7 @@
 	"/src/_assets/img/svg/brand-garmin.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-garmin.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1162,7 +1156,7 @@
 	"/src/_assets/img/svg/brand-mastercard.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-mastercard.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1172,7 +1166,7 @@
 	"/src/_assets/img/svg/brand-mercedes.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-mercedes.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1182,7 +1176,7 @@
 	"/src/_assets/img/svg/brand-mit.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-mit.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1192,7 +1186,7 @@
 	"/src/_assets/img/svg/brand-oracle.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-oracle.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1202,7 +1196,7 @@
 	"/src/_assets/img/svg/brand-qualcomm.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-qualcomm.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1212,7 +1206,7 @@
 	"/src/_assets/img/svg/brand-reuters.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-reuters.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1222,7 +1216,7 @@
 	"/src/_assets/img/svg/brand-sage.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-sage.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1232,7 +1226,7 @@
 	"/src/_assets/img/svg/brand-salesforce.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-salesforce.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1242,7 +1236,7 @@
 	"/src/_assets/img/svg/brand-samsung.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-samsung.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1252,7 +1246,7 @@
 	"/src/_assets/img/svg/brand-sap.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-sap.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1262,7 +1256,7 @@
 	"/src/_assets/img/svg/brand-sprint.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-sprint.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1272,7 +1266,7 @@
 	"/src/_assets/img/svg/brand-tripadvisor.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-tripadvisor.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1282,7 +1276,7 @@
 	"/src/_assets/img/svg/brand-vw.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-vw.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1292,7 +1286,7 @@
 	"/src/_assets/img/svg/brand-wells.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/brand-wells.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1302,7 +1296,7 @@
 	"/src/_assets/img/svg/category-01-interface-bold-alert-message-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-bold-alert-message-laptop.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1312,7 +1306,7 @@
 	"/src/_assets/img/svg/category-01-interface-bold-cog-double-3.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-bold-cog-double-3.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1322,7 +1316,7 @@
 	"/src/_assets/img/svg/category-01-interface-bold-face-id-3.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-bold-face-id-3.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1332,7 +1326,7 @@
 	"/src/_assets/img/svg/category-01-interface-bold-graph-stats-circle.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-bold-graph-stats-circle.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1342,7 +1336,7 @@
 	"/src/_assets/img/svg/category-01-interface-bold-headphones-customer-support-human-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-bold-headphones-customer-support-human-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1352,7 +1346,7 @@
 	"/src/_assets/img/svg/category-01-interface-bold-login-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-bold-login-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1362,7 +1356,7 @@
 	"/src/_assets/img/svg/category-01-interface-bold-pen-write.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-bold-pen-write.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1372,7 +1366,7 @@
 	"/src/_assets/img/svg/category-01-interface-bold-pie-line-graph-desktop.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-bold-pie-line-graph-desktop.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1382,7 +1376,7 @@
 	"/src/_assets/img/svg/category-01-interface-bold-pin.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-bold-pin.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1392,7 +1386,7 @@
 	"/src/_assets/img/svg/category-01-interface-bold-screwdriver.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-bold-screwdriver.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1402,7 +1396,7 @@
 	"/src/_assets/img/svg/category-01-interface-bold-settings-slider-desktop-vertical.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-bold-settings-slider-desktop-vertical.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1412,7 +1406,7 @@
 	"/src/_assets/img/svg/category-01-interface-bold-settings-toggle-horizontal.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-bold-settings-toggle-horizontal.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1422,7 +1416,7 @@
 	"/src/_assets/img/svg/category-01-interface-light-alert-message-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-light-alert-message-laptop.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1432,7 +1426,7 @@
 	"/src/_assets/img/svg/category-01-interface-light-cog-double-3.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-light-cog-double-3.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1442,7 +1436,7 @@
 	"/src/_assets/img/svg/category-01-interface-light-face-id-3.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-light-face-id-3.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1452,7 +1446,7 @@
 	"/src/_assets/img/svg/category-01-interface-light-graph-stats-circle.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-light-graph-stats-circle.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1462,7 +1456,7 @@
 	"/src/_assets/img/svg/category-01-interface-light-headphones-customer-support-human-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-light-headphones-customer-support-human-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1472,7 +1466,7 @@
 	"/src/_assets/img/svg/category-01-interface-light-login-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-light-login-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1482,7 +1476,7 @@
 	"/src/_assets/img/svg/category-01-interface-light-pen-write.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-light-pen-write.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1492,7 +1486,7 @@
 	"/src/_assets/img/svg/category-01-interface-light-pie-line-graph-desktop.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-light-pie-line-graph-desktop.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1502,7 +1496,7 @@
 	"/src/_assets/img/svg/category-01-interface-light-pin.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-light-pin.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1512,7 +1506,7 @@
 	"/src/_assets/img/svg/category-01-interface-light-screwdriver.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-light-screwdriver.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1522,7 +1516,7 @@
 	"/src/_assets/img/svg/category-01-interface-light-settings-slider-desktop-vertical.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-light-settings-slider-desktop-vertical.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1532,7 +1526,7 @@
 	"/src/_assets/img/svg/category-01-interface-light-settings-toggle-horizontal.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-light-settings-toggle-horizontal.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1542,7 +1536,7 @@
 	"/src/_assets/img/svg/category-01-interface-regular-alert-message-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-regular-alert-message-laptop.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1552,7 +1546,7 @@
 	"/src/_assets/img/svg/category-01-interface-regular-cog-double-3.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-regular-cog-double-3.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1562,7 +1556,7 @@
 	"/src/_assets/img/svg/category-01-interface-regular-face-id-3.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-regular-face-id-3.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1572,7 +1566,7 @@
 	"/src/_assets/img/svg/category-01-interface-regular-graph-stats-circle.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-regular-graph-stats-circle.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1582,7 +1576,7 @@
 	"/src/_assets/img/svg/category-01-interface-regular-headphones-customer-support-human-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-regular-headphones-customer-support-human-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1592,7 +1586,7 @@
 	"/src/_assets/img/svg/category-01-interface-regular-login-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-regular-login-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1602,7 +1596,7 @@
 	"/src/_assets/img/svg/category-01-interface-regular-pen-write.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-regular-pen-write.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1612,7 +1606,7 @@
 	"/src/_assets/img/svg/category-01-interface-regular-pie-line-graph-desktop.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-regular-pie-line-graph-desktop.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1622,7 +1616,7 @@
 	"/src/_assets/img/svg/category-01-interface-regular-pin.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-regular-pin.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1632,7 +1626,7 @@
 	"/src/_assets/img/svg/category-01-interface-regular-screwdriver.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-regular-screwdriver.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1642,7 +1636,7 @@
 	"/src/_assets/img/svg/category-01-interface-regular-settings-slider-desktop-vertical.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-regular-settings-slider-desktop-vertical.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1652,7 +1646,7 @@
 	"/src/_assets/img/svg/category-01-interface-regular-settings-toggle-horizontal.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-01-interface-regular-settings-toggle-horizontal.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1662,7 +1656,7 @@
 	"/src/_assets/img/svg/category-02-social-bold-award-medal-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-bold-award-medal-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1672,7 +1666,7 @@
 	"/src/_assets/img/svg/category-02-social-bold-certified-ribbon-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-bold-certified-ribbon-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1682,7 +1676,7 @@
 	"/src/_assets/img/svg/category-02-social-bold-flag-plain-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-bold-flag-plain-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1692,7 +1686,7 @@
 	"/src/_assets/img/svg/category-02-social-bold-like-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-bold-like-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1702,7 +1696,7 @@
 	"/src/_assets/img/svg/category-02-social-bold-like-click.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-bold-like-click.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1712,7 +1706,7 @@
 	"/src/_assets/img/svg/category-02-social-bold-love-it-phone.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-bold-love-it-phone.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1722,7 +1716,7 @@
 	"/src/_assets/img/svg/category-02-social-bold-mood-happy-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-bold-mood-happy-laptop.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1732,7 +1726,7 @@
 	"/src/_assets/img/svg/category-02-social-bold-mood-rock.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-bold-mood-rock.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1742,7 +1736,7 @@
 	"/src/_assets/img/svg/category-02-social-bold-ranking-first.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-bold-ranking-first.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1752,7 +1746,7 @@
 	"/src/_assets/img/svg/category-02-social-bold-rating-star-square.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-bold-rating-star-square.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1762,7 +1756,7 @@
 	"/src/_assets/img/svg/category-02-social-bold-social-profile-click.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-bold-social-profile-click.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1772,7 +1766,7 @@
 	"/src/_assets/img/svg/category-02-social-bold-social-profile-smartphone-add.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-bold-social-profile-smartphone-add.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1782,7 +1776,7 @@
 	"/src/_assets/img/svg/category-02-social-light-award-medal-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-light-award-medal-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1792,7 +1786,7 @@
 	"/src/_assets/img/svg/category-02-social-light-certified-ribbon-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-light-certified-ribbon-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1802,7 +1796,7 @@
 	"/src/_assets/img/svg/category-02-social-light-flag-plain-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-light-flag-plain-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1812,7 +1806,7 @@
 	"/src/_assets/img/svg/category-02-social-light-like-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-light-like-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1822,7 +1816,7 @@
 	"/src/_assets/img/svg/category-02-social-light-like-click.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-light-like-click.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1832,7 +1826,7 @@
 	"/src/_assets/img/svg/category-02-social-light-love-it-phone.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-light-love-it-phone.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1842,7 +1836,7 @@
 	"/src/_assets/img/svg/category-02-social-light-mood-happy-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-light-mood-happy-laptop.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1852,7 +1846,7 @@
 	"/src/_assets/img/svg/category-02-social-light-mood-rock.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-light-mood-rock.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1862,7 +1856,7 @@
 	"/src/_assets/img/svg/category-02-social-light-ranking-first.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-light-ranking-first.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1872,7 +1866,7 @@
 	"/src/_assets/img/svg/category-02-social-light-rating-star-square.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-light-rating-star-square.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1882,7 +1876,7 @@
 	"/src/_assets/img/svg/category-02-social-light-social-profile-click.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-light-social-profile-click.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1892,7 +1886,7 @@
 	"/src/_assets/img/svg/category-02-social-light-social-profile-smartphone-add.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-light-social-profile-smartphone-add.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1902,7 +1896,7 @@
 	"/src/_assets/img/svg/category-02-social-regular-award-medal-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-regular-award-medal-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1912,7 +1906,7 @@
 	"/src/_assets/img/svg/category-02-social-regular-certified-ribbon-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-regular-certified-ribbon-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1922,7 +1916,7 @@
 	"/src/_assets/img/svg/category-02-social-regular-flag-plain-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-regular-flag-plain-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1932,7 +1926,7 @@
 	"/src/_assets/img/svg/category-02-social-regular-like-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-regular-like-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1942,7 +1936,7 @@
 	"/src/_assets/img/svg/category-02-social-regular-like-click.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-regular-like-click.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1952,7 +1946,7 @@
 	"/src/_assets/img/svg/category-02-social-regular-love-it-phone.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-regular-love-it-phone.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1962,7 +1956,7 @@
 	"/src/_assets/img/svg/category-02-social-regular-mood-happy-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-regular-mood-happy-laptop.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1972,7 +1966,7 @@
 	"/src/_assets/img/svg/category-02-social-regular-mood-rock.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-regular-mood-rock.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1982,7 +1976,7 @@
 	"/src/_assets/img/svg/category-02-social-regular-ranking-first.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-regular-ranking-first.svg",
 		"oF": 1,
 		"opt": 0,
@@ -1992,7 +1986,7 @@
 	"/src/_assets/img/svg/category-02-social-regular-rating-star-square.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-regular-rating-star-square.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2002,7 +1996,7 @@
 	"/src/_assets/img/svg/category-02-social-regular-social-profile-click.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-regular-social-profile-click.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2012,7 +2006,7 @@
 	"/src/_assets/img/svg/category-02-social-regular-social-profile-smartphone-add.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-02-social-regular-social-profile-smartphone-add.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2022,7 +2016,7 @@
 	"/src/_assets/img/svg/category-03-programming-bold-browser-hand.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-bold-browser-hand.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2032,7 +2026,7 @@
 	"/src/_assets/img/svg/category-03-programming-bold-browser-page-account.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-bold-browser-page-account.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2042,7 +2036,7 @@
 	"/src/_assets/img/svg/category-03-programming-bold-database-share.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-bold-database-share.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2052,7 +2046,7 @@
 	"/src/_assets/img/svg/category-03-programming-bold-firewall.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-bold-firewall.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2062,7 +2056,7 @@
 	"/src/_assets/img/svg/category-03-programming-bold-module-phone-puzzle.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-bold-module-phone-puzzle.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2072,7 +2066,7 @@
 	"/src/_assets/img/svg/category-03-programming-bold-monitor-page.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-bold-monitor-page.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2082,7 +2076,7 @@
 	"/src/_assets/img/svg/category-03-programming-bold-programming-flag.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-bold-programming-flag.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2092,7 +2086,7 @@
 	"/src/_assets/img/svg/category-03-programming-bold-programming-hold-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-bold-programming-hold-laptop.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2102,7 +2096,7 @@
 	"/src/_assets/img/svg/category-03-programming-bold-programming-language-code.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-bold-programming-language-code.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2112,7 +2106,7 @@
 	"/src/_assets/img/svg/category-03-programming-bold-programming-search.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-bold-programming-search.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2122,7 +2116,7 @@
 	"/src/_assets/img/svg/category-03-programming-bold-programming-team-chat.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-bold-programming-team-chat.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2132,7 +2126,7 @@
 	"/src/_assets/img/svg/category-03-programming-bold-responsive-design.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-bold-responsive-design.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2142,7 +2136,7 @@
 	"/src/_assets/img/svg/category-03-programming-light-browser-hand.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-light-browser-hand.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2152,7 +2146,7 @@
 	"/src/_assets/img/svg/category-03-programming-light-browser-page-account.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-light-browser-page-account.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2162,7 +2156,7 @@
 	"/src/_assets/img/svg/category-03-programming-light-database-share.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-light-database-share.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2172,7 +2166,7 @@
 	"/src/_assets/img/svg/category-03-programming-light-firewall.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-light-firewall.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2182,7 +2176,7 @@
 	"/src/_assets/img/svg/category-03-programming-light-module-phone-puzzle.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-light-module-phone-puzzle.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2192,7 +2186,7 @@
 	"/src/_assets/img/svg/category-03-programming-light-monitor-page.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-light-monitor-page.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2202,7 +2196,7 @@
 	"/src/_assets/img/svg/category-03-programming-light-programming-flag.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-light-programming-flag.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2212,7 +2206,7 @@
 	"/src/_assets/img/svg/category-03-programming-light-programming-hold-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-light-programming-hold-laptop.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2222,7 +2216,7 @@
 	"/src/_assets/img/svg/category-03-programming-light-programming-language-code.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-light-programming-language-code.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2232,7 +2226,7 @@
 	"/src/_assets/img/svg/category-03-programming-light-programming-search.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-light-programming-search.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2242,7 +2236,7 @@
 	"/src/_assets/img/svg/category-03-programming-light-programming-team-chat.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-light-programming-team-chat.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2252,7 +2246,7 @@
 	"/src/_assets/img/svg/category-03-programming-light-responsive-design.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-light-responsive-design.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2262,7 +2256,7 @@
 	"/src/_assets/img/svg/category-03-programming-regular-browser-hand.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-regular-browser-hand.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2272,7 +2266,7 @@
 	"/src/_assets/img/svg/category-03-programming-regular-browser-page-account.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-regular-browser-page-account.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2282,7 +2276,7 @@
 	"/src/_assets/img/svg/category-03-programming-regular-database-share.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-regular-database-share.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2292,7 +2286,7 @@
 	"/src/_assets/img/svg/category-03-programming-regular-firewall.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-regular-firewall.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2302,7 +2296,7 @@
 	"/src/_assets/img/svg/category-03-programming-regular-module-phone-puzzle.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-regular-module-phone-puzzle.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2312,7 +2306,7 @@
 	"/src/_assets/img/svg/category-03-programming-regular-monitor-page.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-regular-monitor-page.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2322,7 +2316,7 @@
 	"/src/_assets/img/svg/category-03-programming-regular-programming-flag.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-regular-programming-flag.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2332,7 +2326,7 @@
 	"/src/_assets/img/svg/category-03-programming-regular-programming-hold-laptop.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-regular-programming-hold-laptop.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2342,7 +2336,7 @@
 	"/src/_assets/img/svg/category-03-programming-regular-programming-language-code.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-regular-programming-language-code.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2352,7 +2346,7 @@
 	"/src/_assets/img/svg/category-03-programming-regular-programming-search.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-regular-programming-search.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2362,7 +2356,7 @@
 	"/src/_assets/img/svg/category-03-programming-regular-programming-team-chat.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-regular-programming-team-chat.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2372,7 +2366,7 @@
 	"/src/_assets/img/svg/category-03-programming-regular-responsive-design.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-03-programming-regular-responsive-design.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2382,7 +2376,7 @@
 	"/src/_assets/img/svg/category-04-business-bold-ab-testing-chemistry.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-bold-ab-testing-chemistry.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2392,7 +2386,7 @@
 	"/src/_assets/img/svg/category-04-business-bold-advertising-megaphone.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-bold-advertising-megaphone.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2402,7 +2396,7 @@
 	"/src/_assets/img/svg/category-04-business-bold-analytics-graph-bar.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-bold-analytics-graph-bar.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2412,7 +2406,7 @@
 	"/src/_assets/img/svg/category-04-business-bold-business-climb-top.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-bold-business-climb-top.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2422,7 +2416,7 @@
 	"/src/_assets/img/svg/category-04-business-bold-business-contract-give.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-bold-business-contract-give.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2432,7 +2426,7 @@
 	"/src/_assets/img/svg/category-04-business-bold-business-deal-handshake.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-bold-business-deal-handshake.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2442,7 +2436,7 @@
 	"/src/_assets/img/svg/category-04-business-bold-business-flame.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-bold-business-flame.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2452,7 +2446,7 @@
 	"/src/_assets/img/svg/category-04-business-bold-business-shark-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-bold-business-shark-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2462,7 +2456,7 @@
 	"/src/_assets/img/svg/category-04-business-bold-business-team-goal.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-bold-business-team-goal.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2472,7 +2466,7 @@
 	"/src/_assets/img/svg/category-04-business-bold-business-trip-plane.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-bold-business-trip-plane.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2482,7 +2476,7 @@
 	"/src/_assets/img/svg/category-04-business-bold-profile-user-cash-message.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-bold-profile-user-cash-message.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2492,7 +2486,7 @@
 	"/src/_assets/img/svg/category-04-business-bold-startup-launch-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-bold-startup-launch-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2502,7 +2496,7 @@
 	"/src/_assets/img/svg/category-04-business-light-ab-testing-chemistry.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-light-ab-testing-chemistry.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2512,7 +2506,7 @@
 	"/src/_assets/img/svg/category-04-business-light-advertising-megaphone.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-light-advertising-megaphone.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2522,7 +2516,7 @@
 	"/src/_assets/img/svg/category-04-business-light-analytics-graph-bar-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-light-analytics-graph-bar-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2532,7 +2526,7 @@
 	"/src/_assets/img/svg/category-04-business-light-analytics-graph-bar.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-light-analytics-graph-bar.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2542,7 +2536,7 @@
 	"/src/_assets/img/svg/category-04-business-light-business-climb-top.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-light-business-climb-top.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2552,7 +2546,7 @@
 	"/src/_assets/img/svg/category-04-business-light-business-contract-give.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-light-business-contract-give.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2562,7 +2556,7 @@
 	"/src/_assets/img/svg/category-04-business-light-business-deal-handshake.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-light-business-deal-handshake.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2572,7 +2566,7 @@
 	"/src/_assets/img/svg/category-04-business-light-business-flame.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-light-business-flame.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2582,7 +2576,7 @@
 	"/src/_assets/img/svg/category-04-business-light-business-shark-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-light-business-shark-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2592,7 +2586,7 @@
 	"/src/_assets/img/svg/category-04-business-light-business-team-goal.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-light-business-team-goal.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2602,7 +2596,7 @@
 	"/src/_assets/img/svg/category-04-business-light-business-trip-plane.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-light-business-trip-plane.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2612,7 +2606,7 @@
 	"/src/_assets/img/svg/category-04-business-light-profile-user-cash-message.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-light-profile-user-cash-message.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2622,7 +2616,7 @@
 	"/src/_assets/img/svg/category-04-business-light-startup-launch-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-light-startup-launch-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2632,7 +2626,7 @@
 	"/src/_assets/img/svg/category-04-business-regular-ab-testing-chemistry.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-regular-ab-testing-chemistry.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2642,7 +2636,7 @@
 	"/src/_assets/img/svg/category-04-business-regular-advertising-megaphone.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-regular-advertising-megaphone.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2652,7 +2646,7 @@
 	"/src/_assets/img/svg/category-04-business-regular-analytics-graph-bar.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-regular-analytics-graph-bar.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2662,7 +2656,7 @@
 	"/src/_assets/img/svg/category-04-business-regular-business-climb-top.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-regular-business-climb-top.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2672,7 +2666,7 @@
 	"/src/_assets/img/svg/category-04-business-regular-business-contract-give.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-regular-business-contract-give.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2682,7 +2676,7 @@
 	"/src/_assets/img/svg/category-04-business-regular-business-deal-handshake.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-regular-business-deal-handshake.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2692,7 +2686,7 @@
 	"/src/_assets/img/svg/category-04-business-regular-business-flame.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-regular-business-flame.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2702,7 +2696,7 @@
 	"/src/_assets/img/svg/category-04-business-regular-business-shark-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-regular-business-shark-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2712,7 +2706,7 @@
 	"/src/_assets/img/svg/category-04-business-regular-business-team-goal.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-regular-business-team-goal.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2722,7 +2716,7 @@
 	"/src/_assets/img/svg/category-04-business-regular-business-trip-plane.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-regular-business-trip-plane.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2732,7 +2726,7 @@
 	"/src/_assets/img/svg/category-04-business-regular-profile-user-cash-message.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-regular-profile-user-cash-message.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2742,7 +2736,7 @@
 	"/src/_assets/img/svg/category-04-business-regular-startup-launch-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-04-business-regular-startup-launch-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2752,7 +2746,7 @@
 	"/src/_assets/img/svg/category-05-design-bold-artboard-image.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-bold-artboard-image.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2762,7 +2756,7 @@
 	"/src/_assets/img/svg/category-05-design-bold-color-brush-paint.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-bold-color-brush-paint.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2772,7 +2766,7 @@
 	"/src/_assets/img/svg/category-05-design-bold-color-bucket.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-bold-color-bucket.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2782,7 +2776,7 @@
 	"/src/_assets/img/svg/category-05-design-bold-color-palette-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-bold-color-palette-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2792,7 +2786,7 @@
 	"/src/_assets/img/svg/category-05-design-bold-color-palette-sample-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-bold-color-palette-sample-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2802,7 +2796,7 @@
 	"/src/_assets/img/svg/category-05-design-bold-design-pen-tool.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-bold-design-pen-tool.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2812,7 +2806,7 @@
 	"/src/_assets/img/svg/category-05-design-bold-design-tool-layout.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-bold-design-tool-layout.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2822,7 +2816,7 @@
 	"/src/_assets/img/svg/category-05-design-bold-design-tool-pen-station.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-bold-design-tool-pen-station.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2832,7 +2826,7 @@
 	"/src/_assets/img/svg/category-05-design-bold-design-tool-pens.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-bold-design-tool-pens.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2842,7 +2836,7 @@
 	"/src/_assets/img/svg/category-05-design-bold-graphic-tablet-draw.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-bold-graphic-tablet-draw.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2852,7 +2846,7 @@
 	"/src/_assets/img/svg/category-05-design-bold-shape-rhomboid.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-bold-shape-rhomboid.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2862,7 +2856,7 @@
 	"/src/_assets/img/svg/category-05-design-bold-vectors-pen-anchor.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-bold-vectors-pen-anchor.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2872,7 +2866,7 @@
 	"/src/_assets/img/svg/category-05-design-light-artboard-image.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-light-artboard-image.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2882,7 +2876,7 @@
 	"/src/_assets/img/svg/category-05-design-light-color-brush-paint.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-light-color-brush-paint.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2892,7 +2886,7 @@
 	"/src/_assets/img/svg/category-05-design-light-color-bucket.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-light-color-bucket.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2902,7 +2896,7 @@
 	"/src/_assets/img/svg/category-05-design-light-color-palette-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-light-color-palette-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2912,7 +2906,7 @@
 	"/src/_assets/img/svg/category-05-design-light-color-palette-sample-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-light-color-palette-sample-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2922,7 +2916,7 @@
 	"/src/_assets/img/svg/category-05-design-light-design-pen-tool.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-light-design-pen-tool.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2932,7 +2926,7 @@
 	"/src/_assets/img/svg/category-05-design-light-design-tool-layout.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-light-design-tool-layout.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2942,7 +2936,7 @@
 	"/src/_assets/img/svg/category-05-design-light-design-tool-pen-station.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-light-design-tool-pen-station.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2952,7 +2946,7 @@
 	"/src/_assets/img/svg/category-05-design-light-design-tool-pens.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-light-design-tool-pens.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2962,7 +2956,7 @@
 	"/src/_assets/img/svg/category-05-design-light-graphic-tablet-draw.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-light-graphic-tablet-draw.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2972,7 +2966,7 @@
 	"/src/_assets/img/svg/category-05-design-light-shape-rhomboid.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-light-shape-rhomboid.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2982,7 +2976,7 @@
 	"/src/_assets/img/svg/category-05-design-light-vectors-pen-anchor.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-light-vectors-pen-anchor.svg",
 		"oF": 1,
 		"opt": 0,
@@ -2992,7 +2986,7 @@
 	"/src/_assets/img/svg/category-05-design-regular-artboard-image.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-regular-artboard-image.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3002,7 +2996,7 @@
 	"/src/_assets/img/svg/category-05-design-regular-color-brush-paint.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-regular-color-brush-paint.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3012,7 +3006,7 @@
 	"/src/_assets/img/svg/category-05-design-regular-color-bucket.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-regular-color-bucket.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3022,7 +3016,7 @@
 	"/src/_assets/img/svg/category-05-design-regular-color-palette-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-regular-color-palette-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3032,7 +3026,7 @@
 	"/src/_assets/img/svg/category-05-design-regular-color-palette-sample-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-regular-color-palette-sample-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3042,7 +3036,7 @@
 	"/src/_assets/img/svg/category-05-design-regular-design-pen-tool.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-regular-design-pen-tool.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3052,7 +3046,7 @@
 	"/src/_assets/img/svg/category-05-design-regular-design-tool-layout.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-regular-design-tool-layout.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3062,7 +3056,7 @@
 	"/src/_assets/img/svg/category-05-design-regular-design-tool-pen-station.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-regular-design-tool-pen-station.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3072,7 +3066,7 @@
 	"/src/_assets/img/svg/category-05-design-regular-design-tool-pens.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-regular-design-tool-pens.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3082,7 +3076,7 @@
 	"/src/_assets/img/svg/category-05-design-regular-graphic-tablet-draw.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-regular-graphic-tablet-draw.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3092,7 +3086,7 @@
 	"/src/_assets/img/svg/category-05-design-regular-shape-rhomboid.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-regular-shape-rhomboid.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3102,7 +3096,7 @@
 	"/src/_assets/img/svg/category-05-design-regular-vectors-pen-anchor.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-05-design-regular-vectors-pen-anchor.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3112,7 +3106,7 @@
 	"/src/_assets/img/svg/category-06-avatars-bold-history-man-napoleon.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-history-man-napoleon.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3122,7 +3116,7 @@
 	"/src/_assets/img/svg/category-06-avatars-bold-people-man-12.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-people-man-12.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3132,7 +3126,7 @@
 	"/src/_assets/img/svg/category-06-avatars-bold-people-man-cap-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-people-man-cap-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3142,7 +3136,7 @@
 	"/src/_assets/img/svg/category-06-avatars-bold-people-man-graduate.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-people-man-graduate.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3152,7 +3146,7 @@
 	"/src/_assets/img/svg/category-06-avatars-bold-people-woman-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-people-woman-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3162,7 +3156,7 @@
 	"/src/_assets/img/svg/category-06-avatars-bold-people-woman-7.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-people-woman-7.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3172,7 +3166,7 @@
 	"/src/_assets/img/svg/category-06-avatars-bold-police-man-spy-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-police-man-spy-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3182,7 +3176,7 @@
 	"/src/_assets/img/svg/category-06-avatars-bold-police-woman-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-police-woman-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3192,7 +3186,7 @@
 	"/src/_assets/img/svg/category-06-avatars-bold-professions-man-magician.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-professions-man-magician.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3202,7 +3196,7 @@
 	"/src/_assets/img/svg/category-06-avatars-bold-professions-man-post.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-professions-man-post.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3212,7 +3206,7 @@
 	"/src/_assets/img/svg/category-06-avatars-bold-professions-woman-doctor-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-professions-woman-doctor-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3222,7 +3216,7 @@
 	"/src/_assets/img/svg/category-06-avatars-bold-professions-woman-telecommunicator.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-bold-professions-woman-telecommunicator.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3232,7 +3226,7 @@
 	"/src/_assets/img/svg/category-06-avatars-light-history-man-napoleon.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-light-history-man-napoleon.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3242,7 +3236,7 @@
 	"/src/_assets/img/svg/category-06-avatars-light-people-man-12.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-light-people-man-12.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3252,7 +3246,7 @@
 	"/src/_assets/img/svg/category-06-avatars-light-people-man-cap-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-light-people-man-cap-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3262,7 +3256,7 @@
 	"/src/_assets/img/svg/category-06-avatars-light-people-man-graduate.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-light-people-man-graduate.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3272,7 +3266,7 @@
 	"/src/_assets/img/svg/category-06-avatars-light-people-woman-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-light-people-woman-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3282,7 +3276,7 @@
 	"/src/_assets/img/svg/category-06-avatars-light-people-woman-7.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-light-people-woman-7.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3292,7 +3286,7 @@
 	"/src/_assets/img/svg/category-06-avatars-light-police-man-spy-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-light-police-man-spy-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3302,7 +3296,7 @@
 	"/src/_assets/img/svg/category-06-avatars-light-police-woman-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-light-police-woman-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3312,7 +3306,7 @@
 	"/src/_assets/img/svg/category-06-avatars-light-professions-man-magician.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-light-professions-man-magician.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3322,7 +3316,7 @@
 	"/src/_assets/img/svg/category-06-avatars-light-professions-man-post.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-light-professions-man-post.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3332,7 +3326,7 @@
 	"/src/_assets/img/svg/category-06-avatars-light-professions-woman-doctor-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-light-professions-woman-doctor-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3342,7 +3336,7 @@
 	"/src/_assets/img/svg/category-06-avatars-light-professions-woman-telecommunicator.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-light-professions-woman-telecommunicator.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3352,7 +3346,7 @@
 	"/src/_assets/img/svg/category-06-avatars-regular-history-man-napoleon.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-history-man-napoleon.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3362,7 +3356,7 @@
 	"/src/_assets/img/svg/category-06-avatars-regular-people-man-12.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-people-man-12.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3372,7 +3366,7 @@
 	"/src/_assets/img/svg/category-06-avatars-regular-people-man-cap-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-people-man-cap-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3382,7 +3376,7 @@
 	"/src/_assets/img/svg/category-06-avatars-regular-people-man-graduate.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-people-man-graduate.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3392,7 +3386,7 @@
 	"/src/_assets/img/svg/category-06-avatars-regular-people-woman-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-people-woman-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3402,7 +3396,7 @@
 	"/src/_assets/img/svg/category-06-avatars-regular-people-woman-7.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-people-woman-7.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3412,7 +3406,7 @@
 	"/src/_assets/img/svg/category-06-avatars-regular-police-man-spy-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-police-man-spy-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3422,7 +3416,7 @@
 	"/src/_assets/img/svg/category-06-avatars-regular-police-woman-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-police-woman-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3432,7 +3426,7 @@
 	"/src/_assets/img/svg/category-06-avatars-regular-professions-man-magician.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-professions-man-magician.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3442,7 +3436,7 @@
 	"/src/_assets/img/svg/category-06-avatars-regular-professions-man-post.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-professions-man-post.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3452,7 +3446,7 @@
 	"/src/_assets/img/svg/category-06-avatars-regular-professions-woman-doctor-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-professions-woman-doctor-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3462,7 +3456,7 @@
 	"/src/_assets/img/svg/category-06-avatars-regular-professions-woman-telecommunicator.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-06-avatars-regular-professions-woman-telecommunicator.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3472,7 +3466,7 @@
 	"/src/_assets/img/svg/category-07-ecology-bold-clean-bicycle.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-clean-bicycle.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3482,7 +3476,7 @@
 	"/src/_assets/img/svg/category-07-ecology-bold-ecology-globe-hand.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-ecology-globe-hand.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3492,7 +3486,7 @@
 	"/src/_assets/img/svg/category-07-ecology-bold-ecology-globe-house.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-ecology-globe-house.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3502,7 +3496,7 @@
 	"/src/_assets/img/svg/category-07-ecology-bold-ecology-plant-deal.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-ecology-plant-deal.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3512,7 +3506,7 @@
 	"/src/_assets/img/svg/category-07-ecology-bold-global-warming-globe-fire-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-global-warming-globe-fire-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3522,7 +3516,7 @@
 	"/src/_assets/img/svg/category-07-ecology-bold-gmo-food-apple.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-gmo-food-apple.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3532,7 +3526,7 @@
 	"/src/_assets/img/svg/category-07-ecology-bold-non-gmo-organic-flask.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-non-gmo-organic-flask.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3542,7 +3536,7 @@
 	"/src/_assets/img/svg/category-07-ecology-bold-organic-flask-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-organic-flask-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3552,7 +3546,7 @@
 	"/src/_assets/img/svg/category-07-ecology-bold-organic-plant.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-organic-plant.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3562,7 +3556,7 @@
 	"/src/_assets/img/svg/category-07-ecology-bold-pollution-rain-skull.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-pollution-rain-skull.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3572,7 +3566,7 @@
 	"/src/_assets/img/svg/category-07-ecology-bold-renewable-energy-solar-panel.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-renewable-energy-solar-panel.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3582,7 +3576,7 @@
 	"/src/_assets/img/svg/category-07-ecology-bold-renewable-energy-wind-turbine-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-bold-renewable-energy-wind-turbine-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3592,7 +3586,7 @@
 	"/src/_assets/img/svg/category-07-ecology-light-clean-bicycle.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-light-clean-bicycle.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3602,7 +3596,7 @@
 	"/src/_assets/img/svg/category-07-ecology-light-ecology-globe-hand.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-light-ecology-globe-hand.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3612,7 +3606,7 @@
 	"/src/_assets/img/svg/category-07-ecology-light-ecology-globe-house.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-light-ecology-globe-house.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3622,7 +3616,7 @@
 	"/src/_assets/img/svg/category-07-ecology-light-ecology-plant-deal.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-light-ecology-plant-deal.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3632,7 +3626,7 @@
 	"/src/_assets/img/svg/category-07-ecology-light-global-warming-globe-fire-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-light-global-warming-globe-fire-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3642,7 +3636,7 @@
 	"/src/_assets/img/svg/category-07-ecology-light-gmo-food-apple.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-light-gmo-food-apple.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3652,7 +3646,7 @@
 	"/src/_assets/img/svg/category-07-ecology-light-non-gmo-organic-flask.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-light-non-gmo-organic-flask.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3662,7 +3656,7 @@
 	"/src/_assets/img/svg/category-07-ecology-light-organic-flask-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-light-organic-flask-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3672,7 +3666,7 @@
 	"/src/_assets/img/svg/category-07-ecology-light-organic-plant.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-light-organic-plant.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3682,7 +3676,7 @@
 	"/src/_assets/img/svg/category-07-ecology-light-pollution-rain-skull.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-light-pollution-rain-skull.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3692,7 +3686,7 @@
 	"/src/_assets/img/svg/category-07-ecology-light-renewable-energy-solar-panel.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-light-renewable-energy-solar-panel.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3702,7 +3696,7 @@
 	"/src/_assets/img/svg/category-07-ecology-light-renewable-energy-wind-turbine-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-light-renewable-energy-wind-turbine-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3712,7 +3706,7 @@
 	"/src/_assets/img/svg/category-07-ecology-regular-clean-bicycle.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-clean-bicycle.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3722,7 +3716,7 @@
 	"/src/_assets/img/svg/category-07-ecology-regular-ecology-globe-hand.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-ecology-globe-hand.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3732,7 +3726,7 @@
 	"/src/_assets/img/svg/category-07-ecology-regular-ecology-globe-house.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-ecology-globe-house.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3742,7 +3736,7 @@
 	"/src/_assets/img/svg/category-07-ecology-regular-ecology-plant-deal.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-ecology-plant-deal.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3752,7 +3746,7 @@
 	"/src/_assets/img/svg/category-07-ecology-regular-global-warming-globe-fire-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-global-warming-globe-fire-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3762,7 +3756,7 @@
 	"/src/_assets/img/svg/category-07-ecology-regular-gmo-food-apple.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-gmo-food-apple.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3772,7 +3766,7 @@
 	"/src/_assets/img/svg/category-07-ecology-regular-non-gmo-organic-flask.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-non-gmo-organic-flask.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3782,7 +3776,7 @@
 	"/src/_assets/img/svg/category-07-ecology-regular-organic-flask-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-organic-flask-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3792,7 +3786,7 @@
 	"/src/_assets/img/svg/category-07-ecology-regular-organic-plant.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-organic-plant.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3802,7 +3796,7 @@
 	"/src/_assets/img/svg/category-07-ecology-regular-pollution-rain-skull.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-pollution-rain-skull.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3812,7 +3806,7 @@
 	"/src/_assets/img/svg/category-07-ecology-regular-renewable-energy-solar-panel.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-renewable-energy-solar-panel.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3822,7 +3816,7 @@
 	"/src/_assets/img/svg/category-07-ecology-regular-renewable-energy-wind-turbine-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/category-07-ecology-regular-renewable-energy-wind-turbine-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3832,7 +3826,7 @@
 	"/src/_assets/img/svg/divider-bold-binocular.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-binocular.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3842,7 +3836,7 @@
 	"/src/_assets/img/svg/divider-bold-camera.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-camera.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3852,7 +3846,7 @@
 	"/src/_assets/img/svg/divider-bold-cog.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-cog.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3862,7 +3856,7 @@
 	"/src/_assets/img/svg/divider-bold-content-ink-pen-write.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-content-ink-pen-write.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3872,7 +3866,7 @@
 	"/src/_assets/img/svg/divider-bold-cup.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-cup.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3882,7 +3876,7 @@
 	"/src/_assets/img/svg/divider-bold-design-tool-quill-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-design-tool-quill-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3892,7 +3886,7 @@
 	"/src/_assets/img/svg/divider-bold-flag.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-flag.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3902,7 +3896,7 @@
 	"/src/_assets/img/svg/divider-bold-frame.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-frame.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3912,7 +3906,7 @@
 	"/src/_assets/img/svg/divider-bold-golf-hole.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-golf-hole.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3922,7 +3916,7 @@
 	"/src/_assets/img/svg/divider-bold-grenade.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-grenade.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3932,7 +3926,7 @@
 	"/src/_assets/img/svg/divider-bold-headphones-human.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-headphones-human.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3942,7 +3936,7 @@
 	"/src/_assets/img/svg/divider-bold-lab-flask-experiment.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-lab-flask-experiment.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3952,7 +3946,7 @@
 	"/src/_assets/img/svg/divider-bold-laptop-smiley-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-laptop-smiley-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3962,7 +3956,7 @@
 	"/src/_assets/img/svg/divider-bold-login-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-login-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3972,7 +3966,7 @@
 	"/src/_assets/img/svg/divider-bold-love.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-love.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3982,7 +3976,7 @@
 	"/src/_assets/img/svg/divider-bold-mario.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-mario.svg",
 		"oF": 1,
 		"opt": 0,
@@ -3992,7 +3986,7 @@
 	"/src/_assets/img/svg/divider-bold-modern-tv-3d-glasses.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-modern-tv-3d-glasses.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4002,7 +3996,7 @@
 	"/src/_assets/img/svg/divider-bold-mood-happy.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-mood-happy.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4012,7 +4006,7 @@
 	"/src/_assets/img/svg/divider-bold-rooster.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-rooster.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4022,7 +4016,7 @@
 	"/src/_assets/img/svg/divider-bold-rose.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-rose.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4032,7 +4026,7 @@
 	"/src/_assets/img/svg/divider-bold-science-dna.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-science-dna.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4042,7 +4036,7 @@
 	"/src/_assets/img/svg/divider-bold-skull-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-skull-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4052,7 +4046,7 @@
 	"/src/_assets/img/svg/divider-bold-slim.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-slim.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4062,7 +4056,7 @@
 	"/src/_assets/img/svg/divider-bold-video.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-video.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4072,7 +4066,7 @@
 	"/src/_assets/img/svg/divider-bold-view.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-view.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4082,7 +4076,7 @@
 	"/src/_assets/img/svg/divider-bold-whale.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-bold-whale.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4092,7 +4086,7 @@
 	"/src/_assets/img/svg/divider-light-binocular.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-binocular.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4102,7 +4096,7 @@
 	"/src/_assets/img/svg/divider-light-business-shark-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-business-shark-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4112,7 +4106,7 @@
 	"/src/_assets/img/svg/divider-light-camera.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-camera.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4122,7 +4116,7 @@
 	"/src/_assets/img/svg/divider-light-clean-bicycle.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-clean-bicycle.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4132,7 +4126,7 @@
 	"/src/_assets/img/svg/divider-light-cog.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-cog.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4142,7 +4136,7 @@
 	"/src/_assets/img/svg/divider-light-content-ink-pen-write.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-content-ink-pen-write.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4152,7 +4146,7 @@
 	"/src/_assets/img/svg/divider-light-cup.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-cup.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4162,7 +4156,7 @@
 	"/src/_assets/img/svg/divider-light-design-tool-quill-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-design-tool-quill-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4172,7 +4166,7 @@
 	"/src/_assets/img/svg/divider-light-flag.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-flag.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4182,7 +4176,7 @@
 	"/src/_assets/img/svg/divider-light-frame.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-frame.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4192,7 +4186,7 @@
 	"/src/_assets/img/svg/divider-light-golf-hole.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-golf-hole.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4202,7 +4196,7 @@
 	"/src/_assets/img/svg/divider-light-grenade.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-grenade.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4212,7 +4206,7 @@
 	"/src/_assets/img/svg/divider-light-headphones-human.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-headphones-human.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4222,7 +4216,7 @@
 	"/src/_assets/img/svg/divider-light-lab-flask-experiment.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-lab-flask-experiment.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4232,7 +4226,7 @@
 	"/src/_assets/img/svg/divider-light-laptop-smiley-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-laptop-smiley-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4242,7 +4236,7 @@
 	"/src/_assets/img/svg/divider-light-login-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-login-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4252,7 +4246,7 @@
 	"/src/_assets/img/svg/divider-light-love.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-love.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4262,7 +4256,7 @@
 	"/src/_assets/img/svg/divider-light-mario.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-mario.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4272,7 +4266,7 @@
 	"/src/_assets/img/svg/divider-light-modern-tv-3d-glasses.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-modern-tv-3d-glasses.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4282,7 +4276,7 @@
 	"/src/_assets/img/svg/divider-light-mood-happy.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-mood-happy.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4292,7 +4286,7 @@
 	"/src/_assets/img/svg/divider-light-rooster.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-rooster.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4302,7 +4296,7 @@
 	"/src/_assets/img/svg/divider-light-rose.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-rose.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4312,7 +4306,7 @@
 	"/src/_assets/img/svg/divider-light-science-dna.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-science-dna.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4322,7 +4316,7 @@
 	"/src/_assets/img/svg/divider-light-skull-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-skull-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4332,7 +4326,7 @@
 	"/src/_assets/img/svg/divider-light-slim.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-slim.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4342,7 +4336,7 @@
 	"/src/_assets/img/svg/divider-light-video.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-video.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4352,7 +4346,7 @@
 	"/src/_assets/img/svg/divider-light-view.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-view.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4362,7 +4356,7 @@
 	"/src/_assets/img/svg/divider-light-whale.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-light-whale.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4372,7 +4366,7 @@
 	"/src/_assets/img/svg/divider-regular-binocular.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-binocular.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4382,7 +4376,7 @@
 	"/src/_assets/img/svg/divider-regular-camera.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-camera.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4392,7 +4386,7 @@
 	"/src/_assets/img/svg/divider-regular-cog.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-cog.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4402,7 +4396,7 @@
 	"/src/_assets/img/svg/divider-regular-content-ink-pen-write.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-content-ink-pen-write.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4412,7 +4406,7 @@
 	"/src/_assets/img/svg/divider-regular-cup.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-cup.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4422,7 +4416,7 @@
 	"/src/_assets/img/svg/divider-regular-design-tool-quill-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-design-tool-quill-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4432,7 +4426,7 @@
 	"/src/_assets/img/svg/divider-regular-flag.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-flag.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4442,7 +4436,7 @@
 	"/src/_assets/img/svg/divider-regular-frame.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-frame.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4452,7 +4446,7 @@
 	"/src/_assets/img/svg/divider-regular-golf-hole.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-golf-hole.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4462,7 +4456,7 @@
 	"/src/_assets/img/svg/divider-regular-grenade.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-grenade.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4472,7 +4466,7 @@
 	"/src/_assets/img/svg/divider-regular-headphones-human.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-headphones-human.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4482,7 +4476,7 @@
 	"/src/_assets/img/svg/divider-regular-lab-flask-experiment.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-lab-flask-experiment.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4492,7 +4486,7 @@
 	"/src/_assets/img/svg/divider-regular-laptop-smiley-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-laptop-smiley-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4502,7 +4496,7 @@
 	"/src/_assets/img/svg/divider-regular-login-2.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-login-2.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4512,7 +4506,7 @@
 	"/src/_assets/img/svg/divider-regular-love.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-love.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4522,7 +4516,7 @@
 	"/src/_assets/img/svg/divider-regular-mario.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-mario.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4532,7 +4526,7 @@
 	"/src/_assets/img/svg/divider-regular-modern-tv-3d-glasses.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-modern-tv-3d-glasses.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4542,7 +4536,7 @@
 	"/src/_assets/img/svg/divider-regular-mood-happy.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-mood-happy.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4552,7 +4546,7 @@
 	"/src/_assets/img/svg/divider-regular-rooster.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-rooster.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4562,7 +4556,7 @@
 	"/src/_assets/img/svg/divider-regular-rose.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-rose.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4572,7 +4566,7 @@
 	"/src/_assets/img/svg/divider-regular-science-dna.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-science-dna.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4582,7 +4576,7 @@
 	"/src/_assets/img/svg/divider-regular-skull-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-skull-1.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4592,7 +4586,7 @@
 	"/src/_assets/img/svg/divider-regular-slim.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-slim.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4602,7 +4596,7 @@
 	"/src/_assets/img/svg/divider-regular-video.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-video.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4612,7 +4606,7 @@
 	"/src/_assets/img/svg/divider-regular-view.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-view.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4622,7 +4616,7 @@
 	"/src/_assets/img/svg/divider-regular-whale.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/divider-regular-whale.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4632,7 +4626,7 @@
 	"/src/_assets/img/svg/ui-close.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/ui-close.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4642,7 +4636,7 @@
 	"/src/_assets/img/svg/ui-hamburger.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/ui-hamburger.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4652,7 +4646,7 @@
 	"/src/_assets/img/svg/workflow-figma.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/workflow-figma.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4662,7 +4656,7 @@
 	"/src/_assets/img/svg/workflow-iconjar.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/workflow-iconjar.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4672,7 +4666,7 @@
 	"/src/_assets/img/svg/workflow-illustrator.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/workflow-illustrator.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4682,7 +4676,7 @@
 	"/src/_assets/img/svg/workflow-sketch.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/workflow-sketch.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4692,7 +4686,7 @@
 	"/src/_assets/img/svg/workflow-studio.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/workflow-studio.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4702,7 +4696,7 @@
 	"/src/_assets/img/svg/workflow-svg.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/workflow-svg.svg",
 		"oF": 1,
 		"opt": 0,
@@ -4712,25 +4706,18 @@
 	"/src/_assets/img/svg/workflow-xd.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_assets/img/svg/workflow-xd.svg",
 		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/src/_includes/buy.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/build/_includes/buy.html",
-		"oF": 1
-		},
 	"/src/_includes/buy.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/buy.html",
 		"oF": 1,
 		"oS": 0
@@ -4739,23 +4726,16 @@
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/foot.html",
 		"oF": 1,
 		"oS": 0
-		},
-	"/src/_includes/form.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/build/_includes/form.html",
-		"oF": 1
 		},
 	"/src/_includes/form.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/form.html",
 		"oF": 1,
 		"oS": 0
@@ -4764,39 +4744,25 @@
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/head.html",
 		"oF": 1,
 		"oS": 0
-		},
-	"/src/_includes/icon-categories.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/build/_includes/icon-categories.html",
-		"oF": 1
 		},
 	"/src/_includes/icon-categories.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/icon-categories.html",
 		"oF": 1,
 		"oS": 0
-		},
-	"/src/_includes/icons.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/build/_includes/icons.html",
-		"oF": 1
 		},
 	"/src/_includes/layout.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/layout.html",
 		"oF": 1,
 		"oS": 0
@@ -4805,128 +4771,128 @@
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_includes/sprite-script.html",
 		"oF": 1,
 		"oS": 0
 		},
 	"/src/_json/bubble.json": {
 		"ft": 524288,
-		"oA": 0,
-		"oAP": "/build/_json/bubble-min.json",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "/build/_json/bubble.json",
+		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
 	"/src/_json/camera.json": {
 		"ft": 524288,
-		"oA": 0,
-		"oAP": "/build/_json/camera-min.json",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "/build/_json/camera.json",
+		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
 	"/src/_json/flag.json": {
 		"ft": 524288,
-		"oA": 0,
-		"oAP": "/build/_json/flag-min.json",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "/build/_json/flag.json",
+		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
 	"/src/_json/girl.json": {
 		"ft": 524288,
-		"oA": 0,
-		"oAP": "/build/_json/girl-min.json",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "/build/_json/girl.json",
+		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
 	"/src/_json/headphones.json": {
 		"ft": 524288,
-		"oA": 0,
-		"oAP": "/build/_json/headphones-min.json",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "/build/_json/headphones.json",
+		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
 	"/src/_json/laptop.json": {
 		"ft": 524288,
-		"oA": 0,
-		"oAP": "/build/_json/laptop-min.json",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "/build/_json/laptop.json",
+		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
 	"/src/_json/pen.json": {
 		"ft": 524288,
-		"oA": 0,
-		"oAP": "/build/_json/pen-min.json",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "/build/_json/pen.json",
+		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
 	"/src/_json/pencil.json": {
 		"ft": 524288,
-		"oA": 0,
-		"oAP": "/build/_json/pencil-min.json",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "/build/_json/pencil.json",
+		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
 	"/src/_json/shake.json": {
 		"ft": 524288,
-		"oA": 0,
-		"oAP": "/build/_json/shake-min.json",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "/build/_json/shake.json",
+		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
 	"/src/_json/skull_roll.json": {
 		"ft": 524288,
-		"oA": 0,
-		"oAP": "/build/_json/skull_roll-min.json",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "/build/_json/skull_roll.json",
+		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
 	"/src/_json/skull_worm.json": {
 		"ft": 524288,
-		"oA": 0,
-		"oAP": "/build/_json/skull_worm-min.json",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "/build/_json/skull_worm.json",
+		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
 	"/src/_json/target.json": {
 		"ft": 524288,
-		"oA": 0,
-		"oAP": "/build/_json/target-min.json",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "/build/_json/target.json",
+		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
 	"/src/_json/view.json": {
 		"ft": 524288,
-		"oA": 0,
-		"oAP": "/build/_json/view-min.json",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "/build/_json/view.json",
+		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
 	"/src/_json/wifi.json": {
 		"ft": 524288,
-		"oA": 0,
-		"oAP": "/build/_json/wifi-min.json",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "/build/_json/wifi.json",
+		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
 	"/src/_json/yesno.json": {
 		"ft": 524288,
-		"oA": 0,
-		"oAP": "/build/_json/yesno-min.json",
-		"oF": 1,
+		"oA": 2,
+		"oAP": "/build/_json/yesno.json",
+		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
@@ -4934,7 +4900,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/jquery.countdown.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -4944,7 +4910,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/jquery-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -4954,7 +4920,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/easing/EasePack.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -4964,7 +4930,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/easing/EasePack.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -4974,7 +4940,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/jquery.gsap.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -4984,7 +4950,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/jquery.gsap.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -4994,7 +4960,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/AttrPlugin.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5004,7 +4970,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/AttrPlugin.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5014,7 +4980,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/BezierPlugin.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5024,7 +4990,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/BezierPlugin.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5034,7 +5000,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/ColorPropsPlugin.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5044,7 +5010,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/ColorPropsPlugin.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5054,7 +5020,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/CSSPlugin.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5064,7 +5030,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/CSSPlugin.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5074,7 +5040,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/CSSRulePlugin.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5084,7 +5050,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/CSSRulePlugin.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5094,7 +5060,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/DirectionalRotationPlugin.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5104,7 +5070,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/DirectionalRotationPlugin.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5114,7 +5080,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/EaselPlugin.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5124,7 +5090,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/EaselPlugin.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5134,7 +5100,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/EndArrayPlugin.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5144,7 +5110,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/EndArrayPlugin.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5154,7 +5120,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/KineticPlugin.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5164,7 +5130,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/KineticPlugin.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5174,7 +5140,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/RaphaelPlugin.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5184,7 +5150,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/RaphaelPlugin.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5194,7 +5160,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/RoundPropsPlugin.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5204,7 +5170,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/RoundPropsPlugin.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5214,7 +5180,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/ScrollToPlugin.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5224,7 +5190,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/ScrollToPlugin.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5234,7 +5200,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/TextPlugin.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5244,7 +5210,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/plugins/TextPlugin.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5254,7 +5220,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/TimelineLite.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5264,7 +5230,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/TimelineLite.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5274,7 +5240,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/TimelineMax.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5284,7 +5250,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/TimelineMax.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5294,7 +5260,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/TweenLite.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5304,7 +5270,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/TweenLite.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5314,7 +5280,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/TweenMax.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5324,7 +5290,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/TweenMax.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5334,7 +5300,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/utils/Draggable.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5344,7 +5310,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/greensock/utils/Draggable.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5354,7 +5320,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/highlight.pack-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5364,7 +5330,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/highlight.pack-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5374,7 +5340,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/iscroll-probe-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5384,7 +5350,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/iscroll-probe-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5394,7 +5360,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/jquery.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5404,7 +5370,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/jquery.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5414,7 +5380,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/modernizr.custom.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5424,7 +5390,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/modernizr.custom.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5434,7 +5400,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/velocity.min-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5444,7 +5410,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/lib/velocity.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5454,7 +5420,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/scrollmagic/minified/plugins/animation.gsap.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5464,7 +5430,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/scrollmagic/minified/plugins/animation.velocity.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5474,7 +5440,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/scrollmagic/minified/plugins/debug.addIndicators.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5484,7 +5450,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/scrollmagic/minified/plugins/jquery.ScrollMagic.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5494,7 +5460,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/scrollmagic/minified/ScrollMagic.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5504,7 +5470,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/scrollmagic/uncompressed/plugins/animation.gsap-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5514,7 +5480,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/scrollmagic/uncompressed/plugins/animation.velocity-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5524,7 +5490,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/scrollmagic/uncompressed/plugins/debug.addIndicators-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5534,7 +5500,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/scrollmagic/uncompressed/plugins/jquery.ScrollMagic-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5544,7 +5510,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/scrollmagic/uncompressed/ScrollMagic-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5554,7 +5520,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/_scripts/_archive/svg-replace-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5574,7 +5540,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_scripts/vendor/animation.gsap-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5584,7 +5550,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_scripts/vendor/bodymovin-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5594,7 +5560,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_scripts/vendor/jquery.cookie-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5604,7 +5570,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_scripts/vendor/jquery.countdown.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5614,7 +5580,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_scripts/vendor/jquery-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5624,7 +5590,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_scripts/vendor/lottie-min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5634,7 +5600,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_scripts/vendor/lottie-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5644,7 +5610,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_scripts/vendor/ScrollMagic-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5654,7 +5620,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_scripts/vendor/TweenMax.min-min.js",
 		"oF": 1,
 		"sC": 3,
@@ -5667,7 +5633,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_blockquote.css",
 		"oF": 1,
 		"oS": 0,
@@ -5680,7 +5646,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_color-control.css",
 		"oF": 1,
 		"oS": 0,
@@ -5693,7 +5659,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_controls.css",
 		"oF": 1,
 		"oS": 0,
@@ -5706,7 +5672,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_floatl.css",
 		"oF": 1,
 		"oS": 0,
@@ -5719,7 +5685,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_fonts.css",
 		"oF": 1,
 		"oS": 0,
@@ -5732,7 +5698,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_footer.css",
 		"oF": 1,
 		"oS": 0,
@@ -5745,7 +5711,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_form.css",
 		"oF": 1,
 		"oS": 0,
@@ -5758,7 +5724,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_global.css",
 		"oF": 1,
 		"oS": 0,
@@ -5771,7 +5737,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_header.css",
 		"oF": 1,
 		"oS": 0,
@@ -5784,7 +5750,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_icons-animated.css",
 		"oF": 1,
 		"oS": 0,
@@ -5797,7 +5763,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_icons.css",
 		"oF": 1,
 		"oS": 0,
@@ -5810,7 +5776,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_mixins.css",
 		"oF": 1,
 		"oS": 0,
@@ -5823,7 +5789,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_reset.css",
 		"oF": 1,
 		"oS": 0,
@@ -5836,7 +5802,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_section-buy.css",
 		"oF": 1,
 		"oS": 0,
@@ -5849,7 +5815,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_section-icondivider.css",
 		"oF": 1,
 		"oS": 0,
@@ -5862,7 +5828,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_section-main.css",
 		"oF": 1,
 		"oS": 0,
@@ -5875,7 +5841,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_section-nav.css",
 		"oF": 1,
 		"oS": 0,
@@ -5888,7 +5854,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_section-options.css",
 		"oF": 1,
 		"oS": 0,
@@ -5901,7 +5867,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_section-workflow.css",
 		"oF": 1,
 		"oS": 0,
@@ -5914,7 +5880,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_section.css",
 		"oF": 1,
 		"oS": 0,
@@ -5927,7 +5893,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_sitewrapper.css",
 		"oF": 1,
 		"oS": 0,
@@ -5940,7 +5906,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_small-testimonial.css",
 		"oF": 1,
 		"oS": 0,
@@ -5953,7 +5919,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_variables.css",
 		"oF": 1,
 		"oS": 0,
@@ -5966,7 +5932,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_weight-example.css",
 		"oF": 1,
 		"oS": 0,
@@ -5979,7 +5945,7 @@
 		"dS": 0,
 		"ft": 2,
 		"ma": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/build/_styles/_weight-selector.css",
 		"oF": 1,
 		"oS": 0,
@@ -6009,7 +5975,7 @@
 		},
 	"/src/package.json": {
 		"ft": 524288,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/package-min.json",
 		"oF": 1,
 		"oO": 0,
@@ -6025,7 +5991,8 @@
 	"displayValue": "Streamline",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-ron",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 562535752.14423001
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -7431,7 +7398,7 @@
 		},
 	"esLintSourceType": 0,
 	"externalServerAddress": "http://localhost:8888",
-	"gitIgnoreBuildFolder": 1,
+	"gitIgnoreBuildFolder": 0,
 	"hideConfigFile": 1,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {

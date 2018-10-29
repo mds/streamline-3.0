@@ -1,0 +1,123 @@
+// form
+//   +small
+//     margin-top: 3.7rem
+
+
+.form-label
+  background: rgba($color-black, .05)
+  // margin-bottom: 1px
+  margin: 0 2rem 1px
+
+  +small
+    margin: 0 3rem 1px
+
+  .color &
+    background: $color-bg-light
+
+  &:hover
+    background: rgba($color-black, .075)
+    +easeall
+
+.inp
+  position: relative
+  margin: auto
+  width: 100%
+
+  .label
+    position: absolute
+    top: 0
+    left: 1.5rem
+    font-size: .875rem
+    color: $color-dark
+    font-weight: 600
+    transform-origin: 0 0
+    cursor: text
+    pointer-events: none
+    +easeall
+
+  input
+    -webkit-appearance: none
+    position: relative
+    width: 100%
+    border: 0
+    top: 0
+    font-family: inherit
+    height: 4.25rem
+    background: none
+    border-radius: 0
+    color: $color-dark
+    padding: 2rem 1.5rem
+    font-weight: 600
+    text-align: left
+    font-size: .875rem
+    +easeall
+
+    &:not(:placeholder-shown)
+      top: .5rem
+      + span
+        color: rgba($color-dark, .5)
+        transform: translateY(-.75rem) scale(.75)
+        +easeall
+
+    &:focus
+      top: .5rem
+      // background: rgba($color-black, .075)
+      outline: none
+      + span
+        color: $color-dark
+        transform: translateY(-.75rem) scale(.75)
+
+button
+  color: $color-white
+  text-decoration: none
+  display: block
+  width: 100%
+  background: $color-dark
+  padding: 1.75rem
+  margin-bottom: 1px
+  font-weight: 600
+  text-align: left
+  font-size: .875rem
+  outline: none
+  border: none
+  cursor: pointer
+  +easeall
+
+  .color &
+    color: $color-primary
+    background: $color-dark
+
+  &:hover
+    // background: rgba($color-black, .075)
+    text-indent: 2rem
+    +easeall
+
+    +small
+      text-indent: 2rem
+
+    +medium
+      text-indent: 2rem
+
+  span
+    position: absolute
+    right: 4.5rem
+
+  .emoji
+    float: left
+    position: absolute
+    text-indent: 0
+    left: 3rem
+    top: 1.45rem
+    font-size: 1.125rem
+    opacity: 0
+    +easeall
+
+  &:hover
+
+    & .emoji
+      left: 2rem
+      opacity: 1
+      +easeall
+
+      +small
+        left: 4.25rem
