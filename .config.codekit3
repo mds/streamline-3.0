@@ -36,7 +36,7 @@
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/node_modules",
-		"oF": 1
+		"oF": 0
 		},
 	"/package.json": {
 		"ft": 524288,
@@ -6016,7 +6016,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-ron",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 562535752.14423001
+	"lastBuiltDate": 568749884.27614105
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
