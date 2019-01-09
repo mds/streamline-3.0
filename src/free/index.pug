@@ -1,0 +1,216 @@
+html
+  head
+    block head
+      title Streamline 3.0
+
+    block meta
+      meta(charset="utf-8")
+      meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+      meta(name="description" content="Prototype")
+      meta(name="HandheldFriendly" content="True")
+      meta(name="MobileOptimized" content="320")
+      meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no")
+
+      meta(name='description', content="Streamline 3.0 is out! 30,000 icons in three unique weights. 53 categories. 720 subcategories. The world's largest icon library.")
+
+      //- Schema.org markup for Google+
+      meta(itemprop='name', content='Streamline 3.0')
+      meta(itemprop='description', content="Streamline 3.0 is out! 30,000 icons in three unique weights. 53 categories. 720 subcategories. The world's largest icon library.")
+      meta(itemprop='image', content='https://mds-assets.s3.amazonaws.com/streamline/streamline3-card.jpg?cb=1')
+
+      //- Twitter Card data
+      meta(name='twitter:card', content='summary_large_image')
+      meta(name='twitter:site', content='@webalys')
+      meta(name='twitter:title', content='Streamline 3.0')
+      meta(name='twitter:description', content="Streamline 3.0 is out! 30,000 icons in three unique weights. 53 categories. 720 subcategories. The world's largest icon library.")
+      meta(name='twitter:creator', content='@webalys')
+
+      //- Twitter summary card with large image must be at least 280x150px
+      meta(name='twitter:image:src', content='https://mds-assets.s3.amazonaws.com/streamline/streamline3-card.jpg?cb=1')
+
+      //- Open Graph data
+      meta(property='og:title', content='Streamline 3.0')
+      meta(property='og:type', content='article')
+      meta(property='og:url', content='http://streamlineicons.com/')
+      meta(property='og:image', content='https://mds-assets.s3.amazonaws.com/streamline/streamline3-card.jpg?cb=1')
+      meta(property='og:description', content="Streamline 3.0 is out! 30,000 icons in three unique weights. 53 categories. 720 subcategories. The world's largest icon library.")
+      meta(property='og:site_name', content='Streamline 3.0')
+
+    block stylesandscripts
+      link(rel="stylesheet" type="text/css" href="/style.css")
+      link(id="favicon" rel="shortcut icon" type="image/png" href="/_assets/img/favicon-light.png")
+
+      //- Google Analytics
+      script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-15651803-15')
+      script.
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-15651803-15', {'linker': {'domains': ['transactions.sendowl.com']}});
+
+      //- GoSquared
+      script.
+        !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+        arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+        d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+        insertBefore(d,q)}(window,document,'script','_gs');
+        _gs('GSN-001161-N');
+
+  block body
+    body
+
+      //- load combined svg file (with symbols) into body
+      include ../_includes/sprite-script
+
+      div.body-wrapper
+        block controls
+          div.controls
+            header
+              block header
+                h1: a(href="/") &larr; Back Home
+              div.btn-group
+                div.ui-btn.buy-btn
+                  div.ui-btn-content Buy
+            footer
+              div.color-selector
+                ul
+                  li: a.white.is-active(): span White
+                  li: a.color(): span Color
+                  li: a.dark(): span Dark
+        block content
+
+        style.
+
+          body {
+            background: white;
+          }
+
+          .section-nav,
+          .buy-btn {
+            display: none;
+          }
+
+          .section-content {
+            width: 100%;
+          }
+
+          section .section-text-wrapper {
+            max-width: 100%;
+          }
+
+          section .section-right-content {
+            margin-top: 4rem;
+          }
+
+          .price-panel--free {
+            top: 2rem;
+          }
+
+          .section-split {
+              grid-template-columns: 1fr 1fr;
+            }
+
+          @media (min-width: 820px) {
+            section .price-panel {
+              height: 24rem !important
+            }
+            .price-panel--free,
+            .inp .label {
+              top: 2.35rem;
+            }
+            .price-panel--free {
+              top: 6rem;
+            }
+
+            section .section-split {
+              grid-template-columns: 1fr 2fr;
+            }
+
+          }
+
+        section#icons.solid
+          div.main-wrapper
+            div.trigger
+            div.section-split
+              div.section-left
+                div.section-text-wrapper
+                  h2 Snag 300 Free Streamline 3.0 Icons
+                  //- p Join the Streamline email list and get your free icons right away. Check'm out, use'm, tell us what you think!
+
+                  div.section-content
+                    div.price-panel.price-panel--free
+                      div.price-panel-content
+                        div.top-content
+                          //- h3 Free
+                          //- p 100 different icons in 3 different weights. Join the Streamline list today and try before you buy.
+                        include ../_includes/form.pug
+
+              div.section-right
+                p Here lies 100 icons in three weights—Light, Regular, and Bold. 300 in total that can all be yours for the low low price of free! But seriously, check'm out, use'm, tell us what you think.
+
+                div.weight-selector-wrapper
+                  ul.weight-selector
+                    li: a(id="light").is-active
+                      svg: use(xlink:href="#icon-divider-light-skull-1")
+                      span Light
+                    li: a(id="regular")
+                      svg: use(xlink:href="#icon-divider-regular-skull-1")
+                      span Regular
+                    li: a(id="bold")
+                      svg: use(xlink:href="#icon-divider-bold-skull-1")
+                      span Bold
+
+                div.section-right-content.icon-categories
+                  //- icon category
+                  div.section-right-icon-wrapper#interface
+                    //- h3 User Interface
+                    //- h4 58 sets  <em>–</em>  954 icons
+                    div.section-right-container
+                      ul.icons--light.icons-showing
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-alert-message-laptop")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-cog-double-3")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-face-id-3")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-graph-stats-circle")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-headphones-customer-support-human-1")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-login-2")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-pen-write")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-pie-line-graph-desktop")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-pin")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-screwdriver")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-settings-slider-desktop-vertical")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-settings-toggle-horizontal")
+                      ul.icons--regular.icons-hidden
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-alert-message-laptop")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-cog-double-3")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-face-id-3")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-graph-stats-circle")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-headphones-customer-support-human-1")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-login-2")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-pen-write")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-pie-line-graph-desktop")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-pin")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-screwdriver")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-settings-slider-desktop-vertical")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-settings-toggle-horizontal")
+                      ul.icons--bold.icons-hidden
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-alert-message-laptop")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-cog-double-3")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-face-id-3")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-graph-stats-circle")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-headphones-customer-support-human-1")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-login-2")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-pen-write")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-pie-line-graph-desktop")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-pin")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-screwdriver")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-settings-slider-desktop-vertical")
+                        li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-settings-toggle-horizontal")
+
+        block scripts
+          script(src='../_scripts/streamline.min.js')
+
+        //- block foot
+        //-   include ../_includes/foot.pug
+
+
+

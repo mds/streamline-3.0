@@ -16,6 +16,12 @@
 		"oAP": "/build/.gitignore",
 		"oF": 1
 		},
+	"/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/build",
+		"oF": 0
+		},
 	"/Gruntfile.js": {
 		"ft": 64,
 		"ma": 0,
@@ -5963,6 +5969,24 @@
 		"oF": 3,
 		"oS": 0,
 		"uL": 1
+		},
+	"/src/download/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/download/index.html",
+		"oF": 1,
+		"oS": 0
+		},
+	"/src/free/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/free/index.html",
+		"oF": 1,
+		"oS": 0
 		},
 	"/src/index.pug": {
 		"cB": 0,

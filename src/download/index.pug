@@ -1,0 +1,83 @@
+//- index.pug
+extends ../_includes/layout.pug
+
+block head
+  title Your Icons are Ready
+
+//- block meta pulls in here
+
+block content
+
+  //- this hides the nav and buy btn for this page
+  style.
+    .section-nav, .buy-btn {
+      display: none;
+    }
+
+  section#icons.solid
+    div.main-wrapper
+      div.trigger
+      div.section-split
+        div.section-left
+          div.section-text-wrapper
+            h2 Your Icons are Ready
+        div.section-right
+          p Thanks so much for joining the Streamline list. Your free icon set is ready! <br/><br/>
+
+          div.section-right-container
+            a(href="http://streamlineicons.com/_assets/freebie/Streamline_Preview_Pack.zip").big-cta &darr; Download (12.6 MB)
+
+          div.section-right-icon-wrapper#interface
+            //- h3 User Interface
+            //- h4 58 sets  <em>–</em>  954 icons
+            div.section-right-container
+              ul.icons--light.icons-showing
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-alert-message-laptop")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-cog-double-3")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-face-id-3")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-graph-stats-circle")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-headphones-customer-support-human-1")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-login-2")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-pen-write")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-pie-line-graph-desktop")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-pin")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-screwdriver")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-settings-slider-desktop-vertical")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-light-settings-toggle-horizontal")
+              ul.icons--regular.icons-hidden
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-alert-message-laptop")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-cog-double-3")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-face-id-3")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-graph-stats-circle")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-headphones-customer-support-human-1")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-login-2")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-pen-write")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-pie-line-graph-desktop")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-pin")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-screwdriver")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-settings-slider-desktop-vertical")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-regular-settings-toggle-horizontal")
+              ul.icons--bold.icons-hidden
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-alert-message-laptop")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-cog-double-3")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-face-id-3")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-graph-stats-circle")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-headphones-customer-support-human-1")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-login-2")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-pen-write")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-pie-line-graph-desktop")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-pin")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-screwdriver")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-settings-slider-desktop-vertical")
+                li: div.svg-wrapper: svg: use(xlink:href="#icon-category-01-interface-bold-settings-toggle-horizontal")
+
+
+
+  block scripts
+    script(src='../_scripts/streamline.min.js')
+
+  //- block foot
+  //-   include ../_includes/foot.pug
+
+
+

@@ -62,13 +62,15 @@ header
       right: 0
 
   a
-    position: relative
-    right: 4rem
-    top: 1rem
-    font-size: $font-small
+    // position: relative
+    // right: 4rem
+    // top: 1rem
+    // font-size: $font-small
     font-weight: bold
     text-decoration: none
-    color: #767676
+    color: $color-dark
+    cursor: pointer
+    // color: #767676
 
   .buy-btn
     width: 3rem

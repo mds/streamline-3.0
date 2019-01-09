@@ -315,13 +315,10 @@ header {
         top: 0;
         right: 0; } }
   header a {
-    position: relative;
-    right: 4rem;
-    top: 1rem;
-    font-size: 0.675rem;
     font-weight: bold;
     text-decoration: none;
-    color: #767676; }
+    color: #202020;
+    cursor: pointer; }
   header .buy-btn {
     width: 3rem;
     height: 1.5rem;
