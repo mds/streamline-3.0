@@ -1026,6 +1026,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/_assets/img/showcase/app-screen-browser.png": {
+		"ft": 32768,
+		"iS": 246658,
+		"oA": 0,
+		"oAP": "/build/_assets/img/showcase/app-screen-browser.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/showcase/app-screenshot-small.png": {
+		"ft": 32768,
+		"iS": 194361,
+		"oA": 0,
+		"oAP": "/build/_assets/img/showcase/app-screenshot-small.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/showcase/app-screenshot.png": {
+		"ft": 32768,
+		"iS": 303283,
+		"oA": 0,
+		"oAP": "/build/_assets/img/showcase/app-screenshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/_assets/img/showcase/app.png": {
 		"ft": 32768,
 		"iS": 93101,
