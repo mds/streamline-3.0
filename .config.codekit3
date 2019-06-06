@@ -982,6 +982,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/_assets/img/screenshots/streamline-app-brew.gif": {
+		"ft": 4194304,
+		"iS": 1474410,
+		"oA": 0,
+		"oAP": "/build/_assets/img/screenshots/streamline-app-brew.gif",
+		"oF": 0,
+		"opt": 1
+		},
 	"/src/_assets/img/screenshots/studio.png": {
 		"ft": 32768,
 		"iS": 124828,
